@@ -1,0 +1,2534 @@
+﻿Log file open, 12/02/16 17:49:58
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(101208396) SRandInit(101208398).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077626
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.02-16.49.58:481][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-16.49.58:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.02-16.49.58:496][  0]LogInit: Computer: DEX
+[2016.12.02-16.49.58:496][  0]LogInit: User: Dextex
+[2016.12.02-16.49.58:496][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.02-16.49.58:496][  0]LogInit: High frequency timer resolution =3.417978 MHz
+[2016.12.02-16.49.58:497][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.02-16.49.58:497][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.02-16.49.58:497][  0]LogMemory: Process Physical Memory: 190.63 MB used, 190.63 MB peak
+[2016.12.02-16.49.58:497][  0]LogMemory: Process Virtual Memory: 195.14 MB used, 195.14 MB peak
+[2016.12.02-16.49.58:497][  0]LogMemory: Physical Memory: 6915.93 MB used, 16328.00 MB total
+[2016.12.02-16.49.58:497][  0]LogMemory: Virtual Memory: 553.49 MB used, 134217728.00 MB total
+[2016.12.02-16.49.58:546][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.12.02-16.49.58:951][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.02-16.49.59:486][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2016.12.02-16.49.59:486][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.12.02-16.49.59:488][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.02-16.49.59:488][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.02-16.49.59:488][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.02-16.49.59:493][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.02-16.49.59:493][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.02-16.49.59:493][  0]LogWindows: EnumDisplayDevices:
+[2016.12.02-16.49.59:493][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2016.12.02-16.49.59:493][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2016.12.02-16.49.59:493][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2016.12.02-16.49.59:494][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2016.12.02-16.49.59:494][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.02-16.49.59:494][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2016.12.02-16.49.59:494][  0]LogD3D11RHI:   Driver Version: 376.09 (internal:21.21.13.7609, unified:376.09)
+[2016.12.02-16.49.59:494][  0]LogD3D11RHI:      Driver Date: 11-24-2016
+[2016.12.02-16.49.59:494][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.02-16.50.00:000][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.02-16.50.00:031][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.02-16.50.00:032][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/5316/).
+[2016.12.02-16.50.00:032][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/BBF19B5C4E53DADD6A7102A041177877/'.
+[2016.12.02-16.50.00:032][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.02-16.50.00:902][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.02-16.50.00:915][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.02-16.50.00:926][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.02-16.50.00:936][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.02-16.50.00:946][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.02-16.50.00:956][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.02-16.50.00:964][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.02-16.50.00:973][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.02-16.50.00:984][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.02-16.50.00:992][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.02-16.50.01:001][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.02-16.50.01:018][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.02-16.50.01:018][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.02-16.50.01:020][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.02-16.50.01:045][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.02-16.50.01:056][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.02-16.50.01:063][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.02-16.50.01:072][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.02-16.50.01:080][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.02-16.50.01:080][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.02-16.50.01:197][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.02-16.50.01:255][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.02-16.50.01:255][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.12.02-16.50.01:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.02-16.50.01:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.02-16.50.01:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.02-16.50.01:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.02-16.50.01:270][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.02-16.50.01:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.02-16.50.01:452][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-16.50.01:452][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.02-16.50.01:593][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.02-16.50.01:593][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.02-16.50.01:593][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.02-16.50.01:830][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2016.12.02-16.50.01:847][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.013562 seconds
+[2016.12.02-16.50.01:852][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.12.02-16.50.01:852][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.12.02-16.50.01:852][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.02-16.50.01:862][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.02-16.50.02:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-16.50.02:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-16.50.02:647][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.02-16.50.02:866][  0]SourceControl: Info Source control is disabled
+[2016.12.02-16.50.03:656][  0]LogEngine: Initializing Engine...
+[2016.12.02-16.50.03:659][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2016.12.02-16.50.03:661][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2016.12.02-16.50.03:791][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.02-16.50.03:809][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-16.50.03:824][  0]LogInit: FAudioDevice initialized.
+[2016.12.02-16.50.03:850][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.02-16.50.03:858][  0]LogInit: Texture streaming: Enabled
+[2016.12.02-16.50.03:897][  0]LogInit: Transaction tracking system initialized
+[2016.12.02-16.50.03:936][  0]BlueprintLog: New page: Editor Load
+[2016.12.02-16.50.04:045][  0]LocalizationService: Info Localization service is disabled
+[2016.12.02-16.50.04:130][  0]LogConsoleResponse:Display: 
+[2016.12.02-16.50.04:216][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.12.02-16.50.04:216][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.02-16.50.04:617][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.01s
+[2016.12.02-16.50.04:617][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.02-16.50.04:618][  0]LightingResults: New page: Lighting Build
+[2016.12.02-16.50.04:621][  0]MapCheck: New page: Map Check
+[2016.12.02-16.50.04:621][  0]LightingResults: New page: Lighting Build
+[2016.12.02-16.50.04:844][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.12.02-16.50.04:850][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.02-16.50.04:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.02-16.50.04:879][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.381ms to complete.
+[2016.12.02-16.50.04:879][  0]LogFileHelpers: Loading map 'Template_Default' took 0.262
+[2016.12.02-16.50.05:008][  0]LogCollectionManager: Loaded 0 collections in 0.002125 seconds
+[2016.12.02-16.50.05:052][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2016.12.02-16.50.05:052][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2016.12.02-16.50.05:052][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2016.12.02-16.50.05:053][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.12.02-16.50.05:060][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2047 classes and 369 folders.
+[2016.12.02-16.50.05:064][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.02-16.50.05:064][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.02-16.50.05:064][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.12.02-16.50.05:070][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.12.02-16.50.05:100][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.02-16.50.05:108][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.12.02-16.50.05:152][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.02-16.50.05:156][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.02-16.50.05:184][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.12.02-16.50.05:184][  0]LogLoad: Full Startup: 7.47 seconds (BP compile: 0.03 seconds)
+[2016.12.02-16.50.05:184][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.12.02-16.50.05:194][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.02-16.50.05:194][  0]LogOcInput: OculusInput pre-init called
+[2016.12.02-16.50.05:212][  0]SourceControl: Info On branch master
+[2016.12.02-16.50.05:212][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.12.02-16.50.05:212][  0]SourceControl: Info Changes not staged for commit:
+[2016.12.02-16.50.05:212][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.12.02-16.50.05:212][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Content/Map/Map.umap
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Intermediate/CachedAssetRegistry.bin
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Saved/AutoScreenshot.png
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Saved/Config/Windows/Editor.ini
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Saved/Config/Windows/Engine.ini
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	modified:   Project_Nomand/Saved/Logs/Project_Nomand.log
+[2016.12.02-16.50.05:212][  0]SourceControl: Info Untracked files:
+[2016.12.02-16.50.05:212][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	Project_Nomand/Saved/Backup/Map_2016-12-02-17-49-09.umap
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	Project_Nomand/Saved/Logs/Project_Nomand-backup-2016.12.02-17.41.11.log
+[2016.12.02-16.50.05:212][  0]SourceControl: Info 	Project_Nomand/Saved/Logs/Project_Nomand-backup-2016.12.02-17.49.58.log
+[2016.12.02-16.50.05:212][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.12.02-16.50.05:212][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.02-16.50.05:363][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2016.12.02-16.50.05:425][  1]LogAssetRegistry: Asset discovery search completed in 3.6169 seconds
+[2016.12.02-16.50.05:425][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.02-16.50.05:425][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.12.02-16.50.09:222][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.02-16.50.09:224][421]PIE: New page: PIE session: Untitled_1 (Dec 2, 2016, 6:50:09 PM)
+[2016.12.02-16.50.09:224][421]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.12.02-16.50.09:228][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003524s)
+[2016.12.02-16.50.09:229][421]LogAIModule: Creating AISystem for world Untitled_1
+[2016.12.02-16.50.09:229][421]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2016.12.02-16.50.09:229][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005283s)
+[2016.12.02-16.50.09:254][421]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-16.50.09:264][421]LogInit: FAudioDevice initialized.
+[2016.12.02-16.50.09:330][421]LogWorld: Game class is 'GameMode'
+[2016.12.02-16.50.09:332][421]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.12.02-17.50.09
+[2016.12.02-16.50.09:333][421]LogWorld: Bringing up level for play took: 0.001457
+[2016.12.02-16.50.09:337][421]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.12.02-16.50.09:338][421]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.04
+[2016.12.02-16.50.17:279][316]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.12.02-16.50.19:043][460]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.12.02-16.50.32:492][681]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.12.02-16.50.42:242][804]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
+[2016.12.02-16.50.42:242][804]LogText:Warning: Failed to parse argument "GameStateName" as a number (using "0" as a fallback). Please check your format string for errors: "GameState: {GameStateName}".
+[2016.12.02-16.50.42:242][804]LogText:Warning: Failed to parse argument "PawnName" as a number (using "0" as a fallback). Please check your format string for errors: "Pawn: {PawnName}".
+[2016.12.02-16.50.42:242][804]LogText:Warning: Failed to parse argument "HUDName" as a number (using "0" as a fallback). Please check your format string for errors: "HUD: {HUDName}".
+[2016.12.02-16.50.42:242][804]LogText:Warning: Failed to parse argument "PlayerControllerName" as a number (using "0" as a fallback). Please check your format string for errors: "PlayerController: {PlayerControllerName}".
+[2016.12.02-16.50.48:533][540]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.12.02-16.51.03:924][327]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
+[2016.12.02-16.51.03:924][327]LogText:Warning: Failed to parse argument "GameStateName" as a number (using "0" as a fallback). Please check your format string for errors: "GameState: {GameStateName}".
+[2016.12.02-16.51.03:924][327]LogText:Warning: Failed to parse argument "PawnName" as a number (using "0" as a fallback). Please check your format string for errors: "Pawn: {PawnName}".
+[2016.12.02-16.51.03:924][327]LogText:Warning: Failed to parse argument "HUDName" as a number (using "0" as a fallback). Please check your format string for errors: "HUD: {HUDName}".
+[2016.12.02-16.51.03:924][327]LogText:Warning: Failed to parse argument "PlayerControllerName" as a number (using "0" as a fallback). Please check your format string for errors: "PlayerController: {PlayerControllerName}".
+[2016.12.02-16.51.03:968][329]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.02-16.51.03:984][329]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} parent class".
+[2016.12.02-16.52.13:171][926]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.12.02-16.52.25:406][124]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2016.12.02-16.52.31:013][743]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.02-16.52.38:650][568]BlueprintLog: New page: Compile Untitled
+[2016.12.02-16.52.38:740][568]BlueprintEditorCompileResults: Info [0161.03] Compile of PersistentLevel.Untitled successful! [in 90 ms] (/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled)
+[2016.12.02-16.52.38:802][573]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2016.12.02-16.52.43:112][ 64]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2016.12.02-16.52.52:144][ 64]LogText:Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2016.12.02-16.52.53:473][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.02-16.52.53:581][ 64]LogSavePackage: Save=85.70ms
+[2016.12.02-16.52.53:581][ 64]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map0F64738F4E5613E65076E1BBF44CF7B5.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2016.12.02-16.52.53:585][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2016.12.02-16.52.53:618][ 64]LogFileHelpers: Saving map 'Map' took 0.383
+[2016.12.02-16.52.53:728][ 76]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2016.12.02-16.53.23:751][393]LogSourceControl: FGitCheckInWorker: commit successful
+[2016.12.02-16.53.23:794][393]SourceControl: Info [master 157afa1] Blueprint verändert
+[2016.12.02-16.53.23:794][393]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2016.12.02-16.53.23:809][393]SourceControl: Info Commited [master 157afa1] Blueprint verändert.
+[2016.12.02-16.53.31:428][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.31:428][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.02-16.53.31:428][290]PIE: New page: PIE session: Map (Dec 2, 2016, 6:53:31 PM)
+[2016.12.02-16.53.31:429][290]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2016.12.02-16.53.31:430][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001650s)
+[2016.12.02-16.53.31:431][290]LogAIModule: Creating AISystem for world Map
+[2016.12.02-16.53.31:431][290]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2016.12.02-16.53.31:431][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.002470s)
+[2016.12.02-16.53.31:474][290]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-16.53.31:484][290]LogInit: FAudioDevice initialized.
+[2016.12.02-16.53.31:539][290]LogWorld: Game class is 'GameMode'
+[2016.12.02-16.53.31:541][290]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2016.12.02-17.53.31
+[2016.12.02-16.53.31:541][290]LogWorld: Bringing up level for play took: 0.001309
+[2016.12.02-16.53.31:543][290]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.165
+[2016.12.02-16.53.31:543][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.31:549][290]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:549][290]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:549][290]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:549][290]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:560][291]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:560][291]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:568][292]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:568][292]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:576][293]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:576][293]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:584][294]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:585][294]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:595][295]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:595][295]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:602][296]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:602][296]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:621][297]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:621][297]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:632][298]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:632][298]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:640][299]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:640][299]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:649][300]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:649][300]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:660][301]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:660][301]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:667][302]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:667][302]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:674][303]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:674][303]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:682][304]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:682][304]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:691][305]LogScript:Warning: Accessed None trying to read property MyChar
+	HUD_Bars_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_Bars_C_0
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0:000E
+[2016.12.02-16.53.31:691][305]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:699][306]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:707][307]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:716][308]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:727][309]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:734][310]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:742][311]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:750][312]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:758][313]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:767][314]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:775][315]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:785][316]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:794][317]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:801][318]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:809][319]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:817][320]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:825][321]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:834][322]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:842][323]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:853][324]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:861][325]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:869][326]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:876][327]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:885][328]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:893][329]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:902][330]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:910][331]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:921][332]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:927][333]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:936][334]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:944][335]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:953][336]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:961][337]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:969][338]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:978][339]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:989][340]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.31:995][341]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:004][342]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:011][343]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:020][344]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:028][345]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:037][346]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:045][347]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:054][348]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:061][349]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:073][350]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:079][351]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:087][352]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:095][353]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:103][354]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:113][355]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:122][356]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:129][357]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:137][358]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:145][359]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:154][360]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:161][361]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:170][362]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:179][363]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:189][364]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:196][365]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:204][366]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:212][367]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:221][368]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:228][369]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:237][370]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:247][371]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:255][372]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:262][373]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:270][374]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:278][375]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:287][376]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:295][377]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:304][378]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:313][379]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:321][380]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:329][381]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:337][382]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:345][383]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:354][384]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:362][385]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:371][386]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:381][387]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:389][388]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:396][389]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:405][390]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:413][391]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:421][392]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:430][393]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:439][394]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:449][395]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:456][396]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:464][397]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:472][398]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:480][399]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:488][400]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:496][401]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:506][402]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:515][403]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:523][404]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:530][405]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:538][406]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:546][407]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:555][408]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:563][409]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:573][410]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:581][411]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:588][412]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:596][413]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:605][414]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:613][415]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:622][416]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:631][417]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:642][418]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:649][419]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:658][420]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:666][421]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:674][422]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:682][423]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:691][424]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:699][425]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:709][426]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:715][427]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:723][428]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:732][429]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:740][430]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:748][431]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:757][432]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:766][433]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:775][434]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:782][435]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:791][436]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:798][437]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:807][438]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:815][439]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:823][440]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:834][441]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:842][442]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:849][443]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:857][444]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:866][445]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:874][446]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:882][447]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:891][448]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:902][449]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:910][450]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:918][451]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:926][452]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:935][453]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:942][454]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:951][455]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:959][456]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:970][457]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:976][458]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:985][459]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.32:993][460]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:001][461]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:009][462]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:018][463]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:026][464]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:037][465]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:044][466]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:052][467]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:060][468]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:068][469]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:076][470]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:085][471]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:093][472]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:104][473]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:110][474]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:118][475]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:126][476]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:135][477]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:143][478]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:152][479]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:161][480]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:171][481]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:177][482]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:185][483]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:193][484]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:202][485]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:210][486]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:219][487]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:228][488]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:237][489]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:244][490]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:252][491]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:260][492]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:268][493]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:276][494]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:286][495]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:295][496]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:303][497]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:310][498]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:319][499]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:326][500]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:335][501]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:343][502]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:352][503]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:361][504]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:370][505]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:377][506]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:386][507]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:395][508]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:402][509]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:410][510]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:420][511]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:429][512]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:436][513]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:444][514]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:452][515]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:460][516]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:469][517]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:477][518]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:487][519]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:497][520]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:505][521]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:512][522]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:521][523]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:529][524]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:537][525]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:545][526]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:555][527]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:555][527]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:563][528]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:571][529]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:578][530]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:587][531]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:595][532]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:604][533]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:611][534]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:622][535]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:630][536]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:655][537]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:660][538]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:669][539]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:677][540]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:689][541]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:698][542]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:705][543]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:712][544]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:721][545]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:729][546]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:737][547]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:746][548]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:757][549]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:765][550]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:772][551]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:780][552]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:789][553]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:797][554]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:805][555]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:815][556]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:824][557]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:830][558]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:838][559]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:846][560]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:855][561]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:863][562]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:871][563]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:881][564]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:890][565]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:896][566]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:905][567]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:914][568]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:922][569]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:930][570]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:938][571]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:949][572]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:957][573]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:964][574]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:972][575]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:981][576]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:989][577]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.33:997][578]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:005][579]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:016][580]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:024][581]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:032][582]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:040][583]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:048][584]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:056][585]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:065][586]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:073][587]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:084][588]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:091][589]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:098][590]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:106][591]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:115][592]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:124][593]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:132][594]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:141][595]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:151][596]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:157][597]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:166][598]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:174][599]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:182][600]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:190][601]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:199][602]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:208][603]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:217][604]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:224][605]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:232][606]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:241][607]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:248][608]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:257][609]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:265][610]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:276][611]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:283][612]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:291][613]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:298][614]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:307][615]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:315][616]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:324][617]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:332][618]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:342][619]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:350][620]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:358][621]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:366][622]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:374][623]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:383][624]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:392][625]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:399][626]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:409][627]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:416][628]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:425][629]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:433][630]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:441][631]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:449][632]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:457][633]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:466][634]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:477][635]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:485][636]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:492][637]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:501][638]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:509][639]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:517][640]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:525][641]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:536][642]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:544][643]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:552][644]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:559][645]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:567][646]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:575][647]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:585][648]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:592][649]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:603][650]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:611][651]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:618][652]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:626][653]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:634][654]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:643][655]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:652][656]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:660][657]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:669][658]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:677][659]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:685][660]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:693][661]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:702][662]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:710][663]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:718][664]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:726][665]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:737][666]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:745][667]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:753][668]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:761][669]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:770][670]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:777][671]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:786][672]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:794][673]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:805][674]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:812][675]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:820][676]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:827][677]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:836][678]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:844][679]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:853][680]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:862][681]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:871][682]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/HUD/HUD_Bars.HUD_Bars_C:Get_BlutBalken_Percent_0
+
+
+[2016.12.02-16.53.34:874][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.34:903][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.36:079][815]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.02-16.53.38:455][ 89]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.02-16.53.38:477][ 90]Cmd: UpdateLandscapeSetup
+[2016.12.02-16.53.40:533][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.40:533][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.02-16.53.40:533][330]PIE: New page: PIE session: Map (Dec 2, 2016, 6:53:40 PM)
+[2016.12.02-16.53.40:533][330]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2016.12.02-16.53.40:536][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002652s)
+[2016.12.02-16.53.40:537][330]LogAIModule: Creating AISystem for world Map
+[2016.12.02-16.53.40:537][330]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2016.12.02-16.53.40:537][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.003658s)
+[2016.12.02-16.53.40:559][330]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-16.53.40:572][330]LogInit: FAudioDevice initialized.
+[2016.12.02-16.53.40:621][330]LogWorld: Game class is 'RenderToTexture_Game_C'
+[2016.12.02-16.53.40:624][330]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2016.12.02-17.53.40
+[2016.12.02-16.53.40:624][330]LogWorld: Bringing up level for play took: 0.002056
+[2016.12.02-16.53.40:627][330]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.751
+[2016.12.02-16.53.40:627][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.41:852][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.41:905][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2016.12.02-16.53.49:989][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.02-16.53.50:093][763]LogSavePackage: Save=90.09ms
+[2016.12.02-16.53.50:093][763]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map88AAF5394358A6C1AE7B1FB9278B2C6B.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2016.12.02-16.53.50:095][763]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2016.12.02-16.53.50:120][763]LogFileHelpers: Saving map 'Map' took 0.169
+[2016.12.02-16.53.50:186][763]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.02-16.53.50:358][764]Cmd: QUIT_EDITOR
+[2016.12.02-16.53.50:452][764]LogExit: Preparing to exit.
+[2016.12.02-16.53.50:892][764]LogExit: Editor shut down
+[2016.12.02-16.53.50:892][764]LogExit: Transaction tracking system shut down
+[2016.12.02-16.53.51:031][764]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.02-16.53.51:031][764]LogExit: Object subsystem successfully closed.
+[2016.12.02-16.53.51:044][764]LogD3D11RHI: Shutdown
+[2016.12.02-16.53.51:044][764]LogD3D11RHI: CleanupD3DDevice
+[2016.12.02-16.53.51:113][764]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.12.02-16.53.51:120][764]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.12.02-16.53.51:121][764]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.12.02-16.53.51:122][764]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.12.02-16.53.51:122][764]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.12.02-16.53.51:122][764]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.12.02-16.53.51:122][764]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.12.02-16.53.51:122][764]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.12.02-16.53.51:122][764]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.12.02-16.53.51:186][764]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.12.02-16.53.51:187][764]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.12.02-16.53.51:240][764]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.12.02-16.53.51:241][764]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.12.02-16.53.51:438][764]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.12.02-16.53.51:439][764]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.12.02-16.53.51:440][764]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.12.02-16.53.51:440][764]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.12.02-16.53.51:441][764]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.12.02-16.53.51:441][764]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.12.02-16.53.51:542][764]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.12.02-16.53.51:544][764]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.12.02-16.53.51:651][764]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.12.02-16.53.51:651][764]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.12.02-16.53.51:651][764]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.12.02-16.53.51:651][764]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.12.02-16.53.51:669][764]LogDerivedDataCache: Shutdown
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.12.02-16.53.51:669][764]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.02-16.53.53:171][764]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.02-16.53.53:173][764]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.02-16.53.53:174][764]LogExit: Exiting.
+[2016.12.02-16.53.53:175][764]Log file closed, 12/02/16 17:53:53
