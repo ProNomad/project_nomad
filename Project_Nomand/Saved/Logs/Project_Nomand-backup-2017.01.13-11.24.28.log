@@ -1,0 +1,709 @@
+﻿Log file open, 01/13/17 10:47:12
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1504423871) SRandInit(1504423873).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.195119
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.13-09.47.12:632][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.13-09.47.12:632][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.13-09.47.12:657][  0]LogInit: Computer: DEX
+[2017.01.13-09.47.12:657][  0]LogInit: User: Dextex
+[2017.01.13-09.47.12:657][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.13-09.47.12:657][  0]LogInit: High frequency timer resolution =3.417979 MHz
+[2017.01.13-09.47.12:658][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.13-09.47.12:658][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.13-09.47.12:658][  0]LogMemory: Process Physical Memory: 192.09 MB used, 192.09 MB peak
+[2017.01.13-09.47.12:658][  0]LogMemory: Process Virtual Memory: 195.16 MB used, 195.16 MB peak
+[2017.01.13-09.47.12:658][  0]LogMemory: Physical Memory: 6579.08 MB used, 16328.00 MB total
+[2017.01.13-09.47.12:658][  0]LogMemory: Virtual Memory: 553.49 MB used, 134217728.00 MB total
+[2017.01.13-09.47.13:030][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.13-09.47.13:475][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.13-09.47.14:029][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.13-09.47.14:029][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.13-09.47.14:030][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.13-09.47.14:030][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.13-09.47.14:030][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.13-09.47.14:036][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.13-09.47.14:036][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.13-09.47.14:036][  0]LogWindows: EnumDisplayDevices:
+[2017.01.13-09.47.14:036][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.13-09.47.14:037][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.01.13-09.47.14:037][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.13-09.47.14:037][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.13-09.47.14:037][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.13-09.47.14:037][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.13-09.47.14:037][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.13-09.47.14:037][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.13-09.47.14:037][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.13-09.47.14:527][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.13-09.47.14:569][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.13-09.47.14:569][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/12180/).
+[2017.01.13-09.47.14:570][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/732DE7A648FEDBDB0179E19C4EE0280F/'.
+[2017.01.13-09.47.14:570][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.13-09.47.16:951][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.13-09.47.16:960][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.13-09.47.16:969][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.13-09.47.16:977][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.13-09.47.16:985][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.13-09.47.17:028][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.13-09.47.17:036][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.13-09.47.17:043][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.13-09.47.17:050][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.13-09.47.17:058][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.13-09.47.17:065][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.13-09.47.17:081][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.13-09.47.17:081][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.13-09.47.17:082][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.13-09.47.17:188][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.13-09.47.17:194][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.13-09.47.17:201][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.13-09.47.17:209][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.13-09.47.17:240][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.13-09.47.17:240][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.13-09.47.18:156][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.13-09.47.18:373][  0]LogDerivedDataCache: Loaded boot cache 0.22s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.13-09.47.18:373][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.13-09.47.18:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.13-09.47.18:374][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.13-09.47.18:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.13-09.47.18:374][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.13-09.47.18:453][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.13-09.47.18:467][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.13-09.47.28:526][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.13-09.47.28:577][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.13-09.47.31:303][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.13-09.47.31:303][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.13-09.47.31:303][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.13-09.47.35:906][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.01.13-09.47.36:319][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.158848 seconds
+[2017.01.13-09.47.36:395][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.13-09.47.36:395][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.01.13-09.47.36:395][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.13-09.47.36:501][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.13-09.47.43:940][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.13-09.47.43:958][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.13-09.48.03:748][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.13-09.48.05:992][  0]SourceControl: Info Source control is disabled
+[2017.01.13-09.48.08:839][  0]LogEngine: Initializing Engine...
+[2017.01.13-09.48.08:973][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.13-09.48.08:989][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.13-09.48.10:416][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.13-09.48.10:762][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-09.48.10:794][  0]LogInit: FAudioDevice initialized.
+[2017.01.13-09.48.10:827][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.13-09.48.10:835][  0]LogInit: Texture streaming: Enabled
+[2017.01.13-09.48.11:210][  0]LogInit: Transaction tracking system initialized
+[2017.01.13-09.48.11:737][  0]BlueprintLog: New page: Editor Load
+[2017.01.13-09.48.13:275][  0]LocalizationService: Info Localization service is disabled
+[2017.01.13-09.48.14:052][  0]LogConsoleResponse:Display: 
+[2017.01.13-09.48.16:920][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.08s
+[2017.01.13-09.48.16:920][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.13-09.48.16:921][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.13-09.48.19:676][  0]Cmd: MAP LOAD FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.13-09.48.19:805][  0]LightingResults: New page: Lighting Build
+[2017.01.13-09.48.20:079][  0]MapCheck: New page: Map Check
+[2017.01.13-09.48.20:079][  0]LightingResults: New page: Lighting Build
+[2017.01.13-09.48.27:460][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.13-09.48.28:937][  0]LogEditorServer: Finished looking for orphan Actors (0.004 secs)
+[2017.01.13-09.48.29:095][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.13-09.48.29:165][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.22ms to complete.
+[2017.01.13-09.48.29:165][  0]LogFileHelpers: Loading map 'Map' took 9.512
+[2017.01.13-09.48.31:923][  0]LogCollectionManager: Loaded 0 collections in 0.002517 seconds
+[2017.01.13-09.48.32:115][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.13-09.48.32:115][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2017.01.13-09.48.32:115][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.13-09.48.32:115][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.13-09.48.32:165][  0]LogContentBrowser: Native class hierarchy populated in 0.0291 seconds. Added 2047 classes and 369 folders.
+[2017.01.13-09.48.32:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.13-09.48.32:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.005 s
+[2017.01.13-09.48.32:278][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.01.13-09.48.32:325][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.13-09.48.34:127][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.13-09.48.34:215][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.13-09.48.35:179][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.13-09.48.35:509][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.13-09.48.35:647][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.13-09.48.35:648][  0]LogLoad: Full Startup: 87.34 seconds (BP compile: 1.37 seconds)
+[2017.01.13-09.48.35:648][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.13-09.48.36:138][  0]LogOcInput: OculusInput pre-init called
+[2017.01.13-09.48.36:920][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.13-09.48.38:541][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2017.01.13-09.48.39:572][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.13-09.48.40:711][  3]LogAssetRegistry: Asset discovery search completed in 64.8268 seconds
+[2017.01.13-09.48.40:733][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.13-09.48.40:734][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.022907 seconds (updated 0 objects)
+[2017.01.13-09.48.54:959][412]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.13-09.48.56:327][461]LogEditorViewport: Clicking on Actor (LMB): Item_C (Item2)
+[2017.01.13-09.49.33:563][ 87]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.01.13-09.49.38:650][238]LogRenderer: Reallocating scene render targets to support 1248x712 (Frame:1055).
+[2017.01.13-09.53.38:395][799]BlueprintLog: New page: Compile Item
+[2017.01.13-09.53.38:992][799]BlueprintEditorCompileResults: Info [0390.65] Compile of Item successful! [in 562 ms] (/Game/Items/Item.Item)
+[2017.01.13-09.53.45:232][321]BlueprintLog: New page: Compile Item
+[2017.01.13-09.53.45:340][321]BlueprintEditorCompileResults: Info [0397.04] Compile of Item successful! [in 107 ms] (/Game/Items/Item.Item)
+[2017.01.13-09.53.54:438][ 76]BlueprintLog: New page: Compile Item
+[2017.01.13-09.53.54:545][ 76]BlueprintEditorCompileResults: Info [0406.24] Compile of Item successful! [in 107 ms] (/Game/Items/Item.Item)
+[2017.01.13-09.55.54:765][485]BlueprintLog: New page: Compile Item
+[2017.01.13-09.55.54:872][485]BlueprintEditorCompileResults: Info [0526.57] Compile of Item successful! [in 107 ms] (/Game/Items/Item.Item)
+[2017.01.13-09.56.00:750][990]LogEditorViewport: Clicking on Actor (LMB): Item_C (Item2)
+[2017.01.13-09.56.16:316][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.16:329][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-09.56.16:471][336]PIE: New page: PIE session: Map (Jan 13, 2017, 11:56:16 AM)
+[2017.01.13-09.56.16:471][336]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-09.56.16:587][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115937s)
+[2017.01.13-09.56.16:588][336]LogAIModule: Creating AISystem for world Map
+[2017.01.13-09.56.16:588][336]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.01.13-09.56.16:622][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.150694s)
+[2017.01.13-09.56.16:697][336]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-09.56.16:708][336]LogInit: FAudioDevice initialized.
+[2017.01.13-09.56.17:063][336]LogWorld: Game class is 'GameMode'
+[2017.01.13-09.56.17:201][336]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-10.56.17
+[2017.01.13-09.56.17:321][336]LogWorld: Bringing up level for play took: 0.143712
+[2017.01.13-09.56.17:454][336]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.01.13-09.56.17:557][336]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.487
+[2017.01.13-09.56.17:557][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.21:265][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.21:485][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.37:763][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.37:764][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-09.56.37:764][ 14]PIE: New page: PIE session: Map (Jan 13, 2017, 11:56:37 AM)
+[2017.01.13-09.56.37:764][ 14]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-09.56.37:801][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037394s)
+[2017.01.13-09.56.37:802][ 14]LogAIModule: Creating AISystem for world Map
+[2017.01.13-09.56.37:802][ 14]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.01.13-09.56.37:802][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.038195s)
+[2017.01.13-09.56.37:828][ 14]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-09.56.37:838][ 14]LogInit: FAudioDevice initialized.
+[2017.01.13-09.56.37:890][ 14]LogWorld: Game class is 'GameMode'
+[2017.01.13-09.56.37:899][ 14]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-10.56.37
+[2017.01.13-09.56.37:900][ 14]LogWorld: Bringing up level for play took: 0.008589
+[2017.01.13-09.56.37:901][ 14]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.831
+[2017.01.13-09.56.37:901][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.42:154][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.42:195][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.56.56:364][645]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.Item_C_0.Capsule) Not currently registered. Aborting.
+[2017.01.13-09.56.56:375][645]LogActorComponent: ReregisterComponent: (/Game/Map/Map.Map:PersistentLevel.Item4.Capsule) Not currently registered. Aborting.
+[2017.01.13-09.56.56:375][645]LogActorComponent: ReregisterComponent: (/Game/Map/Map.Map:PersistentLevel.Item3_167.Capsule) Not currently registered. Aborting.
+[2017.01.13-09.56.56:375][645]LogActorComponent: ReregisterComponent: (/Game/Map/Map.Map:PersistentLevel.Item2_1450.Capsule) Not currently registered. Aborting.
+[2017.01.13-09.56.56:375][645]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.Item_C_1.Capsule) Not currently registered. Aborting.
+[2017.01.13-09.56.58:000][780]BlueprintLog: New page: Compile Item
+[2017.01.13-09.56.58:508][780]BlueprintEditorCompileResults: Info [0590.20] Compile of Item successful! [in 507 ms] (/Game/Items/Item.Item)
+[2017.01.13-09.57.01:421][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.57.01:421][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-09.57.01:421][ 24]PIE: New page: PIE session: Map (Jan 13, 2017, 11:57:01 AM)
+[2017.01.13-09.57.01:421][ 24]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-09.57.01:459][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037589s)
+[2017.01.13-09.57.01:460][ 24]LogAIModule: Creating AISystem for world Map
+[2017.01.13-09.57.01:460][ 24]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.01.13-09.57.01:460][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.038310s)
+[2017.01.13-09.57.01:491][ 24]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-09.57.01:501][ 24]LogInit: FAudioDevice initialized.
+[2017.01.13-09.57.01:547][ 24]LogWorld: Game class is 'GameMode'
+[2017.01.13-09.57.01:556][ 24]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-10.57.01
+[2017.01.13-09.57.01:557][ 24]LogWorld: Bringing up level for play took: 0.009368
+[2017.01.13-09.57.01:559][ 24]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.489
+[2017.01.13-09.57.01:559][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.57.19:995][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.57.20:037][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.58.01:085][385]BlueprintLog: New page: Compile Item
+[2017.01.13-09.58.01:220][385]BlueprintEditorCompileResults: Info [0652.92] Compile of Item successful! [in 135 ms] (/Game/Items/Item.Item)
+[2017.01.13-09.58.03:656][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.58.03:656][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-09.58.03:656][607]PIE: New page: PIE session: Map (Jan 13, 2017, 11:58:03 AM)
+[2017.01.13-09.58.03:656][607]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-09.58.03:691][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035397s)
+[2017.01.13-09.58.03:692][607]LogAIModule: Creating AISystem for world Map
+[2017.01.13-09.58.03:692][607]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.01.13-09.58.03:692][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.036261s)
+[2017.01.13-09.58.03:721][607]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-09.58.03:732][607]LogInit: FAudioDevice initialized.
+[2017.01.13-09.58.03:779][607]LogWorld: Game class is 'GameMode'
+[2017.01.13-09.58.03:788][607]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-10.58.03
+[2017.01.13-09.58.03:789][607]LogWorld: Bringing up level for play took: 0.008860
+[2017.01.13-09.58.03:790][607]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.721
+[2017.01.13-09.58.03:790][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.58.10:099][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.58.10:137][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-09.59.11:138][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.13-09.59.13:436][433]LogSavePackage: Save=563.53ms
+[2017.01.13-09.59.13:436][433]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map_Auto1DD0648C44068CFD35C33B597F0E8DEE6.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap'
+[2017.01.13-09.59.13:647][433]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap
+[2017.01.13-09.59.13:714][433]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 2.899
+[2017.01.13-09.59.13:714][433]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.899
+[2017.01.13-09.59.13:722][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/Item] ([1] browsable assets)...
+[2017.01.13-09.59.13:765][433]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Items/Item.Item]
+[2017.01.13-09.59.13:765][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/Item]
+[2017.01.13-09.59.13:765][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Item" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Item_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.13-09.59.13:882][433]LogSavePackage: Save=107.45ms
+[2017.01.13-09.59.13:882][433]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Item_Auto1AE3C81E04B7B2F8C74E586846198038A.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Item_Auto1.uasset'
+[2017.01.13-09.59.13:939][433]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Item_Auto1.uasset
+[2017.01.13-09.59.13:939][433]LogFileHelpers: Auto-saving content packages took 0.218
+[2017.01.13-10.02.13:830][ 93]BlueprintLog: New page: Compile Item
+[2017.01.13-10.02.13:962][ 93]BlueprintEditorCompileResults: Info [0905.66] Compile of Item successful! [in 131 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.02.17:545][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.02.17:545][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.02.17:545][426]PIE: New page: PIE session: Map (Jan 13, 2017, 12:02:17 PM)
+[2017.01.13-10.02.17:545][426]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.02.17:581][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035856s)
+[2017.01.13-10.02.17:581][426]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.02.17:581][426]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.01.13-10.02.17:582][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.036641s)
+[2017.01.13-10.02.17:610][426]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.02.17:620][426]LogInit: FAudioDevice initialized.
+[2017.01.13-10.02.17:669][426]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.02.17:677][426]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.02.17
+[2017.01.13-10.02.17:679][426]LogWorld: Bringing up level for play took: 0.008669
+[2017.01.13-10.02.17:680][426]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.61
+[2017.01.13-10.02.17:680][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.02.31:958][130]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.02.32:000][130]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.03.07:307][764]LogEditorTransaction: Undo Remove Components
+[2017.01.13-10.03.33:025][958]BlueprintLog: New page: Compile Item
+[2017.01.13-10.03.33:144][958]BlueprintEditorCompileResults: Info [0984.84] Compile of Item successful! [in 118 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.03.37:594][326]BlueprintLog: New page: Compile Item
+[2017.01.13-10.03.37:708][326]BlueprintEditorCompileResults: Info [0989.41] Compile of Item successful! [in 113 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.03.49:050][318]LogActorComponent: ReregisterComponent: (/Game/Map/Map.Map:PersistentLevel.Item3_167.Capsule) Not currently registered. Aborting.
+[2017.01.13-10.03.49:050][318]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.Item_C_1.Capsule) Not currently registered. Aborting.
+[2017.01.13-10.03.49:050][318]LogActorComponent: ReregisterComponent: (/Game/Map/Map.Map:PersistentLevel.Item2_1450.Capsule) Not currently registered. Aborting.
+[2017.01.13-10.03.49:050][318]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.Item_C_10.Capsule) Not currently registered. Aborting.
+[2017.01.13-10.03.49:050][318]LogActorComponent: ReregisterComponent: (/Game/Map/Map.Map:PersistentLevel.Item4.Capsule) Not currently registered. Aborting.
+[2017.01.13-10.03.49:050][318]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.Item_C_0.Capsule) Not currently registered. Aborting.
+[2017.01.13-10.03.50:729][462]BlueprintLog: New page: Compile Item
+[2017.01.13-10.03.50:842][462]BlueprintEditorCompileResults: Info [1002.54] Compile of Item successful! [in 113 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.06.03:304][467]BlueprintLog: New page: Compile Item
+[2017.01.13-10.06.03:425][467]BlueprintEditorCompileResults: Info [1135.12] Compile of Item successful! [in 120 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.06.05:996][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.06.05:996][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.06.05:996][713]PIE: New page: PIE session: Map (Jan 13, 2017, 12:06:05 PM)
+[2017.01.13-10.06.05:996][713]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.06.06:034][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037960s)
+[2017.01.13-10.06.06:035][713]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.06.06:035][713]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2017.01.13-10.06.06:035][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.039100s)
+[2017.01.13-10.06.06:063][713]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.06.06:074][713]LogInit: FAudioDevice initialized.
+[2017.01.13-10.06.06:122][713]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.06.06:131][713]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.06.06
+[2017.01.13-10.06.06:133][713]LogWorld: Bringing up level for play took: 0.009478
+[2017.01.13-10.06.06:134][713]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.065
+[2017.01.13-10.06.06:134][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.06.07:842][916]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.06.07:892][916]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.06.59:072][100]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.13-10.07.09:874][630]LogRenderer: Reallocating scene render targets to support 1248x924 (Frame:40196).
+[2017.01.13-10.08.04:703][307]LogSavePackage: Save=3.75ms
+[2017.01.13-10.08.04:703][307]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight_Physics521D21294AFD19434E5B31BB1660E614.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Items/Blade_BlackKnight/SK_Blade_BlackKnight_Physics.uasset'
+[2017.01.13-10.08.04:704][307]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Items/Blade_BlackKnight/SK_Blade_BlackKnight_Physics.uasset
+[2017.01.13-10.09.44:362][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.13-10.09.44:680][  1]LogSavePackage: Save=278.81ms
+[2017.01.13-10.09.44:680][  1]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map_Auto28F3B392648CAD8F700D375AA33709EE9.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto2.umap'
+[2017.01.13-10.09.44:708][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto2.umap
+[2017.01.13-10.09.44:710][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.387
+[2017.01.13-10.09.44:710][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.387
+[2017.01.13-10.09.44:713][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/Item] ([1] browsable assets)...
+[2017.01.13-10.09.44:730][  1]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Items/Item.Item]
+[2017.01.13-10.09.44:730][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/Item]
+[2017.01.13-10.09.44:730][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Item" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Item_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.13-10.09.44:791][  1]LogSavePackage: Save=50.67ms
+[2017.01.13-10.09.44:791][  1]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Item_Auto2665BB3EA417056E0488E5E81227992A3.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Item_Auto2.uasset'
+[2017.01.13-10.09.44:795][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Item_Auto2.uasset
+[2017.01.13-10.09.44:795][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/Blade_BlackKnight/SK_Blade_BlackKnight] ([1] browsable assets)...
+[2017.01.13-10.09.44:813][  1]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Items/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight]
+[2017.01.13-10.09.44:813][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/Blade_BlackKnight/SK_Blade_BlackKnight]
+[2017.01.13-10.09.44:874][  1]LogSavePackage: Save=51.25ms
+[2017.01.13-10.09.44:874][  1]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight_Auto2E20335784588F89D16F32EB038B1E7ED.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Blade_BlackKnight/SK_Blade_BlackKnight_Auto2.uasset'
+[2017.01.13-10.09.44:874][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Items/Blade_BlackKnight/SK_Blade_BlackKnight_Auto2.uasset
+[2017.01.13-10.09.44:874][  1]LogFileHelpers: Auto-saving content packages took 0.162
+[2017.01.13-10.11.29:370][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.11.29:370][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.11.29:370][765]PIE: New page: PIE session: Map (Jan 13, 2017, 12:11:29 PM)
+[2017.01.13-10.11.29:370][765]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.11.29:409][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038257s)
+[2017.01.13-10.11.29:409][765]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.11.29:409][765]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.01.13-10.11.29:410][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.039226s)
+[2017.01.13-10.11.29:440][765]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.11.29:450][765]LogInit: FAudioDevice initialized.
+[2017.01.13-10.11.29:496][765]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.11.29:505][765]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.11.29
+[2017.01.13-10.11.29:506][765]LogWorld: Bringing up level for play took: 0.009183
+[2017.01.13-10.11.29:507][765]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.438
+[2017.01.13-10.11.29:507][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.11.36:052][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.11.36:093][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.11.54:187][148]BlueprintLog: New page: Compile Item
+[2017.01.13-10.11.54:324][148]BlueprintEditorCompileResults: Info [1486.02] Compile of Item successful! [in 136 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.11.56:836][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.11.56:836][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.11.56:837][385]PIE: New page: PIE session: Map (Jan 13, 2017, 12:11:56 PM)
+[2017.01.13-10.11.56:837][385]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.11.56:873][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036331s)
+[2017.01.13-10.11.56:874][385]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.11.56:874][385]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.01.13-10.11.56:874][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.037358s)
+[2017.01.13-10.11.56:901][385]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.11.56:911][385]LogInit: FAudioDevice initialized.
+[2017.01.13-10.11.56:957][385]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.11.56:966][385]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.11.56
+[2017.01.13-10.11.56:967][385]LogWorld: Bringing up level for play took: 0.008990
+[2017.01.13-10.11.56:968][385]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.101
+[2017.01.13-10.11.56:968][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.04:360][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.04:402][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.16:642][512]BlueprintLog: New page: Compile Item
+[2017.01.13-10.12.17:163][512]BlueprintEditorCompileResults: Info [1508.86] Compile of Item successful! [in 520 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.12.19:033][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.19:033][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.12.19:033][713]PIE: New page: PIE session: Map (Jan 13, 2017, 12:12:19 PM)
+[2017.01.13-10.12.19:033][713]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.12.19:067][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034010s)
+[2017.01.13-10.12.19:068][713]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.12.19:068][713]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2017.01.13-10.12.19:068][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.034819s)
+[2017.01.13-10.12.19:095][713]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.12.19:105][713]LogInit: FAudioDevice initialized.
+[2017.01.13-10.12.19:156][713]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.12.19:165][713]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.12.19
+[2017.01.13-10.12.19:166][713]LogWorld: Bringing up level for play took: 0.008784
+[2017.01.13-10.12.19:167][713]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.097
+[2017.01.13-10.12.19:167][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.21:218][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.21:259][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.37:516][440]BlueprintLog: New page: Compile Item
+[2017.01.13-10.12.38:091][440]BlueprintEditorCompileResults: Info [1529.79] Compile of Item successful! [in 574 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.12.48:124][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.12.48:124][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.12.48:124][387]PIE: New page: PIE session: Map (Jan 13, 2017, 12:12:48 PM)
+[2017.01.13-10.12.48:124][387]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.12.48:158][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033998s)
+[2017.01.13-10.12.48:158][387]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.12.48:159][387]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.01.13-10.12.48:159][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.034911s)
+[2017.01.13-10.12.48:188][387]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.12.48:199][387]LogInit: FAudioDevice initialized.
+[2017.01.13-10.12.48:249][387]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.12.48:258][387]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.12.48
+[2017.01.13-10.12.48:259][387]LogWorld: Bringing up level for play took: 0.009178
+[2017.01.13-10.12.48:260][387]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.81
+[2017.01.13-10.12.48:260][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.13.14:764][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.13.14:804][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.04:080][ 14]BlueprintLog: New page: Compile Item
+[2017.01.13-10.14.04:194][ 14]BlueprintEditorCompileResults: Info [1615.89] Compile of Item successful! [in 114 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.14.15:883][980]BlueprintLog: New page: Compile Item
+[2017.01.13-10.14.15:999][980]BlueprintEditorCompileResults: Info [1627.70] Compile of Item successful! [in 115 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.14.22:333][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:334][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:334][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:335][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:335][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:335][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:335][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:335][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:336][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:337][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:337][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:338][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:338][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:338][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:338][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:338][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:338][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:339][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:339][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:339][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:339][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:339][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:339][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:340][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:340][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:341][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:341][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:342][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:358][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:358][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.22:358][485]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.25:100][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.25:100][743]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.13-10.14.25:107][743]LogPlayLevel: [PlayLevel] Compiling Item before play...
+[2017.01.13-10.14.25:203][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 103 ms (2 blueprints)
+[2017.01.13-10.14.25:204][743]LogPlayLevel: [PlayLevel] Compiling Character_Controller before play...
+[2017.01.13-10.14.25:459][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 359 ms (7 blueprints)
+[2017.01.13-10.14.25:460][743]LogPlayLevel: [PlayLevel] Compiling AgroCheck_test before play...
+[2017.01.13-10.14.25:535][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 435 ms (7 blueprints)
+[2017.01.13-10.14.25:536][743]LogPlayLevel: [PlayLevel] Compiling HUD_Bars before play...
+[2017.01.13-10.14.25:607][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 506 ms (8 blueprints)
+[2017.01.13-10.14.25:607][743]LogPlayLevel: [PlayLevel] Compiling InventoryWidget before play...
+[2017.01.13-10.14.25:696][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 595 ms (9 blueprints)
+[2017.01.13-10.14.25:696][743]LogPlayLevel: [PlayLevel] Compiling ActionButtonList before play...
+[2017.01.13-10.14.25:797][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 697 ms (9 blueprints)
+[2017.01.13-10.14.25:798][743]LogPlayLevel: [PlayLevel] Compiling ActionWIdget before play...
+[2017.01.13-10.14.25:878][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 778 ms (9 blueprints)
+[2017.01.13-10.14.25:879][743]LogPlayLevel: [PlayLevel] Compiling Map before play...
+[2017.01.13-10.14.25:946][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 846 ms (9 blueprints)
+[2017.01.13-10.14.25:946][743]LogPlayLevel: [PlayLevel] Compiling ItemWidget before play...
+[2017.01.13-10.14.26:033][743]LogPlayLevel: PlayLevel: Blueprint regeneration took 933 ms (9 blueprints)
+[2017.01.13-10.14.26:068][743]PIE: New page: PIE session: Map (Jan 13, 2017, 12:14:26 PM)
+[2017.01.13-10.14.26:068][743]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.14.26:104][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035587s)
+[2017.01.13-10.14.26:104][743]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.14.26:104][743]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.01.13-10.14.26:104][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.036408s)
+[2017.01.13-10.14.26:131][743]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.14.26:141][743]LogInit: FAudioDevice initialized.
+[2017.01.13-10.14.26:192][743]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.14.26:202][743]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.14.26
+[2017.01.13-10.14.26:203][743]LogWorld: Bringing up level for play took: 0.010642
+[2017.01.13-10.14.26:205][743]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.135
+[2017.01.13-10.14.26:205][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.30:738][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.30:779][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.38:836][962]BlueprintLog: New page: Compile Item
+[2017.01.13-10.14.38:953][962]BlueprintEditorCompileResults: Info [1650.65] Compile of Item successful! [in 117 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.14.41:169][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.41:169][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.14.41:169][171]PIE: New page: PIE session: Map (Jan 13, 2017, 12:14:41 PM)
+[2017.01.13-10.14.41:169][171]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.14.41:206][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036461s)
+[2017.01.13-10.14.41:206][171]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.14.41:207][171]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.01.13-10.14.41:207][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.037303s)
+[2017.01.13-10.14.41:233][171]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.14.41:243][171]LogInit: FAudioDevice initialized.
+[2017.01.13-10.14.41:294][171]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.14.41:302][171]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.14.41
+[2017.01.13-10.14.41:304][171]LogWorld: Bringing up level for play took: 0.008643
+[2017.01.13-10.14.41:305][171]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.235
+[2017.01.13-10.14.41:305][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.46:524][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.46:565][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.52:711][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:711][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:712][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:712][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:715][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:715][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:715][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:715][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:715][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:715][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:716][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:717][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:717][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:717][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:717][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:717][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:717][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:718][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:718][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:718][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:718][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:718][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:718][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:719][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:719][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:720][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:720][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:720][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:737][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:738][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.52:738][280]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:289][407]BlueprintLog: New page: Compile Item
+[2017.01.13-10.14.54:315][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:315][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:315][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:315][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:320][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:320][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:321][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:321][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:321][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:321][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:322][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:322][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:322][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:322][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:323][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:324][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:324][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:401][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:401][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:401][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:402][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:402][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:402][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:402][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:402][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:403][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:403][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:403][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:403][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:403][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:403][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:405][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:405][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:405][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:408][407]BlueprintEditorCompileResults: Info [1666.10] Compile of Item successful! [in 118 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.14.54:438][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:439][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.54:439][407]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.56:758][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.14.56:758][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.14.56:758][632]PIE: New page: PIE session: Map (Jan 13, 2017, 12:14:56 PM)
+[2017.01.13-10.14.56:758][632]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.14.56:794][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035643s)
+[2017.01.13-10.14.56:795][632]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.14.56:795][632]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2017.01.13-10.14.56:795][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.036611s)
+[2017.01.13-10.14.56:825][632]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.14.56:836][632]LogInit: FAudioDevice initialized.
+[2017.01.13-10.14.56:881][632]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.14.56:888][632]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.56:888][632]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.56:888][632]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.14.56:889][632]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.14.56
+[2017.01.13-10.14.56:890][632]LogWorld: Bringing up level for play took: 0.008729
+[2017.01.13-10.14.56:892][632]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.178
+[2017.01.13-10.14.56:892][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.00:182][ 24]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.00:217][ 24]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.07:431][637]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.07:431][637]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.07:432][637]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:241][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:241][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item4.ItemMesh SK_Blade_AnthraciteAxe) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:242][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:242][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:242][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:242][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item3_167.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:243][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:243][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:243][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:243][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item2_1450.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:245][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.11:246][944]PIE:Warning: Warning Invalid Simulate Options: Body (Item_C_35.ItemMesh SK_Blade_BlackKnight) is set to simulate physics but Collision Enabled is incompatible
+[2017.01.13-10.15.12:905][ 77]BlueprintLog: New page: Compile Item
+[2017.01.13-10.15.13:023][ 77]BlueprintEditorCompileResults: Info [1684.72] Compile of Item successful! [in 117 ms] (/Game/Items/Item.Item)
+[2017.01.13-10.15.15:144][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.15:144][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.15.15:144][290]PIE: New page: PIE session: Map (Jan 13, 2017, 12:15:15 PM)
+[2017.01.13-10.15.15:144][290]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.15.15:180][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036015s)
+[2017.01.13-10.15.15:181][290]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.15.15:181][290]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2017.01.13-10.15.15:181][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.036722s)
+[2017.01.13-10.15.15:208][290]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.15.15:218][290]LogInit: FAudioDevice initialized.
+[2017.01.13-10.15.15:267][290]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.15.15:276][290]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.15.15
+[2017.01.13-10.15.15:277][290]LogWorld: Bringing up level for play took: 0.008783
+[2017.01.13-10.15.15:278][290]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.209
+[2017.01.13-10.15.15:279][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.27:819][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.27:862][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.40:253][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.40:253][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.15.40:253][794]PIE: New page: PIE session: Map (Jan 13, 2017, 12:15:40 PM)
+[2017.01.13-10.15.40:253][794]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.15.40:287][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034252s)
+[2017.01.13-10.15.40:288][794]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.15.40:288][794]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.01.13-10.15.40:288][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.035033s)
+[2017.01.13-10.15.40:317][794]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.15.40:328][794]LogInit: FAudioDevice initialized.
+[2017.01.13-10.15.40:375][794]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.15.40:383][794]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.15.40
+[2017.01.13-10.15.40:385][794]LogWorld: Bringing up level for play took: 0.008756
+[2017.01.13-10.15.40:386][794]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.684
+[2017.01.13-10.15.40:386][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.43:782][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.15.43:819][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.17.09:103][606]LogSavePackage: Save=4.07ms
+[2017.01.13-10.17.09:103][606]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight_PhysicsB71C1FB64DDE0FE39D39F296EA5D5A00.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Items/Blade_BlackKnight/SK_Blade_BlackKnight_Physics.uasset'
+[2017.01.13-10.17.09:105][606]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Items/Blade_BlackKnight/SK_Blade_BlackKnight_Physics.uasset
+[2017.01.13-10.17.13:249][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.17.13:249][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-10.17.13:249][ 37]PIE: New page: PIE session: Map (Jan 13, 2017, 12:17:13 PM)
+[2017.01.13-10.17.13:249][ 37]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-10.17.13:288][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038823s)
+[2017.01.13-10.17.13:288][ 37]LogAIModule: Creating AISystem for world Map
+[2017.01.13-10.17.13:288][ 37]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.01.13-10.17.13:289][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.039628s)
+[2017.01.13-10.17.13:317][ 37]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-10.17.13:327][ 37]LogInit: FAudioDevice initialized.
+[2017.01.13-10.17.13:371][ 37]LogWorld: Game class is 'GameMode'
+[2017.01.13-10.17.13:380][ 37]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.13-11.17.13
+[2017.01.13-10.17.13:381][ 37]LogWorld: Bringing up level for play took: 0.008813
+[2017.01.13-10.17.13:382][ 37]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.313
+[2017.01.13-10.17.13:382][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.17.22:267][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.17.22:307][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-10.17.54:100][870]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.PhATEdSkeletalMeshComponent_5) - call TermArticulated first.
+[2017.01.13-10.22.07:857][ 76]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.01.13-10.22.13:077][ 76]LogCrashTracker: 
+
+
+[2017.01.13-10.22.13:077][ 76]LogCrashTracker: 
+
+
+[2017.01.13-10.22.13:077][ 76]LogWindows:Error: === Critical error: ===
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 804] 
+Array index out of bounds: 0 from an array of size 0
+
+
+
+
+[2017.01.13-10.22.13:156][ 76]LogExit: Executing StaticShutdownAfterError
+[2017.01.13-10.22.13:955][ 76]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.01.13-10.22.13:955][ 76]Log file closed, 01/13/17 11:22:13
