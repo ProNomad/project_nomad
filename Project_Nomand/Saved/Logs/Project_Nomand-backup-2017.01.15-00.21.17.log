@@ -1,0 +1,276 @@
+﻿Log file open, 01/13/17 22:39:51
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2052821856) SRandInit(2052821857).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.060334
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.13-21.39.51:373][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.13-21.39.51:373][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.13-21.39.51:386][  0]LogInit: Computer: LAPTOP-CU7OM3L4
+[2017.01.13-21.39.51:386][  0]LogInit: User: Alquesh
+[2017.01.13-21.39.51:386][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.01.13-21.39.51:386][  0]LogInit: High frequency timer resolution =2.648436 MHz
+[2017.01.13-21.39.51:386][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.01.13-21.39.51:386][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.13-21.39.51:386][  0]LogMemory: Process Physical Memory: 190.94 MB used, 190.94 MB peak
+[2017.01.13-21.39.51:386][  0]LogMemory: Process Virtual Memory: 195.05 MB used, 195.05 MB peak
+[2017.01.13-21.39.51:386][  0]LogMemory: Physical Memory: 3528.86 MB used, 8060.13 MB total
+[2017.01.13-21.39.51:386][  0]LogMemory: Virtual Memory: 539.49 MB used, 134217728.00 MB total
+[2017.01.13-21.39.51:439][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.13-21.39.51:888][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.13-21.39.51:925][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M         ' (Feature Level 11_0)
+[2017.01.13-21.39.51:925][  0]LogD3D11RHI:       1995/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.13-21.39.51:934][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.01.13-21.39.51:934][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.01.13-21.39.51:936][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.13-21.39.51:936][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.13-21.39.51:936][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.13-21.39.51:942][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.13-21.39.51:942][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.01.13-21.39.51:942][  0]LogWindows: EnumDisplayDevices:
+[2017.01.13-21.39.51:942][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.01.13-21.39.51:942][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2017.01.13-21.39.51:943][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.01.13-21.39.51:943][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.01.13-21.39.51:943][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M         
+[2017.01.13-21.39.51:943][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.01.13-21.39.51:943][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.01.13-21.39.51:943][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.13-21.39.51:966][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.13-21.39.51:986][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.01.13-21.39.51:986][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/11008/).
+[2017.01.13-21.39.51:986][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alquesh/AppData/Local/Temp/UnrealShaderWorkingDir/790668EA42B9FD473E8AF9B26257B290/'.
+[2017.01.13-21.39.51:986][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.13-21.39.53:166][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.13-21.39.53:176][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.13-21.39.53:188][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.13-21.39.53:198][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.13-21.39.53:208][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.13-21.39.53:218][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.13-21.39.53:226][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.13-21.39.53:237][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.13-21.39.53:250][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.13-21.39.53:259][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.13-21.39.53:268][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.13-21.39.53:288][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.13-21.39.53:288][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.13-21.39.53:289][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.13-21.39.53:316][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.13-21.39.53:324][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.13-21.39.53:333][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.13-21.39.53:341][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.13-21.39.53:351][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.13-21.39.53:351][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.13-21.39.53:446][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.13-21.39.53:509][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/Alquesh/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.13-21.39.53:509][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alquesh/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.13-21.39.53:510][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.13-21.39.53:510][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.13-21.39.53:510][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.13-21.39.53:510][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.13-21.39.53:528][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.13-21.39.53:541][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alquesh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.13-21.39.53:753][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.13-21.39.53:754][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.13-21.39.53:947][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.13-21.39.53:947][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.13-21.39.53:947][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.13-21.39.54:261][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.01.13-21.39.54:289][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.023317 seconds
+[2017.01.13-21.39.54:298][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.13-21.39.54:298][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.01.13-21.39.54:298][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.13-21.39.54:308][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.13-21.39.54:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.13-21.39.54:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.13-21.39.55:299][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.13-21.39.55:545][  0]SourceControl: Info Source control is disabled
+[2017.01.13-21.39.55:863][  0]LogEngine: Initializing Engine...
+[2017.01.13-21.39.55:865][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.13-21.39.55:866][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.13-21.39.56:028][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.13-21.39.56:033][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.13-21.39.56:050][  0]LogInit: FAudioDevice initialized.
+[2017.01.13-21.39.56:089][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Alquesh/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.13-21.39.56:098][  0]LogInit: Texture streaming: Enabled
+[2017.01.13-21.39.56:132][  0]LogInit: Transaction tracking system initialized
+[2017.01.13-21.39.56:160][  0]BlueprintLog: New page: Editor Load
+[2017.01.13-21.39.56:246][  0]LocalizationService: Info Localization service is disabled
+[2017.01.13-21.39.56:318][  0]LogConsoleResponse:Display: 
+[2017.01.13-21.39.56:453][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.13-21.39.56:453][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.13-21.39.56:595][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/' took 0.05s
+[2017.01.13-21.39.56:595][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.13-21.39.56:596][  0]LightingResults: New page: Lighting Build
+[2017.01.13-21.39.56:598][  0]MapCheck: New page: Map Check
+[2017.01.13-21.39.56:599][  0]LightingResults: New page: Lighting Build
+[2017.01.13-21.39.57:981][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.13-21.39.58:033][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.13-21.39.58:037][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.13-21.39.58:121][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.998ms to complete.
+[2017.01.13-21.39.58:121][  0]LogFileHelpers: Loading map 'Map' took 1.527
+[2017.01.13-21.39.58:319][  0]LogCollectionManager: Loaded 0 collections in 0.001834 seconds
+[2017.01.13-21.39.58:367][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.13-21.39.58:367][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Developers/Alquesh/Collections/' took 0.01s
+[2017.01.13-21.39.58:367][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.13-21.39.58:367][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.01.13-21.39.58:377][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2047 classes and 369 folders.
+[2017.01.13-21.39.58:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.13-21.39.58:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.13-21.39.58:383][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.01.13-21.39.58:388][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.13-21.39.58:449][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.01.13-21.39.58:453][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.13-21.39.58:530][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.13-21.39.58:535][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.13-21.39.58:564][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.13-21.39.58:564][  0]LogLoad: Full Startup: 8.00 seconds (BP compile: 0.45 seconds)
+[2017.01.13-21.39.58:564][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.13-21.39.58:585][  0]LogOcInput: OculusInput pre-init called
+[2017.01.13-21.39.58:618][  0]LogContentStreaming: Texture pool size now 700 MB
+[2017.01.13-21.39.58:866][  0]LogRenderer: Reallocating scene render targets to support 1200x624 (Frame:2).
+[2017.01.13-21.39.59:032][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.13-21.39.59:195][  3]LogAssetRegistry: Asset discovery search completed in 4.9551 seconds
+[2017.01.13-21.39.59:195][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.01.13-21.39.59:195][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.01.13-21.40.08:940][401]LogTexture:Display: Building textures: T_Char_M_FrostGiant_N (BC5)
+[2017.01.13-21.40.09:934][401]LogTexture:Display: Building textures: T_Char_M_FrostGiant_D (DXT1)
+[2017.01.13-21.40.15:983][401]LogTexture:Display: Building textures: T_Char_M_FrostGiant_Masks (AutoDXT)
+[2017.01.13-21.40.16:392][401]LogTexture:Display: Building textures: T_Char_M_FrostGiant_MaterialMask (AutoDXT)
+[2017.01.13-21.40.16:692][401]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.01.13-21.40.17:410][401]LogRenderer: Reallocating scene render targets to support 1200x880 (Frame:7).
+[2017.01.13-21.40.35:342][741]LogRenderer: Reallocating scene render targets to support 1200x916 (Frame:456).
+[2017.01.13-21.43.24:852][675]LogSavePackage: Save=31.57ms
+[2017.01.13-21.43.24:852][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_AnthraciteAxe1_DE014369245CB8E64474F6480C5EF1CCE.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe1_D.uasset'
+[2017.01.13-21.43.24:857][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe1_D.uasset
+[2017.01.13-21.43.24:890][675]LogSavePackage: Save=6.43ms
+[2017.01.13-21.43.24:890][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_AnthraciteAxe1_M4C6DD8484FAA6AC6B6EC849AEA5DA22D.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe1_M.uasset'
+[2017.01.13-21.43.24:897][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe1_M.uasset
+[2017.01.13-21.43.24:937][675]LogSavePackage: Save=14.96ms
+[2017.01.13-21.43.24:937][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_AnthraciteAxe1_N072E7EAF419419398F2F438A117051F8.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe1_N.uasset'
+[2017.01.13-21.43.24:942][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe1_N.uasset
+[2017.01.13-21.43.24:989][675]LogSavePackage: Save=22.28ms
+[2017.01.13-21.43.24:989][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_AnthraciteAxe2_D8DEF152B41722ED43750D2B76378D908.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe2_D.uasset'
+[2017.01.13-21.43.24:994][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe2_D.uasset
+[2017.01.13-21.43.25:016][675]LogSavePackage: Save=7.69ms
+[2017.01.13-21.43.25:016][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_AnthraciteAxe2_MF30E598040B4B03513D512AB8FFED161.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe2_M.uasset'
+[2017.01.13-21.43.25:021][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe2_M.uasset
+[2017.01.13-21.43.25:051][675]LogSavePackage: Save=12.25ms
+[2017.01.13-21.43.25:051][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_AnthraciteAxe2_NC1AE1C4145AB1285F74D4D81C51D5FE6.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe2_N.uasset'
+[2017.01.13-21.43.25:056][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/T_Blade_AnthraciteAxe2_N.uasset
+[2017.01.13-21.43.25:100][675]LogSavePackage: Save=19.13ms
+[2017.01.13-21.43.25:100][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/M_Blade_AnthraciteAxe89163CEF4B91668FBBBE10B217D8032B.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/M_Blade_AnthraciteAxe.uasset'
+[2017.01.13-21.43.25:106][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/M_Blade_AnthraciteAxe.uasset
+[2017.01.13-21.43.25:123][675]LogSavePackage: Save=5.68ms
+[2017.01.13-21.43.25:123][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_AnthraciteAxe_Physics800495884A60168191CC7794F5FF4871.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe_Physics.uasset'
+[2017.01.13-21.43.25:129][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe_Physics.uasset
+[2017.01.13-21.43.25:143][675]LogSavePackage: Save=2.30ms
+[2017.01.13-21.43.25:143][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_AnthraciteAxe_SkeletonE12ACC8D4B5BE60AE6A99B978CAF0439.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe_Skeleton.uasset'
+[2017.01.13-21.43.25:150][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe_Skeleton.uasset
+[2017.01.13-21.43.25:189][675]LogSavePackage: Save=14.41ms
+[2017.01.13-21.43.25:189][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_AnthraciteAxeCCC01D9D4E0EDEC4F763F9BA11DA1D74.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe.uasset'
+[2017.01.13-21.43.25:194][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe.uasset
+[2017.01.13-21.43.25:230][675]LogSavePackage: Save=2.69ms
+[2017.01.13-21.43.25:230][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_AnthraciteAxe8D3FEAA343EBE39670AF63826BCA794E.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe.uasset'
+[2017.01.13-21.43.25:235][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Blade_AnthraciteAxe/SK_Blade_AnthraciteAxe.uasset
+[2017.01.13-21.43.25:916][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ItemDataTable" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset" SILENT=true
+[2017.01.13-21.43.25:946][675]LogSavePackage: Save=6.06ms
+[2017.01.13-21.43.25:946][675]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/ItemDataTableBA7EFE7F499A931DA19C2D834AFC099A.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset'
+[2017.01.13-21.43.25:949][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset
+[2017.01.13-21.43.48:176][662]LogSavePackage: Save=23.05ms
+[2017.01.13-21.43.48:176][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_BlackKnight_Sword1_D96957C00443D386C9A00B7801AEF5A2D.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword1_D.uasset'
+[2017.01.13-21.43.48:183][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword1_D.uasset
+[2017.01.13-21.43.48:206][662]LogSavePackage: Save=6.86ms
+[2017.01.13-21.43.48:206][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_BlackKnight_Sword1_M73E10B334605C3107B5AE6A8FDAAB716.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword1_M.uasset'
+[2017.01.13-21.43.48:212][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword1_M.uasset
+[2017.01.13-21.43.48:251][662]LogSavePackage: Save=18.48ms
+[2017.01.13-21.43.48:251][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_BlackKnight_Sword1_N58E700424F0FBDD7133FF9A6BF8CCF99.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword1_N.uasset'
+[2017.01.13-21.43.48:257][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword1_N.uasset
+[2017.01.13-21.43.48:299][662]LogSavePackage: Save=22.38ms
+[2017.01.13-21.43.48:299][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_BlackKnight_Sword2_D2D2E91D048135381CA246B9D664467CD.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword2_D.uasset'
+[2017.01.13-21.43.48:305][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword2_D.uasset
+[2017.01.13-21.43.48:329][662]LogSavePackage: Save=6.68ms
+[2017.01.13-21.43.48:329][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_BlackKnight_Sword2_M96BEE0C04EECF14FB217E29646B0400B.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword2_M.uasset'
+[2017.01.13-21.43.48:334][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword2_M.uasset
+[2017.01.13-21.43.48:369][662]LogSavePackage: Save=17.36ms
+[2017.01.13-21.43.48:369][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/T_Blade_BlackKnight_Sword2_N5F6CC4D14E55536AEAD70893D3F34973.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword2_N.uasset'
+[2017.01.13-21.43.48:375][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/T_Blade_BlackKnight_Sword2_N.uasset
+[2017.01.13-21.43.48:418][662]LogSavePackage: Save=19.10ms
+[2017.01.13-21.43.48:418][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/M_Blade_BlackKnightE126FFDD431B97D43B1FEA8E7D1EEF11.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/M_Blade_BlackKnight.uasset'
+[2017.01.13-21.43.48:425][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/M_Blade_BlackKnight.uasset
+[2017.01.13-21.43.48:439][662]LogSavePackage: Save=5.29ms
+[2017.01.13-21.43.48:439][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight_Physics08C57EFB4CA1AA2EEC07E1BD939FD034.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/SK_Blade_BlackKnight_Physics.uasset'
+[2017.01.13-21.43.48:446][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/SK_Blade_BlackKnight_Physics.uasset
+[2017.01.13-21.43.48:456][662]LogSavePackage: Save=2.29ms
+[2017.01.13-21.43.48:456][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight_Skeleton476E06AB4F14D40E3A4B24AE036B8DA6.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/SK_Blade_BlackKnight_Skeleton.uasset'
+[2017.01.13-21.43.48:461][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/SK_Blade_BlackKnight_Skeleton.uasset
+[2017.01.13-21.43.48:499][662]LogSavePackage: Save=13.31ms
+[2017.01.13-21.43.48:499][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight83B3DAA34CB3EA1828AB1A905D446BF1.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/SK_Blade_BlackKnight.uasset'
+[2017.01.13-21.43.48:505][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Waffen/Blade_BlackKnight/SK_Blade_BlackKnight.uasset
+[2017.01.13-21.43.49:215][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ItemDataTable" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset" SILENT=true
+[2017.01.13-21.43.49:240][662]LogSavePackage: Save=2.60ms
+[2017.01.13-21.43.49:240][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/ItemDataTableA05721144003C2D3602DCEBB55A1C7A5.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset'
+[2017.01.13-21.43.49:242][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset
+[2017.01.13-21.43.49:274][662]LogSavePackage: Save=4.52ms
+[2017.01.13-21.43.49:274][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Mann_Skeleton2E1CD0204F9F55B47AC5B48171DA9A94.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Character/Mann_Skeleton.uasset'
+[2017.01.13-21.43.49:276][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Character/Mann_Skeleton.uasset
+[2017.01.13-21.43.49:309][662]LogSavePackage: Save=2.24ms
+[2017.01.13-21.43.49:309][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/SK_Blade_BlackKnight7EBEB50E414FD3BBBE23B68C8FB68EE7.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.uasset'
+[2017.01.13-21.43.49:312][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.uasset
+[2017.01.13-21.43.49:332][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Item" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Item.uasset" SILENT=true
+[2017.01.13-21.43.49:419][662]LogSavePackage: Save=66.04ms
+[2017.01.13-21.43.49:419][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Item72282CDB428596691C1F8B8FC15F45DC.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Item.uasset'
+[2017.01.13-21.43.49:423][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/Item.uasset
+[2017.01.13-21.43.49:427][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ItemDataTable" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset" SILENT=true
+[2017.01.13-21.43.49:451][662]LogSavePackage: Save=2.49ms
+[2017.01.13-21.43.49:451][662]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/ItemDataTableF10C58CD4A97B99F11A0A38657DD0A32.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset'
+[2017.01.13-21.43.49:455][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Items/ItemDataTable.uasset
+[2017.01.13-21.44.01:704][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.13-21.44.01:704][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.13-21.44.01:704][114]PIE: New page: PIE session: Map (Jan 13, 2017, 11:44:01 PM)
+[2017.01.13-21.44.01:704][114]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.13-21.44.01:760][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055568s)
+[2017.01.13-21.44.01:761][114]LogAIModule: Creating AISystem for world Map
+[2017.01.13-21.44.01:761][114]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2017.01.13-21.44.01:762][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.057514s)
+[2017.01.13-21.44.01:790][114]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition A
