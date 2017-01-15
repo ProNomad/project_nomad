@@ -1,0 +1,394 @@
+﻿Log file open, 01/15/17 11:08:06
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(559289782) SRandInit(559289783).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076214
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.15-10.08.06:112][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.15-10.08.06:112][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.15-10.08.06:122][  0]LogInit: Computer: DEX
+[2017.01.15-10.08.06:122][  0]LogInit: User: Dextex
+[2017.01.15-10.08.06:122][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.15-10.08.06:122][  0]LogInit: High frequency timer resolution =3.417984 MHz
+[2017.01.15-10.08.06:122][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.15-10.08.06:122][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.15-10.08.06:122][  0]LogMemory: Process Physical Memory: 191.84 MB used, 191.84 MB peak
+[2017.01.15-10.08.06:122][  0]LogMemory: Process Virtual Memory: 195.27 MB used, 195.27 MB peak
+[2017.01.15-10.08.06:122][  0]LogMemory: Physical Memory: 8525.10 MB used, 16328.00 MB total
+[2017.01.15-10.08.06:122][  0]LogMemory: Virtual Memory: 553.48 MB used, 134217728.00 MB total
+[2017.01.15-10.08.06:167][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.15-10.08.06:551][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.15-10.08.07:069][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.15-10.08.07:069][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.15-10.08.07:071][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.15-10.08.07:071][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.15-10.08.07:071][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.15-10.08.07:076][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.15-10.08.07:076][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.15-10.08.07:076][  0]LogWindows: EnumDisplayDevices:
+[2017.01.15-10.08.07:076][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.15-10.08.07:076][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.01.15-10.08.07:077][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.15-10.08.07:077][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.15-10.08.07:077][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.15-10.08.07:077][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.15-10.08.07:077][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.15-10.08.07:077][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.15-10.08.07:077][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.15-10.08.07:557][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.15-10.08.07:584][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.15-10.08.07:585][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/8968/).
+[2017.01.15-10.08.07:585][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/21792272441F9730780B99A6C89F33EA/'.
+[2017.01.15-10.08.07:585][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.15-10.08.08:473][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.15-10.08.08:483][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.15-10.08.08:493][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.15-10.08.08:504][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.15-10.08.08:514][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.15-10.08.08:522][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.15-10.08.08:531][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.15-10.08.08:539][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.15-10.08.08:547][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.15-10.08.08:555][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.15-10.08.08:563][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.15-10.08.08:580][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.15-10.08.08:580][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.15-10.08.08:582][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.15-10.08.08:607][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.15-10.08.08:615][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.15-10.08.08:623][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.15-10.08.08:631][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.15-10.08.08:640][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.15-10.08.08:640][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.15-10.08.08:750][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.15-10.08.08:795][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.15-10.08.08:795][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.15-10.08.08:795][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.15-10.08.08:795][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.15-10.08.08:795][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.15-10.08.08:795][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.15-10.08.08:811][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.15-10.08.08:822][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.15-10.08.08:970][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.15-10.08.08:971][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.15-10.08.09:107][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.15-10.08.09:107][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.15-10.08.09:107][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.15-10.08.09:345][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2017.01.15-10.08.09:358][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.010229 seconds
+[2017.01.15-10.08.09:363][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.15-10.08.09:363][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.01.15-10.08.09:363][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.15-10.08.09:373][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.15-10.08.09:566][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.15-10.08.09:566][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.15-10.08.10:121][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.15-10.08.10:332][  0]SourceControl: Info Source control is disabled
+[2017.01.15-10.08.10:667][  0]LogEngine: Initializing Engine...
+[2017.01.15-10.08.10:670][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.15-10.08.10:672][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.15-10.08.10:793][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.15-10.08.10:807][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.15-10.08.10:823][  0]LogInit: FAudioDevice initialized.
+[2017.01.15-10.08.10:850][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.15-10.08.10:858][  0]LogInit: Texture streaming: Enabled
+[2017.01.15-10.08.10:894][  0]LogInit: Transaction tracking system initialized
+[2017.01.15-10.08.10:929][  0]BlueprintLog: New page: Editor Load
+[2017.01.15-10.08.11:065][  0]LocalizationService: Info Localization service is disabled
+[2017.01.15-10.08.11:145][  0]LogConsoleResponse:Display: 
+[2017.01.15-10.08.11:228][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.15-10.08.11:228][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.15-10.08.11:346][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.02s
+[2017.01.15-10.08.11:346][  0]Cmd: MAP LOAD FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.15-10.08.11:346][  0]LightingResults: New page: Lighting Build
+[2017.01.15-10.08.11:349][  0]MapCheck: New page: Map Check
+[2017.01.15-10.08.11:349][  0]LightingResults: New page: Lighting Build
+[2017.01.15-10.08.12:096][  0]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.08.12:097][  0]LogLinker:Warning: Can't find file for asset '/Game/Waffen/Axt' while loading ../../../../../../MP2/project_nomad/Project_Nomand/Content/HUD/HUD_Bars.uasset.
+[2017.01.15-10.08.12:097][  0]LoadErrors:Error: Error /Game/HUD/HUD_Bars : Can't find file for asset. /Game/Waffen/Axt
+[2017.01.15-10.08.12:097][  0]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.08.12:097][  0]LogLinker:Warning: Can't find file for asset '/Game/Waffen/Axt' while loading ../../../../../../MP2/project_nomad/Project_Nomand/Content/HUD/HUD_Bars.uasset.
+[2017.01.15-10.08.12:097][  0]LoadErrors:Error: Error /Game/HUD/HUD_Bars : Can't find file for asset. /Game/Waffen/Axt
+[2017.01.15-10.08.12:097][  0]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.08.12:097][  0]LoadErrors: Info Failed to load /Game/AI/AI_Test_Controler.AI_Test_Controler_C Referenced by Default__Character_Controller_C
+[2017.01.15-10.08.12:097][  0]LogLinker:Warning: Can't find file for asset '/Game/Waffen/Axt' while loading ../../../../../../MP2/project_nomad/Project_Nomand/Content/HUD/HUD_Bars.uasset.
+[2017.01.15-10.08.12:097][  0]LoadErrors: Info Failed to load /Game/AI/AI_Test_Controler.AI_Test_Controler_C Referenced by Default__Character_Controller_C
+[2017.01.15-10.08.12:097][  0]LoadErrors:Error: Error /Game/HUD/HUD_Bars : Can't find file for asset. /Game/Waffen/Axt
+[2017.01.15-10.08.12:265][  0]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.08.12:265][  0]LogLinker:Warning: Can't find file for asset '/Game/Waffen/Axt' while loading ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Blueprint/Character_Controller.uasset.
+[2017.01.15-10.08.12:266][  0]LoadErrors:Error: Error /Game/Character/Blueprint/Character_Controller : Can't find file for asset. /Game/Waffen/Axt
+[2017.01.15-10.08.12:266][  0]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.08.12:266][  0]LogLinker:Warning: Can't find file for asset '/Game/Waffen/Axt' while loading ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Blueprint/Character_Controller.uasset.
+[2017.01.15-10.08.12:266][  0]LoadErrors:Error: Error /Game/Character/Blueprint/Character_Controller : Can't find file for asset. /Game/Waffen/Axt
+[2017.01.15-10.08.13:687][  0]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
+[2017.01.15-10.08.16:055][  0]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2017.01.15-10.08.18:139][  0]LogTexture:Display: Building textures: T_Rock_Sandstone_D (AutoDXT)
+[2017.01.15-10.08.20:251][  0]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2017.01.15-10.08.20:771][  0]LogTexture:Display: Building textures: T_Rock_Sandstone_N (BC5)
+[2017.01.15-10.08.21:238][  0]LogTexture:Display: Building textures: T_Rock_Basalt_N (BC5)
+[2017.01.15-10.08.21:541][  0]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
+[2017.01.15-10.08.21:802][  0]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
+[2017.01.15-10.08.21:835][  0]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2017.01.15-10.08.21:836][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.01.15-10.08.21:843][  0]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
+[2017.01.15-10.08.21:883][  0]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2017.01.15-10.08.21:883][  0]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2017.01.15-10.08.21:884][  0]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2017.01.15-10.08.21:884][  0]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2017.01.15-10.08.21:884][  0]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2017.01.15-10.08.21:884][  0]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2017.01.15-10.08.21:885][  0]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2017.01.15-10.08.21:885][  0]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2017.01.15-10.08.21:885][  0]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2017.01.15-10.08.21:905][  0]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
+[2017.01.15-10.08.21:937][  0]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2017.01.15-10.08.21:938][  0]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2017.01.15-10.08.21:938][  0]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2017.01.15-10.08.21:938][  0]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2017.01.15-10.08.21:938][  0]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2017.01.15-10.08.21:939][  0]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2017.01.15-10.08.21:939][  0]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2017.01.15-10.08.21:939][  0]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2017.01.15-10.08.21:939][  0]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2017.01.15-10.08.21:940][  0]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2017.01.15-10.08.21:940][  0]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2017.01.15-10.08.21:940][  0]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2017.01.15-10.08.21:940][  0]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2017.01.15-10.08.21:941][  0]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2017.01.15-10.08.21:941][  0]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2017.01.15-10.08.21:941][  0]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2017.01.15-10.08.21:941][  0]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2017.01.15-10.08.21:945][  0]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
+[2017.01.15-10.08.21:984][  0]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2017.01.15-10.08.21:984][  0]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2017.01.15-10.08.21:984][  0]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2017.01.15-10.08.21:985][  0]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2017.01.15-10.08.21:985][  0]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2017.01.15-10.08.21:985][  0]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2017.01.15-10.08.21:985][  0]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2017.01.15-10.08.21:986][  0]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2017.01.15-10.08.21:986][  0]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2017.01.15-10.08.21:986][  0]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2017.01.15-10.08.21:986][  0]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2017.01.15-10.08.21:987][  0]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2017.01.15-10.08.21:987][  0]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2017.01.15-10.08.21:987][  0]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2017.01.15-10.08.21:988][  0]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2017.01.15-10.08.21:988][  0]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2017.01.15-10.08.21:988][  0]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2017.01.15-10.08.21:989][  0]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2017.01.15-10.08.21:989][  0]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2017.01.15-10.08.21:989][  0]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2017.01.15-10.08.21:990][  0]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2017.01.15-10.08.21:990][  0]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2017.01.15-10.08.21:990][  0]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2017.01.15-10.08.21:990][  0]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2017.01.15-10.08.21:991][  0]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2017.01.15-10.08.22:002][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.01.15-10.08.22:090][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.01.15-10.08.22:113][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.01.15-10.08.22:153][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.01.15-10.08.22:177][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.01.15-10.08.22:200][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.01.15-10.08.22:218][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2017.01.15-10.08.22:224][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.01.15-10.08.22:327][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.01.15-10.08.22:353][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.01.15-10.08.22:386][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2017.01.15-10.08.22:408][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2017.01.15-10.08.22:438][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2017.01.15-10.08.22:456][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2017.01.15-10.08.22:458][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.01.15-10.08.22:481][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.01.15-10.08.22:509][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.01.15-10.08.22:528][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2017.01.15-10.08.22:551][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.01.15-10.08.22:568][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2017.01.15-10.08.22:575][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.01.15-10.08.22:650][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_137 (G8)
+[2017.01.15-10.08.22:658][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_138 (G8)
+[2017.01.15-10.08.22:659][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_139 (G8)
+[2017.01.15-10.08.22:660][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_140 (G8)
+[2017.01.15-10.08.22:662][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_141 (G8)
+[2017.01.15-10.08.22:663][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_142 (G8)
+[2017.01.15-10.08.22:664][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_143 (G8)
+[2017.01.15-10.08.22:665][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_144 (G8)
+[2017.01.15-10.08.22:669][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_145 (G8)
+[2017.01.15-10.08.22:671][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_146 (G8)
+[2017.01.15-10.08.22:674][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_147 (G8)
+[2017.01.15-10.08.22:676][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_148 (G8)
+[2017.01.15-10.08.22:677][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_149 (G8)
+[2017.01.15-10.08.22:678][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_150 (G8)
+[2017.01.15-10.08.22:694][  0]LogStaticMesh: Building static mesh hut_02...
+[2017.01.15-10.08.22:696][  0]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.15-10.08.23:257][  0]LogStaticMesh: Built static mesh [0.58s] /Game/Models/hut_02.hut_02
+[2017.01.15-10.08.23:271][  0]LogStaticMesh: Building static mesh hut_03...
+[2017.01.15-10.08.23:280][  0]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.15-10.08.23:679][  0]LogStaticMesh: Built static mesh [0.42s] /Game/Models/hut_03.hut_03
+[2017.01.15-10.08.23:680][  0]LogStaticMesh: Building static mesh stone_01...
+[2017.01.15-10.08.23:683][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Models/stone_01.stone_01
+[2017.01.15-10.08.23:684][  0]LogStaticMesh: Building static mesh stone_02...
+[2017.01.15-10.08.23:690][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Models/stone_02.stone_02
+[2017.01.15-10.08.24:317][  0]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2017.01.15-10.08.25:006][  0]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2017.01.15-10.08.28:003][  0]LogTexture:Display: Building textures: T_Wood_Walnut_N (BC5)
+[2017.01.15-10.08.28:543][  0]LogTexture:Display: Building textures: T_Wood_Walnut_D (AutoDXT)
+[2017.01.15-10.08.31:072][  0]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2017.01.15-10.08.31:601][  0]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2017.01.15-10.08.34:047][  0]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2017.01.15-10.08.36:347][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.15-10.08.36:756][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.15-10.08.36:787][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.15-10.08.36:851][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.647ms to complete.
+[2017.01.15-10.08.36:851][  0]LogFileHelpers: Loading map 'Map' took 25.505
+[2017.01.15-10.08.37:257][  0]LogCollectionManager: Loaded 0 collections in 0.003468 seconds
+[2017.01.15-10.08.37:326][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.15-10.08.37:326][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2017.01.15-10.08.37:326][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.15-10.08.37:326][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.01.15-10.08.37:339][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2047 classes and 369 folders.
+[2017.01.15-10.08.37:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.15-10.08.37:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.15-10.08.37:346][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2017.01.15-10.08.37:355][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.01.15-10.08.38:984][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.01.15-10.08.39:058][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.01.15-10.08.39:236][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.15-10.08.39:247][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.15-10.08.39:277][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.01.15-10.08.39:278][  0]LogLoad: Full Startup: 33.91 seconds (BP compile: 0.44 seconds)
+[2017.01.15-10.08.39:278][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.15-10.08.39:287][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.15-10.08.39:287][  0]LogOcInput: OculusInput pre-init called
+[2017.01.15-10.08.39:363][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.15-10.08.39:812][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2017.01.15-10.08.39:920][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.15-10.08.40:019][  2]LogAssetRegistry: Asset discovery search completed in 30.6955 seconds
+[2017.01.15-10.08.40:019][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.15-10.08.40:019][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.01.15-10.09.18:095][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.09.18:095][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-10.09.18:128][201]PIE: New page: PIE session: Map (Jan 15, 2017, 12:09:18 PM)
+[2017.01.15-10.09.18:128][201]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-10.09.18:180][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052180s)
+[2017.01.15-10.09.18:181][201]LogAIModule: Creating AISystem for world Map
+[2017.01.15-10.09.18:181][201]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.01.15-10.09.18:181][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.053039s)
+[2017.01.15-10.09.18:235][201]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.15-10.09.18:246][201]LogInit: FAudioDevice initialized.
+[2017.01.15-10.09.18:368][201]LogWorld: Game class is 'GameMode'
+[2017.01.15-10.09.18:392][201]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-11.09.18
+[2017.01.15-10.09.18:411][201]LogWorld: Bringing up level for play took: 0.027617
+[2017.01.15-10.09.18:437][201]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.01.15-10.09.18:446][201]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.315
+[2017.01.15-10.09.18:446][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.09.18:560][202]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062042 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
+[2017.01.15-10.11.28:819][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.11.28:893][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.11.38:649][862]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.01.15-10.13.25:630][883]BlueprintLog: New page: Compile Character_Controller
+[2017.01.15-10.13.25:829][883]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Map/Map.Map:PersistentLevel.Character_Controller_536.CollisionCylinder is already used by CapsuleComponent /Game/Map/Map.Map:PersistentLevel.REINST_Character_Controller_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.01.15-10.13.25:830][883]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Map/Map.Map:PersistentLevel.Character_Controller_536.Arrow is already used by ArrowComponent /Game/Map/Map.Map:PersistentLevel.REINST_Character_Controller_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.01.15-10.13.25:830][883]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Map/Map.Map:PersistentLevel.Character_Controller_536.CharMoveComp is already used by CharacterMovementComponent /Game/Map/Map.Map:PersistentLevel.REINST_Character_Controller_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.01.15-10.13.25:830][883]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Map/Map.Map:PersistentLevel.Character_Controller_536.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Map/Map.Map:PersistentLevel.REINST_Character_Controller_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.01.15-10.13.26:156][883]BlueprintEditorCompileResults: Info [0320.79] Compile of Character_Controller successful! [in 525 ms] (/Game/Character/Blueprint/Character_Controller.Character_Controller)
+[2017.01.15-10.13.38:864][741]BlueprintLog: New page: Compile Character_Controller
+[2017.01.15-10.13.39:145][741]BlueprintEditorCompileResults: Info [0333.77] Compile of Character_Controller successful! [in 280 ms] (/Game/Character/Blueprint/Character_Controller.Character_Controller)
+[2017.01.15-10.13.54:171][534]BlueprintLog: New page: Compile Character_Controller
+[2017.01.15-10.13.54:743][534]BlueprintEditorCompileResults: Info [0349.37] Compile of Character_Controller successful! [in 572 ms] (/Game/Character/Blueprint/Character_Controller.Character_Controller)
+[2017.01.15-10.13.55:652][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Blueprint/Character_Controller" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Blueprint/Character_Controller.uasset" SILENT=true
+[2017.01.15-10.13.55:875][567]LogSavePackage: Save=215.16ms
+[2017.01.15-10.13.55:875][567]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Character_ControllerC703317443092CA0E3C69EA1DC8125D6.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Blueprint/Character_Controller.uasset'
+[2017.01.15-10.13.55:877][567]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Blueprint/Character_Controller.uasset
+[2017.01.15-10.14.10:445][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_01)
+[2017.01.15-10.14.25:588][890]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.14.25:588][890]LogLinker:Warning: Can't find file '/Game/Waffen/Axt'
+[2017.01.15-10.14.25:589][890]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Waffen/Axt.Axt'
+[2017.01.15-10.14.25:697][890]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.01.15-10.14.25:843][890]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.15-10.15.06:951][677]BlueprintLog: New page: Compile Character_Controller
+[2017.01.15-10.15.07:243][677]BlueprintEditorCompileResults: Info [0421.87] Compile of Character_Controller successful! [in 291 ms] (/Game/Character/Blueprint/Character_Controller.Character_Controller)
+[2017.01.15-10.15.56:278][ 65]LogEditorTransaction: Undo Move Node
+[2017.01.15-10.16.18:036][ 66]BlueprintLog: New page: Compile Character_Controller
+[2017.01.15-10.16.18:325][ 66]BlueprintEditorCompileResults: Info [0492.95] Compile of Character_Controller successful! [in 288 ms] (/Game/Character/Blueprint/Character_Controller.Character_Controller)
+[2017.01.15-10.16.28:591][ 90]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.16.28:591][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-10.16.28:591][ 90]PIE: New page: PIE session: Map (Jan 15, 2017, 12:16:28 PM)
+[2017.01.15-10.16.28:591][ 90]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-10.16.28:624][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032646s)
+[2017.01.15-10.16.28:624][ 90]LogAIModule: Creating AISystem for world Map
+[2017.01.15-10.16.28:625][ 90]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.01.15-10.16.28:625][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.033590s)
+[2017.01.15-10.16.28:652][ 90]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.15-10.16.28:663][ 90]LogInit: FAudioDevice initialized.
+[2017.01.15-10.16.28:712][ 90]LogWorld: Game class is 'GameMode'
+[2017.01.15-10.16.28:723][ 90]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-11.16.28
+[2017.01.15-10.16.28:724][ 90]LogWorld: Bringing up level for play took: 0.010593
+[2017.01.15-10.16.28:726][ 90]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.595
+[2017.01.15-10.16.28:726][ 90]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.16.32:862][579]LogBlueprintUserMessages: [InventoryWidget_C_0] Hello
+[2017.01.15-10.16.38:417][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.16.38:487][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-10.16.43:670][465]LogEditorTransaction: Undo Create Actors
+[2017.01.15-10.16.44:070][479]LogEditorTransaction: Undo Move Node
+[2017.01.15-10.16.44:460][482]LogEditorTransaction: Undo Move Node
+[2017.01.15-10.16.44:882][487]LogEditorTransaction: Undo Move Node
+[2017.01.15-10.16.45:332][493]LogEditorTransaction: Undo Move Node
+[2017.01.15-10.16.45:810][500]LogEditorTransaction: Undo Move Node
+[2017.01.15-10.16.45:827][500]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.01.15-10.16.46:573][500]LogCrashTracker: 
+
+
+[2017.01.15-10.16.46:573][500]LogCrashTracker: 
+
+
+[2017.01.15-10.16.46:574][500]LogWindows:Error: === Critical error: ===
+Fatal error: [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 11] 
+Cast of Package /Engine/Transient to EdGraphNode failed
+
+
+
+
+[2017.01.15-10.16.46:598][500]LogExit: Executing StaticShutdownAfterError
+[2017.01.15-10.16.46:603][500]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.01.15-10.16.46:603][500]Log file closed, 01/15/17 11:16:46
