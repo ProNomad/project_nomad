@@ -1,0 +1,504 @@
+﻿Log file open, 01/15/17 19:27:29
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1100445334) SRandInit(1100445335).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.191060
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.15-18.27.29:377][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.15-18.27.29:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.15-18.27.29:387][  0]LogInit: Computer: DEX
+[2017.01.15-18.27.29:387][  0]LogInit: User: Dextex
+[2017.01.15-18.27.29:387][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.15-18.27.29:387][  0]LogInit: High frequency timer resolution =3.417976 MHz
+[2017.01.15-18.27.29:387][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.15-18.27.29:387][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.15-18.27.29:387][  0]LogMemory: Process Physical Memory: 206.39 MB used, 206.91 MB peak
+[2017.01.15-18.27.29:387][  0]LogMemory: Process Virtual Memory: 200.02 MB used, 200.02 MB peak
+[2017.01.15-18.27.29:387][  0]LogMemory: Physical Memory: 8146.00 MB used, 16328.00 MB total
+[2017.01.15-18.27.29:387][  0]LogMemory: Virtual Memory: 619.99 MB used, 134217728.00 MB total
+[2017.01.15-18.27.29:452][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.15-18.27.29:890][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.15-18.27.30:454][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.15-18.27.30:454][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.15-18.27.30:457][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.15-18.27.30:457][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.15-18.27.30:457][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.15-18.27.30:464][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.15-18.27.30:464][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.15-18.27.30:464][  0]LogWindows: EnumDisplayDevices:
+[2017.01.15-18.27.30:464][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.15-18.27.30:465][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.01.15-18.27.30:465][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.15-18.27.30:465][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.15-18.27.30:465][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.15-18.27.30:465][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.15-18.27.30:465][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.15-18.27.30:465][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.15-18.27.30:465][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.15-18.27.30:996][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.15-18.27.31:033][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.15-18.27.31:034][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/2524/).
+[2017.01.15-18.27.31:034][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/F833A3DB497C515FA94267BAC0DA7696/'.
+[2017.01.15-18.27.31:034][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.15-18.27.32:669][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.15-18.27.32:682][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.15-18.27.32:694][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.15-18.27.32:706][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.15-18.27.32:720][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.15-18.27.32:748][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.15-18.27.32:758][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.15-18.27.32:768][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.15-18.27.32:778][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.15-18.27.32:793][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.15-18.27.32:804][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.15-18.27.32:825][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.15-18.27.32:825][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.15-18.27.32:829][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.15-18.27.32:980][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.15-18.27.32:990][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.15-18.27.32:999][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.15-18.27.33:009][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.15-18.27.33:045][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.15-18.27.33:045][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.15-18.27.34:287][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.15-18.27.34:539][  0]LogDerivedDataCache: Loaded boot cache 0.25s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.15-18.27.34:540][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.15-18.27.34:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.15-18.27.34:540][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.15-18.27.34:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.15-18.27.34:540][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.15-18.27.34:626][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.15-18.27.34:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.15-18.27.41:151][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.15-18.27.41:153][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.15-18.27.42:099][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.15-18.27.42:099][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.15-18.27.42:099][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.15-18.27.44:272][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.01.15-18.27.44:319][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.025613 seconds
+[2017.01.15-18.27.44:325][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.15-18.27.44:325][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.01.15-18.27.44:325][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.15-18.27.44:356][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.15-18.27.48:752][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.15-18.27.48:752][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.15-18.28.03:528][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.15-18.28.05:322][  0]SourceControl: Info Source control is disabled
+[2017.01.15-18.28.07:275][  0]LogEngine: Initializing Engine...
+[2017.01.15-18.28.07:430][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.15-18.28.07:433][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.15-18.28.08:187][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.15-18.28.08:227][  0]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.28.08:260][  0]LogInit: FAudioDevice initialized.
+[2017.01.15-18.28.08:287][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.15-18.28.08:317][  0]LogInit: Texture streaming: Enabled
+[2017.01.15-18.28.08:538][  0]LogInit: Transaction tracking system initialized
+[2017.01.15-18.28.08:750][  0]BlueprintLog: New page: Editor Load
+[2017.01.15-18.28.10:095][  0]LocalizationService: Info Localization service is disabled
+[2017.01.15-18.28.10:710][  0]LogConsoleResponse:Display: 
+[2017.01.15-18.28.12:850][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.15-18.28.12:850][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.15-18.28.13:161][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.03s
+[2017.01.15-18.28.14:299][  0]Cmd: MAP LOAD FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.15-18.28.14:300][  0]LightingResults: New page: Lighting Build
+[2017.01.15-18.28.14:305][  0]MapCheck: New page: Map Check
+[2017.01.15-18.28.14:305][  0]LightingResults: New page: Lighting Build
+[2017.01.15-18.28.16:144][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.28.16:749][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.28.16:761][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.15-18.28.16:766][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.15-18.28.16:812][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.972ms to complete.
+[2017.01.15-18.28.16:812][  0]LogFileHelpers: Loading map 'Map' took 2.512
+[2017.01.15-18.28.17:236][  0]LogCollectionManager: Loaded 0 collections in 0.002333 seconds
+[2017.01.15-18.28.17:300][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.15-18.28.17:300][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2017.01.15-18.28.17:300][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.15-18.28.17:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.01.15-18.28.17:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2047 classes and 369 folders.
+[2017.01.15-18.28.17:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.15-18.28.17:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.15-18.28.17:314][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.01.15-18.28.17:319][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.01.15-18.28.19:185][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.15-18.28.19:253][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.15-18.28.19:432][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.15-18.28.19:438][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.15-18.28.19:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.15-18.28.19:511][  0]LogLoad: Full Startup: 51.24 seconds (BP compile: 0.53 seconds)
+[2017.01.15-18.28.19:511][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.15-18.28.19:851][  0]LogOcInput: OculusInput pre-init called
+[2017.01.15-18.28.19:871][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.15-18.28.20:267][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2017.01.15-18.28.20:326][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.15-18.28.20:676][  2]LogAssetRegistry: Asset discovery search completed in 36.4257 seconds
+[2017.01.15-18.28.20:676][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.15-18.28.20:677][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000113 seconds (updated 0 objects)
+[2017.01.15-18.35.04:938][168]MapCheck: New page: Map Check
+[2017.01.15-18.35.04:958][168]Cmd: MAP REBUILD ALLVISIBLE
+[2017.01.15-18.35.04:958][168]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.01.15-18.35.05:055][168]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.35.05:195][168]LightingResults: New page: Lighting Build - Jan 15, 2017, 8:35:05 PM
+[2017.01.15-18.35.05:431][168]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.01.15-18.35.05:685][168]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.01.15-18.35.05:703][168]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.01.15-18.35.06:811][168]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.01.15-18.35.06:811][168]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2524
+[2017.01.15-18.35.09:403][168]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.01.15-18.35.09:404][168]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.01.15-18.35.09:404][168]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.01.15-18.35.09:404][168]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.01.15-18.35.09:404][168]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.01.15-18.35.09:404][168]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.01.15-18.35.09:633][168]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.01.15-18.35.09:633][168]MapCheck: New page: Map - Jan 15, 2017, 8:35:09 PM
+[2017.01.15-18.35.09:634][168]MapCheck:Error: Error Cube_26 Cube_26 : Invalid DrawScale/DrawScale3D 
+[2017.01.15-18.35.09:635][168]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.01.15-18.35.09:682][168]MapCheck: Info Map check complete: 2 Error(s), 0 Warning(s), took 48.626ms to complete.
+[2017.01.15-18.35.09:704][168]LogEditorBuildUtils: Build time 0:04
+[2017.01.15-18.35.09:802][169]Cmd: UpdateLandscapeEditorData
+[2017.01.15-18.35.31:899][581]Cmd: TRANSACTION UNDO
+[2017.01.15-18.35.31:899][581]LogEditorTransaction: Undo Move Actors
+[2017.01.15-18.35.31:900][581]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.35.31:900][581]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.35.45:818][995]MapCheck: New page: Map Check
+[2017.01.15-18.35.45:828][995]LightingResults: New page: Lighting Build - Jan 15, 2017, 8:35:45 PM
+[2017.01.15-18.35.45:852][995]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.01.15-18.35.45:854][995]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.01.15-18.35.45:854][995]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.01.15-18.35.45:855][995]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.01.15-18.35.45:855][995]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2524
+[2017.01.15-18.35.45:981][995]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.01.15-18.35.45:981][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.01.15-18.35.45:981][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.01.15-18.35.45:981][995]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.01.15-18.35.45:981][995]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.01.15-18.35.45:981][995]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.01.15-18.35.46:060][995]LogEditorBuildUtils: Build time 0:00
+[2017.01.15-18.35.47:854][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.35.47:854][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-18.35.47:855][203]PIE: New page: PIE session: Map (Jan 15, 2017, 8:35:47 PM)
+[2017.01.15-18.35.47:855][203]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-18.35.47:896][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041706s)
+[2017.01.15-18.35.47:897][203]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.35.47:897][203]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2017.01.15-18.35.47:897][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.042733s)
+[2017.01.15-18.35.47:964][203]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.35.47:983][203]LogInit: FAudioDevice initialized.
+[2017.01.15-18.35.48:126][203]LogWorld: Game class is 'GameMode'
+[2017.01.15-18.35.48:137][203]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.35.48:138][203]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-19.35.48
+[2017.01.15-18.35.48:140][203]LogWorld: Bringing up level for play took: 0.012146
+[2017.01.15-18.35.48:144][203]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.01.15-18.35.48:146][203]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.015
+[2017.01.15-18.35.48:146][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.35.53:249][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.35.53:380][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.35.58:266][326]MapCheck: New page: Map Check
+[2017.01.15-18.35.58:278][326]LightingResults: New page: Lighting Build - Jan 15, 2017, 8:35:58 PM
+[2017.01.15-18.35.58:301][326]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.01.15-18.35.58:303][326]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.01.15-18.35.58:303][326]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.01.15-18.35.58:304][326]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.01.15-18.35.58:304][326]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2524
+[2017.01.15-18.35.58:306][326]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.01.15-18.35.58:306][326]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.01.15-18.35.58:306][326]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.01.15-18.35.58:306][326]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.01.15-18.35.58:306][326]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.01.15-18.35.58:306][326]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.01.15-18.35.58:387][326]LogEditorBuildUtils: Build time 0:00
+[2017.01.15-18.35.59:971][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.35.59:971][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-18.35.59:971][508]PIE: New page: PIE session: Map (Jan 15, 2017, 8:35:59 PM)
+[2017.01.15-18.35.59:971][508]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-18.36.00:010][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038741s)
+[2017.01.15-18.36.00:011][508]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.36.00:011][508]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.01.15-18.36.00:011][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.040030s)
+[2017.01.15-18.36.00:039][508]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.36.00:058][508]LogInit: FAudioDevice initialized.
+[2017.01.15-18.36.00:114][508]LogWorld: Game class is 'GameMode'
+[2017.01.15-18.36.00:123][508]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.36.00:124][508]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-19.36.00
+[2017.01.15-18.36.00:125][508]LogWorld: Bringing up level for play took: 0.010341
+[2017.01.15-18.36.00:128][508]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.003
+[2017.01.15-18.36.00:129][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.05:111][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.05:201][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.15:282][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.15:282][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-18.36.15:283][210]PIE: New page: PIE session: Map (Jan 15, 2017, 8:36:15 PM)
+[2017.01.15-18.36.15:283][210]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-18.36.15:320][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037137s)
+[2017.01.15-18.36.15:320][210]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.36.15:321][210]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2017.01.15-18.36.15:321][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.038245s)
+[2017.01.15-18.36.15:352][210]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.36.15:369][210]LogInit: FAudioDevice initialized.
+[2017.01.15-18.36.15:421][210]LogWorld: Game class is 'GameMode'
+[2017.01.15-18.36.15:431][210]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.36.15:433][210]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-19.36.15
+[2017.01.15-18.36.15:434][210]LogWorld: Bringing up level for play took: 0.011491
+[2017.01.15-18.36.15:435][210]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.696
+[2017.01.15-18.36.15:435][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.18:605][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.18:644][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.23:467][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.23:467][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-18.36.23:467][127]PIE: New page: PIE session: Map (Jan 15, 2017, 8:36:23 PM)
+[2017.01.15-18.36.23:467][127]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-18.36.23:506][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038216s)
+[2017.01.15-18.36.23:506][127]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.36.23:506][127]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2017.01.15-18.36.23:507][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.039501s)
+[2017.01.15-18.36.23:534][127]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.36.23:551][127]LogInit: FAudioDevice initialized.
+[2017.01.15-18.36.23:605][127]LogWorld: Game class is 'GameMode'
+[2017.01.15-18.36.23:616][127]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.36.23:617][127]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-19.36.23
+[2017.01.15-18.36.23:618][127]LogWorld: Bringing up level for play took: 0.012127
+[2017.01.15-18.36.23:620][127]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.511
+[2017.01.15-18.36.23:620][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.27:463][581]LogBlueprintUserMessages: [InventoryWidget_C_0] Hello
+[2017.01.15-18.36.29:342][804]LogBlueprintUserMessages: [InventoryWidget_C_0] Hello
+[2017.01.15-18.36.29:920][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.29:958][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.36.44:171][421]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.01.15-18.40.09:343][262]BlueprintLog: New page: Compile InventoryWidget
+[2017.01.15-18.40.09:501][262]BlueprintEditorCompileResults: Info [0761.23] Compile of InventoryWidget successful! [in 158 ms] (/Game/Inventar/InventoryWidget.InventoryWidget)
+[2017.01.15-18.40.12:048][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.40.12:048][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-18.40.12:048][446]PIE: New page: PIE session: Map (Jan 15, 2017, 8:40:12 PM)
+[2017.01.15-18.40.12:048][446]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-18.40.12:087][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038604s)
+[2017.01.15-18.40.12:088][446]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.40.12:088][446]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2017.01.15-18.40.12:088][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.040021s)
+[2017.01.15-18.40.12:125][446]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.40.12:143][446]LogInit: FAudioDevice initialized.
+[2017.01.15-18.40.12:193][446]LogWorld: Game class is 'GameMode'
+[2017.01.15-18.40.12:204][446]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.40.12:205][446]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-19.40.12
+[2017.01.15-18.40.12:206][446]LogWorld: Bringing up level for play took: 0.012180
+[2017.01.15-18.40.12:208][446]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.077
+[2017.01.15-18.40.12:208][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.40.16:253][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.40.16:287][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.40.44:841][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.15-18.40.45:228][588]LogSavePackage: Save=373.38ms
+[2017.01.15-18.40.45:228][588]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map_Auto15A3CEF324C9073538C4D08BDF0263882.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap'
+[2017.01.15-18.40.45:230][588]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap
+[2017.01.15-18.40.45:237][588]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.417
+[2017.01.15-18.40.45:237][588]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.417
+[2017.01.15-18.40.45:239][588]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-18.40.45:239][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-18.40.45:293][588]LogSavePackage: Save=46.03ms
+[2017.01.15-18.40.45:293][588]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto1EC76031B4BE32539A183CEAEE58C3B69.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto1.uasset'
+[2017.01.15-18.40.45:294][588]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto1.uasset
+[2017.01.15-18.40.45:294][588]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.01.15-18.46.38:626][448]BlueprintLog: New page: Compile InventoryWidget
+[2017.01.15-18.46.38:856][448]BlueprintEditorCompileResults: Info [1150.59] Compile of InventoryWidget successful! [in 229 ms] (/Game/Inventar/InventoryWidget.InventoryWidget)
+[2017.01.15-18.46.39:844][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventar/InventoryWidget" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Inventar/InventoryWidget.uasset" SILENT=true
+[2017.01.15-18.46.39:905][497]LogSavePackage: Save=52.65ms
+[2017.01.15-18.46.39:905][497]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidgetCEB7ECE24767D245F90DA185E6B56590.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Inventar/InventoryWidget.uasset'
+[2017.01.15-18.46.39:908][497]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Inventar/InventoryWidget.uasset
+[2017.01.15-18.48.50:198][794]BlueprintLog: New page: Compile InventoryWidget
+[2017.01.15-18.48.50:422][794]BlueprintEditorCompileResults: Info [1282.15] Compile of InventoryWidget successful! [in 223 ms] (/Game/Inventar/InventoryWidget.InventoryWidget)
+[2017.01.15-18.48.52:653][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.48.52:653][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-18.48.52:653][962]PIE: New page: PIE session: Map (Jan 15, 2017, 8:48:52 PM)
+[2017.01.15-18.48.52:653][962]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-18.48.52:692][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039424s)
+[2017.01.15-18.48.52:693][962]LogAIModule: Creating AISystem for world Map
+[2017.01.15-18.48.52:693][962]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2017.01.15-18.48.52:693][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.040539s)
+[2017.01.15-18.48.52:728][962]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-18.48.52:777][962]LogInit: FAudioDevice initialized.
+[2017.01.15-18.48.52:833][962]LogWorld: Game class is 'GameMode'
+[2017.01.15-18.48.52:843][962]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-18.48.52:845][962]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-19.48.52
+[2017.01.15-18.48.52:846][962]LogWorld: Bringing up level for play took: 0.011269
+[2017.01.15-18.48.52:849][962]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.718
+[2017.01.15-18.48.52:849][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.51.00:811][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.51.00:853][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-18.52.54:126][894]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.021
+[2017.01.15-18.52.54:128][894]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-18.52.54:128][894]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-18.52.54:207][894]LogSavePackage: Save=68.33ms
+[2017.01.15-18.52.54:207][894]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto234EEBE4D4B0E2DA0B3AFF6B9EAEF1B9C.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto2.uasset'
+[2017.01.15-18.52.54:208][894]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto2.uasset
+[2017.01.15-18.52.54:208][894]LogFileHelpers: Auto-saving content packages took 0.081
+[2017.01.15-18.55.39:274][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.15-18.55.39:649][563]LogSavePackage: Save=342.34ms
+[2017.01.15-18.55.39:649][563]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map83A37FD242F8805E5E6172B8592EBEDE.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.15-18.55.39:654][563]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.15-19.01.54:202][209]BlueprintLog: New page: Compile InventoryWidget
+[2017.01.15-19.01.54:339][209]BlueprintEditorCompileResults: Info [2066.07] Compile of InventoryWidget successful! [in 136 ms] (/Game/Inventar/InventoryWidget.InventoryWidget)
+[2017.01.15-19.05.39:990][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.021
+[2017.01.15-19.05.39:992][  8]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-19.05.39:992][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-19.05.40:065][  8]LogSavePackage: Save=57.84ms
+[2017.01.15-19.05.40:065][  8]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto3D51133364074543FFA2A82992238975C.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto3.uasset'
+[2017.01.15-19.05.40:066][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto3.uasset
+[2017.01.15-19.05.40:066][  8]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.01.15-19.25.36:166][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.024
+[2017.01.15-19.25.36:167][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-19.25.36:167][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-19.25.36:233][944]LogSavePackage: Save=57.30ms
+[2017.01.15-19.25.36:233][944]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto4A0F003A24D0BA0FA3FEBA8AA383CFB75.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto4.uasset'
+[2017.01.15-19.25.36:234][944]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto4.uasset
+[2017.01.15-19.25.36:234][944]LogFileHelpers: Auto-saving content packages took 0.068
+[2017.01.15-19.40.30:021][722]BlueprintLog: New page: Compile InventoryWidget
+[2017.01.15-19.40.30:158][722]BlueprintEditorCompileResults: Info [4381.89] Compile of InventoryWidget successful! [in 137 ms] (/Game/Inventar/InventoryWidget.InventoryWidget)
+[2017.01.15-19.40.32:943][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.40.32:943][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-19.40.32:943][973]PIE: New page: PIE session: Map (Jan 15, 2017, 9:40:32 PM)
+[2017.01.15-19.40.32:943][973]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-19.40.33:010][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067247s)
+[2017.01.15-19.40.33:014][973]LogAIModule: Creating AISystem for world Map
+[2017.01.15-19.40.33:014][973]LogPlayLevel: PIE: World Init took: (0.003210s)
+[2017.01.15-19.40.33:014][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.070741s)
+[2017.01.15-19.40.33:051][973]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-19.40.33:072][973]LogInit: FAudioDevice initialized.
+[2017.01.15-19.40.33:123][973]LogWorld: Game class is 'GameMode'
+[2017.01.15-19.40.33:136][973]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-19.40.33:138][973]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-20.40.33
+[2017.01.15-19.40.33:140][973]LogWorld: Bringing up level for play took: 0.016178
+[2017.01.15-19.40.33:142][973]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.011
+[2017.01.15-19.40.33:142][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.40.41:818][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.40.41:855][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.06:605][894]BlueprintLog: New page: Compile InventoryWidget
+[2017.01.15-19.41.06:719][894]BlueprintEditorCompileResults: Info [4418.45] Compile of InventoryWidget successful! [in 113 ms] (/Game/Inventar/InventoryWidget.InventoryWidget)
+[2017.01.15-19.41.09:670][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.09:670][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-19.41.09:670][174]PIE: New page: PIE session: Map (Jan 15, 2017, 9:41:09 PM)
+[2017.01.15-19.41.09:670][174]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-19.41.09:706][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036429s)
+[2017.01.15-19.41.09:707][174]LogAIModule: Creating AISystem for world Map
+[2017.01.15-19.41.09:707][174]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2017.01.15-19.41.09:707][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.037453s)
+[2017.01.15-19.41.09:740][174]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-19.41.09:757][174]LogInit: FAudioDevice initialized.
+[2017.01.15-19.41.09:811][174]LogWorld: Game class is 'GameMode'
+[2017.01.15-19.41.09:821][174]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-19.41.09:822][174]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-20.41.09
+[2017.01.15-19.41.09:824][174]LogWorld: Bringing up level for play took: 0.011621
+[2017.01.15-19.41.09:825][174]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.306
+[2017.01.15-19.41.09:825][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.16:506][964]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.16:545][964]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.25:748][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.25:748][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-19.41.25:748][950]PIE: New page: PIE session: Map (Jan 15, 2017, 9:41:25 PM)
+[2017.01.15-19.41.25:748][950]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-19.41.25:785][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036843s)
+[2017.01.15-19.41.25:786][950]LogAIModule: Creating AISystem for world Map
+[2017.01.15-19.41.25:786][950]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.01.15-19.41.25:786][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.038105s)
+[2017.01.15-19.41.25:826][950]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-19.41.25:854][950]LogInit: FAudioDevice initialized.
+[2017.01.15-19.41.25:909][950]LogWorld: Game class is 'GameMode'
+[2017.01.15-19.41.25:920][950]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-19.41.25:921][950]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-20.41.25
+[2017.01.15-19.41.25:923][950]LogWorld: Bringing up level for play took: 0.013152
+[2017.01.15-19.41.25:925][950]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.206
+[2017.01.15-19.41.25:925][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.33:587][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.33:626][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.41.40:386][608]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.15-19.42.06:296][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.15-19.42.06:693][811]LogSavePackage: Save=381.05ms
+[2017.01.15-19.42.06:693][811]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map_Auto5637BD3C8434F4F87815979AF4A396494.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto5.umap'
+[2017.01.15-19.42.06:695][811]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto5.umap
+[2017.01.15-19.42.06:699][811]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.422
+[2017.01.15-19.42.06:699][811]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.422
+[2017.01.15-19.42.06:710][811]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-19.42.06:710][811]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-19.42.06:772][811]LogSavePackage: Save=53.76ms
+[2017.01.15-19.42.06:772][811]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto5EF63F9BE46FABCF588A06B89857F1E64.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto5.uasset'
+[2017.01.15-19.42.06:772][811]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto5.uasset
+[2017.01.15-19.42.06:773][811]LogFileHelpers: Auto-saving content packages took 0.064
+[2017.01.15-19.51.50:696][732]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.15-19.51.52:629][947]LogEditorViewport: Clicking on Actor (LMB): Item_C (Item6)
+[2017.01.15-19.51.56:711][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.51.56:711][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.15-19.51.56:711][407]PIE: New page: PIE session: Map (Jan 15, 2017, 9:51:56 PM)
+[2017.01.15-19.51.56:711][407]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.15-19.51.56:749][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037906s)
+[2017.01.15-19.51.56:750][407]LogAIModule: Creating AISystem for world Map
+[2017.01.15-19.51.56:750][407]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2017.01.15-19.51.56:750][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.039140s)
+[2017.01.15-19.51.56:787][407]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-19.51.56:806][407]LogInit: FAudioDevice initialized.
+[2017.01.15-19.51.56:863][407]LogWorld: Game class is 'GameMode'
+[2017.01.15-19.51.56:873][407]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-19.51.56:875][407]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.15-20.51.56
+[2017.01.15-19.51.56:876][407]LogWorld: Bringing up level for play took: 0.011884
+[2017.01.15-19.51.56:878][407]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.747
+[2017.01.15-19.51.56:878][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.52.05:262][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.52.05:304][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.15-19.53.28:640][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.15-19.53.29:034][774]LogSavePackage: Save=381.51ms
+[2017.01.15-19.53.29:034][774]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map_Auto6DF46FC8342AE043DC0D4F5BD5832CBAF.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto6.umap'
+[2017.01.15-19.53.29:036][774]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto6.umap
+[2017.01.15-19.53.29:038][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.419
+[2017.01.15-19.53.29:038][774]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.419
+[2017.01.15-19.53.29:047][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-19.53.29:047][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-19.53.29:112][774]LogSavePackage: Save=55.82ms
+[2017.01.15-19.53.29:112][774]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto67CBB790A456D4C3FA4B23F8D6F1C77B3.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto6.uasset'
+[2017.01.15-19.53.29:113][774]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto6.uasset
+[2017.01.15-19.53.29:113][774]LogFileHelpers: Auto-saving content packages took 0.067
+[2017.01.15-20.06.33:524][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.027
+[2017.01.15-20.06.33:527][240]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-20.06.33:527][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/InventoryWidget]
+[2017.01.15-20.06.33:657][240]LogSavePackage: Save=121.94ms
+[2017.01.15-20.06.33:657][240]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/InventoryWidget_Auto7C41D1FAD4BF2D38139D93C98F459847F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto7.uasset'
+[2017.01.15-20.06.33:658][240]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Saved/Autosaves/Game/Inventar/InventoryWidget_Auto7.uasset
+[2017.01.15-20.06.33:658][240]LogFileHelpers: Auto-saving content packages took 0.133
+[2017.01.15-20.16.34:287][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.023
+[2017.01.15-20.16.34:289][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventar/InventoryWidget] ([1] browsable assets)...
+[2017.01.15-20.16.34:289][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventar/Inven

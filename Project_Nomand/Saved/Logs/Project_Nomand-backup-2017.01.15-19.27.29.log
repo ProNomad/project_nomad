@@ -1,0 +1,736 @@
+﻿Log file open, 01/15/17 16:50:19
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2021322056) SRandInit(2021322057).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092606
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.15-15.50.19:868][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.15-15.50.19:868][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.15-15.50.19:890][  0]LogInit: Computer: DEX
+[2017.01.15-15.50.19:890][  0]LogInit: User: Dextex
+[2017.01.15-15.50.19:890][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.15-15.50.19:890][  0]LogInit: High frequency timer resolution =3.417984 MHz
+[2017.01.15-15.50.19:890][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.15-15.50.19:891][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.15-15.50.19:891][  0]LogMemory: Process Physical Memory: 191.25 MB used, 191.25 MB peak
+[2017.01.15-15.50.19:891][  0]LogMemory: Process Virtual Memory: 195.34 MB used, 195.34 MB peak
+[2017.01.15-15.50.19:891][  0]LogMemory: Physical Memory: 9236.96 MB used, 16328.00 MB total
+[2017.01.15-15.50.19:891][  0]LogMemory: Virtual Memory: 553.48 MB used, 134217728.00 MB total
+[2017.01.15-15.50.20:397][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.15-15.50.20:839][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.15-15.50.21:361][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.15-15.50.21:361][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.15-15.50.21:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.15-15.50.21:364][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.15-15.50.21:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.15-15.50.21:370][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.15-15.50.21:370][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.15-15.50.21:370][  0]LogWindows: EnumDisplayDevices:
+[2017.01.15-15.50.21:370][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.15-15.50.21:370][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.01.15-15.50.21:370][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.15-15.50.21:371][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.15-15.50.21:371][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.15-15.50.21:371][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.15-15.50.21:371][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.15-15.50.21:371][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.15-15.50.21:371][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.15-15.50.21:886][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.15-15.50.21:925][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.15-15.50.21:926][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/11256/).
+[2017.01.15-15.50.21:926][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/239D929948E5FE1203D8E99AFCE8ECBB/'.
+[2017.01.15-15.50.21:926][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.15-15.50.23:761][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.15-15.50.23:771][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.15-15.50.23:781][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.15-15.50.23:791][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.15-15.50.23:802][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.15-15.50.23:813][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.15-15.50.23:822][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.15-15.50.23:831][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.15-15.50.23:843][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.15-15.50.23:851][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.15-15.50.23:860][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.15-15.50.23:877][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.15-15.50.23:877][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.15-15.50.23:880][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.15-15.50.23:922][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.15-15.50.23:929][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.15-15.50.23:937][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.15-15.50.23:945][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.15-15.50.23:955][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.15-15.50.23:955][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.15-15.50.24:253][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.15-15.50.24:302][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.15-15.50.24:302][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.15-15.50.24:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.15-15.50.24:303][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.15-15.50.24:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.15-15.50.24:303][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.15-15.50.24:344][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.15-15.50.24:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.15-15.50.27:729][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.15-15.50.27:730][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.15-15.50.27:981][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.15-15.50.27:981][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.15-15.50.27:981][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.15-15.50.28:455][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.01.15-15.50.28:472][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.014648 seconds
+[2017.01.15-15.50.28:477][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.15-15.50.28:477][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.01.15-15.50.28:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.15-15.50.28:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.15-15.50.28:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.15-15.50.28:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.15-15.50.30:140][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.15-15.50.30:448][  0]SourceControl: Info Source control is disabled
+[2017.01.15-15.50.30:830][  0]LogEngine: Initializing Engine...
+[2017.01.15-15.50.30:852][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.15-15.50.30:854][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.15-15.50.31:062][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.15-15.50.31:077][  0]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.15-15.50.31:106][  0]LogInit: FAudioDevice initialized.
+[2017.01.15-15.50.31:134][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.15-15.50.31:142][  0]LogInit: Texture streaming: Enabled
+[2017.01.15-15.50.31:181][  0]LogInit: Transaction tracking system initialized
+[2017.01.15-15.50.31:216][  0]BlueprintLog: New page: Editor Load
+[2017.01.15-15.50.31:363][  0]LocalizationService: Info Localization service is disabled
+[2017.01.15-15.50.31:445][  0]LogConsoleResponse:Display: 
+[2017.01.15-15.50.31:741][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.15-15.50.31:741][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.15-15.50.31:897][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.03s
+[2017.01.15-15.50.31:897][  0]Cmd: MAP LOAD FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.15-15.50.31:901][  0]LightingResults: New page: Lighting Build
+[2017.01.15-15.50.31:904][  0]MapCheck: New page: Map Check
+[2017.01.15-15.50.31:904][  0]LightingResults: New page: Lighting Build
+[2017.01.15-15.50.33:981][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.15-15.50.34:413][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.01.15-15.50.34:423][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.15-15.50.34:427][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.15-15.50.34:467][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.877ms to complete.
+[2017.01.15-15.50.34:467][  0]LogFileHelpers: Loading map 'Map' took 2.570
+[2017.01.15-15.50.34:671][  0]LogCollectionManager: Loaded 0 collections in 0.002647 seconds
+[2017.01.15-15.50.34:714][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.15-15.50.34:714][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2017.01.15-15.50.34:714][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.15-15.50.34:714][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.15-15.50.34:723][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2047 classes and 369 folders.
+[2017.01.15-15.50.34:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.15-15.50.34:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.15-15.50.34:728][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.01.15-15.50.34:734][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.01.15-15.50.34:934][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.15-15.50.34:940][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.01.15-15.50.35:008][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.15-15.50.35:011][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.15-15.50.35:040][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.15-15.50.35:040][  0]LogLoad: Full Startup: 16.67 seconds (BP compile: 0.36 seconds)
+[2017.01.15-15.50.35:040][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.15-15.50.35:049][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.15-15.50.35:050][  0]LogOcInput: OculusInput pre-init called
+[2017.01.15-15.50.35:068][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.15-15.50.35:247][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2017.01.15-15.50.35:297][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.15-15.50.35:344][  2]LogAssetRegistry: Asset discovery search completed in 6.9114 seconds
+[2017.01.15-15.50.35:344][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.15-15.50.35:344][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.01.15-15.51.15:708][  0]LogActorFactory: Actor Factory created SM_bush1
+[2017.01.15-15.51.17:355][191]LogActorFactory: Actor Factory created SM_bush1
+[2017.01.15-15.51.19:447][433]Cmd: DELETE
+[2017.01.15-15.51.19:447][433]Cmd: ACTOR DELETE
+[2017.01.15-15.51.19:458][433]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.15-15.51.19:498][433]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2017.01.15-15.51.30:507][734]LogStaticMesh: Building static mesh SM_tree2...
+[2017.01.15-15.51.30:533][734]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/Trees/SM_tree2.SM_tree2
+[2017.01.15-15.51.30:608][734]LogStaticMesh: Building static mesh SM_bush5...
+[2017.01.15-15.51.30:833][734]LogStaticMesh: Built static mesh [0.22s] /Game/Meshes/Bush/SM_bush5.SM_bush5
+[2017.01.15-15.51.30:857][734]LogStaticMesh: Building static mesh SM_grass_flower_patch2...
+[2017.01.15-15.51.30:873][734]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Field/SM_grass_flower_patch2.SM_grass_flower_patch2
+[2017.01.15-15.51.30:877][734]LogStaticMesh: Building static mesh SM_grass_flower_patch3...
+[2017.01.15-15.51.30:893][734]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Field/SM_grass_flower_patch3.SM_grass_flower_patch3
+[2017.01.15-15.51.30:898][734]LogStaticMesh: Building static mesh SM_grass_flower_patch4...
+[2017.01.15-15.51.30:913][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Field/SM_grass_flower_patch4.SM_grass_flower_patch4
+[2017.01.15-15.51.30:916][734]LogStaticMesh: Building static mesh SM_grass_flower_patch5...
+[2017.01.15-15.51.30:931][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Field/SM_grass_flower_patch5.SM_grass_flower_patch5
+[2017.01.15-15.51.30:936][734]LogStaticMesh: Building static mesh SM_grass_flower_patch6...
+[2017.01.15-15.51.30:951][734]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Field/SM_grass_flower_patch6.SM_grass_flower_patch6
+[2017.01.15-15.51.30:984][734]LogStaticMesh: Building static mesh SM_grass_patch_flower1...
+[2017.01.15-15.51.30:999][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flowers/SM_grass_patch_flower1.SM_grass_patch_flower1
+[2017.01.15-15.51.31:003][734]LogStaticMesh: Building static mesh SM_grass_patch_flower2...
+[2017.01.15-15.51.31:016][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flowers/SM_grass_patch_flower2.SM_grass_patch_flower2
+[2017.01.15-15.51.31:025][734]LogStaticMesh: Building static mesh SM_grass_patch_flower4...
+[2017.01.15-15.51.31:038][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flowers/SM_grass_patch_flower4.SM_grass_patch_flower4
+[2017.01.15-15.51.31:048][734]LogStaticMesh: Building static mesh SM_grass_patch_flower6...
+[2017.01.15-15.51.31:060][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flowers/SM_grass_patch_flower6.SM_grass_patch_flower6
+[2017.01.15-15.51.31:094][734]LogStaticMesh: Building static mesh SM_grass_patch1...
+[2017.01.15-15.51.31:108][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Grass/SM_grass_patch1.SM_grass_patch1
+[2017.01.15-15.51.31:112][734]LogStaticMesh: Building static mesh SM_grass_patch2...
+[2017.01.15-15.51.31:128][734]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Grass/SM_grass_patch2.SM_grass_patch2
+[2017.01.15-15.51.31:133][734]LogStaticMesh: Building static mesh SM_grass_patch3...
+[2017.01.15-15.51.31:145][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Grass/SM_grass_patch3.SM_grass_patch3
+[2017.01.15-15.51.31:149][734]LogStaticMesh: Building static mesh SM_grass_patch4...
+[2017.01.15-15.51.31:162][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Grass/SM_grass_patch4.SM_grass_patch4
+[2017.01.15-15.51.31:165][734]LogStaticMesh: Building static mesh SM_grass_patch5...
+[2017.01.15-15.51.31:177][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Grass/SM_grass_patch5.SM_grass_patch5
+[2017.01.15-15.51.31:182][734]LogStaticMesh: Building static mesh SM_grass_patch6...
+[2017.01.15-15.51.31:196][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Grass/SM_grass_patch6.SM_grass_patch6
+[2017.01.15-15.51.31:200][734]LogStaticMesh: Building static mesh SM_tree10...
+[2017.01.15-15.51.31:230][734]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/Trees/SM_tree10.SM_tree10
+[2017.01.15-15.51.31:286][734]LogStaticMesh: Building static mesh SM_tree9...
+[2017.01.15-15.51.31:305][734]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Trees/SM_tree9.SM_tree9
+[2017.01.15-15.51.32:147][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Bush/SM_bush1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush1.uasset" SILENT=true
+[2017.01.15-15.51.32:163][734]LogSavePackage: Save=15.00ms
+[2017.01.15-15.51.32:163][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_bush1ED53F9204BA4F34EEEFA2496ECF9F4CF.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush1.uasset'
+[2017.01.15-15.51.32:166][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush1.uasset
+[2017.01.15-15.51.32:168][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/grass1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/grass1.uasset" SILENT=true
+[2017.01.15-15.51.32:173][734]LogSavePackage: Save=3.62ms
+[2017.01.15-15.51.32:173][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass1F76856E44EAFC7F33B207C8329319121.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/grass1.uasset'
+[2017.01.15-15.51.32:175][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/grass1.uasset
+[2017.01.15-15.51.32:177][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/grass2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/grass2.uasset" SILENT=true
+[2017.01.15-15.51.32:182][734]LogSavePackage: Save=3.28ms
+[2017.01.15-15.51.32:182][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass25102DEC244FE1A0F8CCB36875C1E0A99.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/grass2.uasset'
+[2017.01.15-15.51.32:183][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/grass2.uasset
+[2017.01.15-15.51.32:185][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/tree1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree1.uasset" SILENT=true
+[2017.01.15-15.51.32:189][734]LogSavePackage: Save=3.12ms
+[2017.01.15-15.51.32:189][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree144363AE948FF4E60909C86A1247873F8.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree1.uasset'
+[2017.01.15-15.51.32:190][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree1.uasset
+[2017.01.15-15.51.32:193][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/tree3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree3.uasset" SILENT=true
+[2017.01.15-15.51.32:197][734]LogSavePackage: Save=3.12ms
+[2017.01.15-15.51.32:197][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree3DF759ABB407F9433FC5AB6A9F6DE8C7C.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree3.uasset'
+[2017.01.15-15.51.32:198][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree3.uasset
+[2017.01.15-15.51.32:200][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/tree5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree5.uasset" SILENT=true
+[2017.01.15-15.51.32:204][734]LogSavePackage: Save=3.08ms
+[2017.01.15-15.51.32:204][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree5673347C8448C63BB8E054DA978F83D76.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree5.uasset'
+[2017.01.15-15.51.32:205][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/tree5.uasset
+[2017.01.15-15.51.32:221][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Bush/SM_bush2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush2.uasset" SILENT=true
+[2017.01.15-15.51.32:255][734]LogSavePackage: Save=12.89ms
+[2017.01.15-15.51.32:255][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_bush2B0F85BFC4D6456EA4A4DFDB939B1A4CD.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush2.uasset'
+[2017.01.15-15.51.32:256][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush2.uasset
+[2017.01.15-15.51.32:269][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Bush/SM_bush3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush3.uasset" SILENT=true
+[2017.01.15-15.51.32:284][734]LogSavePackage: Save=13.53ms
+[2017.01.15-15.51.32:284][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_bush3DBBB918C4CA99E606847639E1980009B.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush3.uasset'
+[2017.01.15-15.51.32:286][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush3.uasset
+[2017.01.15-15.51.32:299][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Bush/SM_bush4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush4.uasset" SILENT=true
+[2017.01.15-15.51.32:315][734]LogSavePackage: Save=14.55ms
+[2017.01.15-15.51.32:315][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_bush4C7F9623D4934A29D903B91863EF1AB7C.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush4.uasset'
+[2017.01.15-15.51.32:316][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush4.uasset
+[2017.01.15-15.51.32:330][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Bush/SM_bush5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush5.uasset" SILENT=true
+[2017.01.15-15.51.32:344][734]LogSavePackage: Save=12.86ms
+[2017.01.15-15.51.32:344][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_bush5F1748AD1479624DD19833E914BB44693.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush5.uasset'
+[2017.01.15-15.51.32:345][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush5.uasset
+[2017.01.15-15.51.32:358][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Bush/SM_bush6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush6.uasset" SILENT=true
+[2017.01.15-15.51.32:373][734]LogSavePackage: Save=14.25ms
+[2017.01.15-15.51.32:373][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_bush671E94BB3486D0C60D6A2A2B1A63890D1.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush6.uasset'
+[2017.01.15-15.51.32:375][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Bush/SM_bush6.uasset
+[2017.01.15-15.51.32:390][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Field/SM_grass_flower_patch1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch1.uasset" SILENT=true
+[2017.01.15-15.51.32:402][734]LogSavePackage: Save=10.91ms
+[2017.01.15-15.51.32:402][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower_patch1D0C293DC4119B532720A6492D8AB6D17.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch1.uasset'
+[2017.01.15-15.51.32:403][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch1.uasset
+[2017.01.15-15.51.32:431][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Field/SM_grass_flower_patch2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch2.uasset" SILENT=true
+[2017.01.15-15.51.32:443][734]LogSavePackage: Save=11.13ms
+[2017.01.15-15.51.32:443][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower_patch2EB88705741EF7EF804C6E8BA99C36533.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch2.uasset'
+[2017.01.15-15.51.32:444][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch2.uasset
+[2017.01.15-15.51.32:456][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Field/SM_grass_flower_patch3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch3.uasset" SILENT=true
+[2017.01.15-15.51.32:469][734]LogSavePackage: Save=11.24ms
+[2017.01.15-15.51.32:469][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower_patch34667A04E4E0B88AD1C62F9822E38CBB6.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch3.uasset'
+[2017.01.15-15.51.32:471][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch3.uasset
+[2017.01.15-15.51.32:484][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Field/SM_grass_flower_patch4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch4.uasset" SILENT=true
+[2017.01.15-15.51.32:497][734]LogSavePackage: Save=11.15ms
+[2017.01.15-15.51.32:497][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower_patch4C2D595B94822DCB3E6B7CC84C46CA5C6.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch4.uasset'
+[2017.01.15-15.51.32:498][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch4.uasset
+[2017.01.15-15.51.32:511][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Field/SM_grass_flower_patch5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch5.uasset" SILENT=true
+[2017.01.15-15.51.32:523][734]LogSavePackage: Save=10.59ms
+[2017.01.15-15.51.32:523][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower_patch5AD52D4594EB1E6E8912A8B88FD304C07.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch5.uasset'
+[2017.01.15-15.51.32:524][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch5.uasset
+[2017.01.15-15.51.32:537][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Field/SM_grass_flower_patch6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch6.uasset" SILENT=true
+[2017.01.15-15.51.32:549][734]LogSavePackage: Save=10.50ms
+[2017.01.15-15.51.32:549][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower_patch600F220A04575BA7BD54C50B42AF85240.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch6.uasset'
+[2017.01.15-15.51.32:551][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Field/SM_grass_flower_patch6.uasset
+[2017.01.15-15.51.32:553][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/grass_flower1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower1.uasset" SILENT=true
+[2017.01.15-15.51.32:558][734]LogSavePackage: Save=3.18ms
+[2017.01.15-15.51.32:558][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass_flower1A7A45AEC470FB6EF66504F93FCB1A0C6.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower1.uasset'
+[2017.01.15-15.51.32:559][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower1.uasset
+[2017.01.15-15.51.32:561][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/grass_flower2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower2.uasset" SILENT=true
+[2017.01.15-15.51.32:565][734]LogSavePackage: Save=2.84ms
+[2017.01.15-15.51.32:565][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass_flower27B8200434899EE9AD461FEBBA9A1FBA7.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower2.uasset'
+[2017.01.15-15.51.32:566][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower2.uasset
+[2017.01.15-15.51.32:568][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/grass_flower3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower3.uasset" SILENT=true
+[2017.01.15-15.51.32:573][734]LogSavePackage: Save=2.99ms
+[2017.01.15-15.51.32:573][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass_flower3C62905804C33C9D7A22C2AA73A0E1B42.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower3.uasset'
+[2017.01.15-15.51.32:574][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower3.uasset
+[2017.01.15-15.51.32:576][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/grass_flower4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower4.uasset" SILENT=true
+[2017.01.15-15.51.32:580][734]LogSavePackage: Save=3.01ms
+[2017.01.15-15.51.32:580][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass_flower4E6E5DEDE42ADB8DD01C826ABA6468324.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower4.uasset'
+[2017.01.15-15.51.32:581][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower4.uasset
+[2017.01.15-15.51.32:583][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/grass_flower5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower5.uasset" SILENT=true
+[2017.01.15-15.51.32:588][734]LogSavePackage: Save=3.00ms
+[2017.01.15-15.51.32:588][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass_flower5940B5BA44178DD7DEBCCB88CA8F870FC.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower5.uasset'
+[2017.01.15-15.51.32:589][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower5.uasset
+[2017.01.15-15.51.32:591][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/grass_flower6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower6.uasset" SILENT=true
+[2017.01.15-15.51.32:595][734]LogSavePackage: Save=2.80ms
+[2017.01.15-15.51.32:595][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass_flower6F5EDF5924A12379C8DC2BE925CA41D7E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower6.uasset'
+[2017.01.15-15.51.32:596][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/grass_flower6.uasset
+[2017.01.15-15.51.32:609][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_flower1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower1.uasset" SILENT=true
+[2017.01.15-15.51.32:622][734]LogSavePackage: Save=11.60ms
+[2017.01.15-15.51.32:622][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower1C87BA0F74B9A6737B206BB985C737FC7.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower1.uasset'
+[2017.01.15-15.51.32:623][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower1.uasset
+[2017.01.15-15.51.32:636][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_flower2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower2.uasset" SILENT=true
+[2017.01.15-15.51.32:650][734]LogSavePackage: Save=12.14ms
+[2017.01.15-15.51.32:650][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower2F57C037E4651D131F34B8DB2168C08B4.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower2.uasset'
+[2017.01.15-15.51.32:651][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower2.uasset
+[2017.01.15-15.51.32:664][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_flower3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower3.uasset" SILENT=true
+[2017.01.15-15.51.32:678][734]LogSavePackage: Save=11.91ms
+[2017.01.15-15.51.32:678][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower3ECB66FBE41768BA8B8FB2E8FFDDDC86E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower3.uasset'
+[2017.01.15-15.51.32:679][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower3.uasset
+[2017.01.15-15.51.32:692][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_flower4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower4.uasset" SILENT=true
+[2017.01.15-15.51.32:704][734]LogSavePackage: Save=11.01ms
+[2017.01.15-15.51.32:704][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower46025226F4B36F657E639328D2223DFB3.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower4.uasset'
+[2017.01.15-15.51.32:705][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower4.uasset
+[2017.01.15-15.51.32:718][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_flower5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower5.uasset" SILENT=true
+[2017.01.15-15.51.32:730][734]LogSavePackage: Save=10.51ms
+[2017.01.15-15.51.32:730][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower50A61BCF14741887B9FFEF3ACE6023ACF.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower5.uasset'
+[2017.01.15-15.51.32:731][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower5.uasset
+[2017.01.15-15.51.32:744][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_flower6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower6.uasset" SILENT=true
+[2017.01.15-15.51.32:756][734]LogSavePackage: Save=10.69ms
+[2017.01.15-15.51.32:756][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_flower687B7C271419081C9E0C1899C9CBE995D.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower6.uasset'
+[2017.01.15-15.51.32:757][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_flower6.uasset
+[2017.01.15-15.51.32:769][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_patch_flower1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower1.uasset" SILENT=true
+[2017.01.15-15.51.32:782][734]LogSavePackage: Save=10.92ms
+[2017.01.15-15.51.32:782][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch_flower1820DE8B448A6EDF2D058C8ADC0FBC508.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower1.uasset'
+[2017.01.15-15.51.32:783][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower1.uasset
+[2017.01.15-15.51.32:796][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_patch_flower2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower2.uasset" SILENT=true
+[2017.01.15-15.51.32:808][734]LogSavePackage: Save=11.31ms
+[2017.01.15-15.51.32:808][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch_flower2AB1352F846EB5E3F891BCBB571BC3CA8.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower2.uasset'
+[2017.01.15-15.51.32:810][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower2.uasset
+[2017.01.15-15.51.32:822][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_patch_flower3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower3.uasset" SILENT=true
+[2017.01.15-15.51.32:855][734]LogSavePackage: Save=31.37ms
+[2017.01.15-15.51.32:855][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch_flower3DF9F1E284271C5491E95208BF1AAB51B.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower3.uasset'
+[2017.01.15-15.51.32:856][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower3.uasset
+[2017.01.15-15.51.32:869][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_patch_flower4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower4.uasset" SILENT=true
+[2017.01.15-15.51.32:881][734]LogSavePackage: Save=11.12ms
+[2017.01.15-15.51.32:881][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch_flower420178C9A4122AB2A1A5BB6A7FBB37BEF.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower4.uasset'
+[2017.01.15-15.51.32:882][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower4.uasset
+[2017.01.15-15.51.32:895][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_patch_flower5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower5.uasset" SILENT=true
+[2017.01.15-15.51.32:908][734]LogSavePackage: Save=11.51ms
+[2017.01.15-15.51.32:908][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch_flower59DCB610F49C75638D79806B5CCD1F78F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower5.uasset'
+[2017.01.15-15.51.32:909][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower5.uasset
+[2017.01.15-15.51.32:922][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Flowers/SM_grass_patch_flower6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower6.uasset" SILENT=true
+[2017.01.15-15.51.32:934][734]LogSavePackage: Save=10.64ms
+[2017.01.15-15.51.32:934][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch_flower6F7CB3D264ECED216A12F5B9777B71315.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower6.uasset'
+[2017.01.15-15.51.32:935][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Flowers/SM_grass_patch_flower6.uasset
+[2017.01.15-15.51.32:937][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/grass1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass1.uasset" SILENT=true
+[2017.01.15-15.51.32:942][734]LogSavePackage: Save=3.57ms
+[2017.01.15-15.51.32:942][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass16BDF29C7488A2A08D774459A6BCDF22F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass1.uasset'
+[2017.01.15-15.51.32:943][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass1.uasset
+[2017.01.15-15.51.32:944][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/grass2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass2.uasset" SILENT=true
+[2017.01.15-15.51.32:948][734]LogSavePackage: Save=2.79ms
+[2017.01.15-15.51.32:948][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass22E9B6C0B48165986AC8253A6209E0AA1.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass2.uasset'
+[2017.01.15-15.51.32:949][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass2.uasset
+[2017.01.15-15.51.32:952][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/grass3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass3.uasset" SILENT=true
+[2017.01.15-15.51.32:956][734]LogSavePackage: Save=2.86ms
+[2017.01.15-15.51.32:956][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass36127938E450E8E231B6666B3679D3FCD.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass3.uasset'
+[2017.01.15-15.51.32:957][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass3.uasset
+[2017.01.15-15.51.32:959][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/grass4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass4.uasset" SILENT=true
+[2017.01.15-15.51.32:963][734]LogSavePackage: Save=2.76ms
+[2017.01.15-15.51.32:963][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass4ABD318444FB9D188E4604A9C8ECF334C.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass4.uasset'
+[2017.01.15-15.51.32:964][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass4.uasset
+[2017.01.15-15.51.32:966][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/grass5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass5.uasset" SILENT=true
+[2017.01.15-15.51.32:971][734]LogSavePackage: Save=3.29ms
+[2017.01.15-15.51.32:971][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass5C28D5FC340953E701C649A8699D75745.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass5.uasset'
+[2017.01.15-15.51.32:972][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass5.uasset
+[2017.01.15-15.51.32:973][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/grass6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass6.uasset" SILENT=true
+[2017.01.15-15.51.32:977][734]LogSavePackage: Save=2.83ms
+[2017.01.15-15.51.32:978][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/grass696932C1A40BF70BD599972B70A460E43.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass6.uasset'
+[2017.01.15-15.51.32:978][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/grass6.uasset
+[2017.01.15-15.51.32:992][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass1.uasset" SILENT=true
+[2017.01.15-15.51.33:004][734]LogSavePackage: Save=10.31ms
+[2017.01.15-15.51.33:004][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass154FA2F4449543113D1BDA09CD6E84AF8.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass1.uasset'
+[2017.01.15-15.51.33:005][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass1.uasset
+[2017.01.15-15.51.33:018][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass2.uasset" SILENT=true
+[2017.01.15-15.51.33:029][734]LogSavePackage: Save=10.04ms
+[2017.01.15-15.51.33:029][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass25E28A2874C1FAB8ED4C9FCAD898EF7FC.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass2.uasset'
+[2017.01.15-15.51.33:030][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass2.uasset
+[2017.01.15-15.51.33:043][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass3.uasset" SILENT=true
+[2017.01.15-15.51.33:056][734]LogSavePackage: Save=11.16ms
+[2017.01.15-15.51.33:056][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass349D170CB4F6E21398532DEAE6BD2E12B.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass3.uasset'
+[2017.01.15-15.51.33:057][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass3.uasset
+[2017.01.15-15.51.33:070][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass4.uasset" SILENT=true
+[2017.01.15-15.51.33:082][734]LogSavePackage: Save=10.35ms
+[2017.01.15-15.51.33:082][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass4EF39CC5B4C3CD90822A4EA8AE154FD63.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass4.uasset'
+[2017.01.15-15.51.33:083][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass4.uasset
+[2017.01.15-15.51.33:097][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass5.uasset" SILENT=true
+[2017.01.15-15.51.33:110][734]LogSavePackage: Save=11.57ms
+[2017.01.15-15.51.33:110][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass5BBA4AF7541368066D33F10AEA8FC299E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass5.uasset'
+[2017.01.15-15.51.33:111][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass5.uasset
+[2017.01.15-15.51.33:124][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass6.uasset" SILENT=true
+[2017.01.15-15.51.33:158][734]LogSavePackage: Save=32.81ms
+[2017.01.15-15.51.33:158][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass64ADE41D94B370F7517C5C0B71838217F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass6.uasset'
+[2017.01.15-15.51.33:159][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass6.uasset
+[2017.01.15-15.51.33:172][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass_patch1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch1.uasset" SILENT=true
+[2017.01.15-15.51.33:184][734]LogSavePackage: Save=10.97ms
+[2017.01.15-15.51.33:184][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch13C290F94427B8A704A1CD4B9CD422920.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch1.uasset'
+[2017.01.15-15.51.33:186][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch1.uasset
+[2017.01.15-15.51.33:198][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass_patch2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch2.uasset" SILENT=true
+[2017.01.15-15.51.33:210][734]LogSavePackage: Save=10.97ms
+[2017.01.15-15.51.33:210][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch29DC8472B4EA81CC42CDD8A98CDD8D818.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch2.uasset'
+[2017.01.15-15.51.33:211][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch2.uasset
+[2017.01.15-15.51.33:223][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass_patch3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch3.uasset" SILENT=true
+[2017.01.15-15.51.33:235][734]LogSavePackage: Save=10.41ms
+[2017.01.15-15.51.33:235][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch37C65FEBC43CC1668555F73A24B89B309.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch3.uasset'
+[2017.01.15-15.51.33:237][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch3.uasset
+[2017.01.15-15.51.33:249][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass_patch4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch4.uasset" SILENT=true
+[2017.01.15-15.51.33:261][734]LogSavePackage: Save=10.51ms
+[2017.01.15-15.51.33:262][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch49E8478064CC41306F3A67CAEB76F80B1.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch4.uasset'
+[2017.01.15-15.51.33:263][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch4.uasset
+[2017.01.15-15.51.33:276][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass_patch5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch5.uasset" SILENT=true
+[2017.01.15-15.51.33:289][734]LogSavePackage: Save=11.82ms
+[2017.01.15-15.51.33:289][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch5BB14BCFB4E7B4F2DDABEFB8F2BCB78EF.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch5.uasset'
+[2017.01.15-15.51.33:291][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch5.uasset
+[2017.01.15-15.51.33:303][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Grass/SM_grass_patch6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch6.uasset" SILENT=true
+[2017.01.15-15.51.33:316][734]LogSavePackage: Save=11.09ms
+[2017.01.15-15.51.33:316][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_grass_patch62CA6043E4B8638976371E0A95BA2DD30.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch6.uasset'
+[2017.01.15-15.51.33:317][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Grass/SM_grass_patch6.uasset
+[2017.01.15-15.51.33:331][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree1.uasset" SILENT=true
+[2017.01.15-15.51.33:345][734]LogSavePackage: Save=12.67ms
+[2017.01.15-15.51.33:345][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree1E33FE9B0443223C74C48E6B3F77BC945.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree1.uasset'
+[2017.01.15-15.51.33:346][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree1.uasset
+[2017.01.15-15.51.33:359][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree10" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree10.uasset" SILENT=true
+[2017.01.15-15.51.33:375][734]LogSavePackage: Save=13.92ms
+[2017.01.15-15.51.33:375][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree10D0BE597E4E6D0F49E3D387AFBFB00CEE.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree10.uasset'
+[2017.01.15-15.51.33:376][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree10.uasset
+[2017.01.15-15.51.33:389][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree2.uasset" SILENT=true
+[2017.01.15-15.51.33:402][734]LogSavePackage: Save=11.96ms
+[2017.01.15-15.51.33:402][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree225F6329C4764D89E7916269357259749.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree2.uasset'
+[2017.01.15-15.51.33:403][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree2.uasset
+[2017.01.15-15.51.33:417][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree3" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree3.uasset" SILENT=true
+[2017.01.15-15.51.33:432][734]LogSavePackage: Save=12.98ms
+[2017.01.15-15.51.33:432][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree3DDD7CD7F4319DF840EA9779DBE4220EB.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree3.uasset'
+[2017.01.15-15.51.33:433][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree3.uasset
+[2017.01.15-15.51.33:446][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree4.uasset" SILENT=true
+[2017.01.15-15.51.33:460][734]LogSavePackage: Save=12.73ms
+[2017.01.15-15.51.33:460][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree410639B3E4140902DD5AB148B1A98E649.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree4.uasset'
+[2017.01.15-15.51.33:461][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree4.uasset
+[2017.01.15-15.51.33:474][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree5.uasset" SILENT=true
+[2017.01.15-15.51.33:489][734]LogSavePackage: Save=13.85ms
+[2017.01.15-15.51.33:489][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree52B0516C84DC9EA89595BF0895C76A492.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree5.uasset'
+[2017.01.15-15.51.33:491][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree5.uasset
+[2017.01.15-15.51.33:503][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree6.uasset" SILENT=true
+[2017.01.15-15.51.33:517][734]LogSavePackage: Save=12.35ms
+[2017.01.15-15.51.33:517][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree69500507245FF04ED8A1E8684CCBBDE1E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree6.uasset'
+[2017.01.15-15.51.33:518][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree6.uasset
+[2017.01.15-15.51.33:531][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree7" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree7.uasset" SILENT=true
+[2017.01.15-15.51.33:545][734]LogSavePackage: Save=13.01ms
+[2017.01.15-15.51.33:545][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree70E5221744D2A3CAE69F2859E97E0F08E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree7.uasset'
+[2017.01.15-15.51.33:547][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree7.uasset
+[2017.01.15-15.51.33:560][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree8" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree8.uasset" SILENT=true
+[2017.01.15-15.51.33:575][734]LogSavePackage: Save=12.93ms
+[2017.01.15-15.51.33:575][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree8205319B444AA4968296879B5A2F46EED.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree8.uasset'
+[2017.01.15-15.51.33:576][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree8.uasset
+[2017.01.15-15.51.33:590][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/SM_tree9" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree9.uasset" SILENT=true
+[2017.01.15-15.51.33:604][734]LogSavePackage: Save=12.77ms
+[2017.01.15-15.51.33:605][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/SM_tree9A90368A141E539B584A06FA77C0027E3.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree9.uasset'
+[2017.01.15-15.51.33:606][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/SM_tree9.uasset
+[2017.01.15-15.51.33:608][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree1" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree1.uasset" SILENT=true
+[2017.01.15-15.51.33:612][734]LogSavePackage: Save=2.91ms
+[2017.01.15-15.51.33:612][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree1F91654684FC8A38A06BD8886FBB4AAE8.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree1.uasset'
+[2017.01.15-15.51.33:613][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree1.uasset
+[2017.01.15-15.51.33:615][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree10" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree10.uasset" SILENT=true
+[2017.01.15-15.51.33:619][734]LogSavePackage: Save=2.96ms
+[2017.01.15-15.51.33:619][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree1022FB5FA0401758A248F769B5762C213A.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree10.uasset'
+[2017.01.15-15.51.33:620][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree10.uasset
+[2017.01.15-15.51.33:622][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree2" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree2.uasset" SILENT=true
+[2017.01.15-15.51.33:626][734]LogSavePackage: Save=2.84ms
+[2017.01.15-15.51.33:626][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree257A73D8C4C8A300F7A4881B06C2946D0.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree2.uasset'
+[2017.01.15-15.51.33:627][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree2.uasset
+[2017.01.15-15.51.33:629][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree4" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree4.uasset" SILENT=true
+[2017.01.15-15.51.33:633][734]LogSavePackage: Save=2.94ms
+[2017.01.15-15.51.33:633][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree4F0CBD61F418E6CA8AC05AAAED393915F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree4.uasset'
+[2017.01.15-15.51.33:634][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree4.uasset
+[2017.01.15-15.51.33:636][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree5" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree5.uasset" SILENT=true
+[2017.01.15-15.51.33:641][734]LogSavePackage: Save=3.55ms
+[2017.01.15-15.51.33:641][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree5F89A314749ACDA5AAF092DBC34C326E7.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree5.uasset'
+[2017.01.15-15.51.33:642][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree5.uasset
+[2017.01.15-15.51.33:644][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree6" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree6.uasset" SILENT=true
+[2017.01.15-15.51.33:647][734]LogSavePackage: Save=2.75ms
+[2017.01.15-15.51.33:647][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree627DF6E494DE8CC85C061D08110B06FB9.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree6.uasset'
+[2017.01.15-15.51.33:648][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree6.uasset
+[2017.01.15-15.51.33:650][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree7" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree7.uasset" SILENT=true
+[2017.01.15-15.51.33:655][734]LogSavePackage: Save=3.01ms
+[2017.01.15-15.51.33:655][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree7B3E5E17646BF7A693C6DA0B1E8843186.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree7.uasset'
+[2017.01.15-15.51.33:656][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree7.uasset
+[2017.01.15-15.51.33:658][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree8" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree8.uasset" SILENT=true
+[2017.01.15-15.51.33:662][734]LogSavePackage: Save=2.92ms
+[2017.01.15-15.51.33:662][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree85CB059A943F7E57952520FAF64332B21.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree8.uasset'
+[2017.01.15-15.51.33:663][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree8.uasset
+[2017.01.15-15.51.33:665][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pflanzen/Trees/tree9" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree9.uasset" SILENT=true
+[2017.01.15-15.51.33:670][734]LogSavePackage: Save=3.38ms
+[2017.01.15-15.51.33:670][734]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/tree9E9DC25D84175C5BB92CD63A04CEB50CB.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree9.uasset'
+[2017.01.15-15.51.33:672][734]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Pflanzen/Trees/tree9.uasset
+[2017.01.15-15.51.58:961][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.15-15.51.59:257][397]LogSavePackage: Save=275.39ms
+[2017.01.15-15.51.59:257][397]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/MapDF1C67F544D86FDD51E0A9BC465B39AA.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.15-15.51.59:259][397]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.15-15.52.01:203][610]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.15-15.52.01:367][611]Cmd: QUIT_EDITOR
+[2017.01.15-15.52.01:420][611]LogExit: Preparing to exit.
+[2017.01.15-15.52.02:316][611]LogExit: Editor shut down
+[2017.01.15-15.52.02:316][611]LogExit: Transaction tracking system shut down
+[2017.01.15-15.52.02:421][611]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.15-15.52.02:421][611]LogExit: Object subsystem successfully closed.
+[2017.01.15-15.52.02:434][611]LogD3D11RHI: Shutdown
+[2017.01.15-15.52.02:434][611]LogD3D11RHI: CleanupD3DDevice
+[2017.01.15-15.52.02:497][611]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.15-15.52.02:502][611]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.01.15-15.52.02:503][611]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.01.15-15.52.02:504][611]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.01.15-15.52.03:451][611]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.01.15-15.52.03:452][611]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.01.15-15.52.03:506][611]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.01.15-15.52.03:507][611]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.01.15-15.52.03:654][611]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.01.15-15.52.03:655][611]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.01.15-15.52.03:656][611]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.01.15-15.52.03:656][611]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.01.15-15.52.03:756][611]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.01.15-15.52.03:757][611]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.01.15-15.52.03:758][611]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.01.15-15.52.03:758][611]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.01.15-15.52.03:758][611]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.01.15-15.52.03:758][611]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.01.15-15.52.03:758][611]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.01.15-15.52.03:758][611]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.01.15-15.52.03:759][611]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.01.15-15.52.03:913][611]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.01.15-15.52.03:913][611]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.01.15-15.52.03:913][611]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.01.15-15.52.03:913][611]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.01.15-15.52.03:937][611]LogDerivedDataCache: Shutdown
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.01.15-15.52.03:938][611]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.01.15-15.52.03:939][611]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.15-15.52.05:442][611]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.15-15.52.05:444][611]LogExit: Exiting.
+[2017.01.15-15.52.05:445][611]Log file closed, 01/15/17 16:52:05
