@@ -28265,4 +28265,706 @@ Script call stack:
 [2017.01.26-18.01.28:129][298]LogSavePackage: Save=68.28ms
 [2017.01.26-18.01.28:129][298]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Greater_Spider_AB_Auto50899E433491597BFDE0B45AC52B6FBAC.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB_Auto5.uasset'
 [2017.01.26-18.01.28:133][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB_Auto5.uasset
-[2017.01.26-18.01.28:134][298]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/G
+[2017.01.26-18.01.28:134][298]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace] ([1] browsable assets)...
+[2017.01.26-18.01.28:161][298]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace.Greater_Spider_Blendspace]
+[2017.01.26-18.01.28:162][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace]
+[2017.01.26-18.01.28:199][298]LogSavePackage: Save=16.16ms
+[2017.01.26-18.01.28:199][298]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Greater_Spider_Blendspace_Auto5E0308E1840F84CA92C4638ABB3B844F5.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace_Auto5.uasset'
+[2017.01.26-18.01.28:202][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace_Auto5.uasset
+[2017.01.26-18.01.28:202][298]LogFileHelpers: Auto-saving content packages took 0.598
+[2017.01.26-18.02.03:050][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.26-18.02.04:840][523]LogSavePackage: Save=1695.03ms
+[2017.01.26-18.02.04:840][523]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Map769A308847E2F6CDBC464982DC43E2B2.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.26-18.02.04:848][523]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.26-18.02.55:668][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.02.55:673][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.02.55:673][975]PIE: New page: PIE session: Map (Jan 26, 2017, 8:02:55 PM)
+[2017.01.26-18.02.55:674][975]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.02.55:780][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105455s)
+[2017.01.26-18.02.55:781][975]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.02.55:781][975]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2017.01.26-18.02.55:781][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.107090s)
+[2017.01.26-18.02.55:990][975]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.02.56:003][975]LogInit: FAudioDevice initialized.
+[2017.01.26-18.02.56:086][975]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.02.56:150][975]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.02.56
+[2017.01.26-18.02.56:158][975]LogWorld: Bringing up level for play took: 0.070232
+[2017.01.26-18.02.56:169][975]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.529
+[2017.01.26-18.02.56:169][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.02.58:922][ 74]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.03.01:616][174]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.03.04:229][274]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.03.06:976][374]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.03.08:993][448]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.03.09:131][448]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.04.57:097][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.04.57:106][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.04.57:106][338]PIE: New page: PIE session: Map (Jan 26, 2017, 8:04:57 PM)
+[2017.01.26-18.04.57:107][338]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.04.57:176][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069143s)
+[2017.01.26-18.04.57:177][338]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.04.57:177][338]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2017.01.26-18.04.57:178][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.070892s)
+[2017.01.26-18.04.57:234][338]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.04.57:244][338]LogInit: FAudioDevice initialized.
+[2017.01.26-18.04.57:296][338]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.04.57:327][338]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.04.57
+[2017.01.26-18.04.57:329][338]LogWorld: Bringing up level for play took: 0.032988
+[2017.01.26-18.04.57:334][338]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.306
+[2017.01.26-18.04.57:334][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.04.59:456][437]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.05.01:512][537]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.03:582][637]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.05:601][737]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.07:684][837]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.09:789][937]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.11:848][ 37]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.13:964][137]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.16:139][237]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.18:284][337]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.20:425][437]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.05.21:788][501]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.05.21:894][501]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.05.40:685][108]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.26-18.06.16:356][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.06.16:362][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.06.16:362][342]PIE: New page: PIE session: Map (Jan 26, 2017, 8:06:16 PM)
+[2017.01.26-18.06.16:363][342]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.06.16:436][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073337s)
+[2017.01.26-18.06.16:437][342]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.06.16:437][342]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.01.26-18.06.16:438][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.074732s)
+[2017.01.26-18.06.16:491][342]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.06.16:501][342]LogInit: FAudioDevice initialized.
+[2017.01.26-18.06.16:556][342]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.06.16:589][342]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.06.16
+[2017.01.26-18.06.16:591][342]LogWorld: Bringing up level for play took: 0.033830
+[2017.01.26-18.06.16:597][342]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.957
+[2017.01.26-18.06.16:597][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.06.18:835][441]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.06.21:096][541]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.23:312][641]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.25:569][741]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.27:730][841]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.29:900][941]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.32:077][ 41]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.34:329][141]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.36:550][241]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.38:787][341]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.41:007][441]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.43:214][541]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.45:346][641]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.47:505][741]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.49:600][841]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.51:719][941]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.53:777][ 41]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.55:890][141]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.06.57:958][241]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.07.00:089][341]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.07.00:380][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.07.00:493][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.12.09:508][976]BlueprintLog: New page: Compile Greater_Spider_AB
+[2017.01.26-18.12.09:732][976]BlueprintEditorCompileResults: Info [1497.25] Compile of Greater_Spider_AB successful! [in 224 ms] (/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB)
+[2017.01.26-18.12.24:345][426]BlueprintLog: New page: Compile Greater_Spider_AB
+[2017.01.26-18.12.24:562][426]BlueprintEditorCompileResults: Info [1512.08] Compile of Greater_Spider_AB successful! [in 216 ms] (/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB)
+[2017.01.26-18.13.13:567][900]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.13.13:576][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.13.13:576][900]PIE: New page: PIE session: Map (Jan 26, 2017, 8:13:13 PM)
+[2017.01.26-18.13.13:576][900]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.13.13:656][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079449s)
+[2017.01.26-18.13.13:657][900]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.13.13:657][900]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2017.01.26-18.13.13:657][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.081206s)
+[2017.01.26-18.13.13:727][900]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.13.13:739][900]LogInit: FAudioDevice initialized.
+[2017.01.26-18.13.13:797][900]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.13.13:830][900]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.13.13
+[2017.01.26-18.13.13:832][900]LogWorld: Bringing up level for play took: 0.035242
+[2017.01.26-18.13.13:838][900]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.199
+[2017.01.26-18.13.13:839][900]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.13.17:299][999]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.13.20:742][ 99]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.26:328][199]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.29:806][299]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.33:389][399]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.37:209][502]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.42:118][631]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.46:051][731]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.50:233][838]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.53:933][943]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.13.57:415][ 43]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.00:899][143]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.03:900][247]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.06:020][347]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.08:162][447]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.10:340][547]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.12:511][647]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.14:744][747]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.15:082][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.14.15:185][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.14.35:031][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.14.35:043][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.14.35:043][419]PIE: New page: PIE session: Map (Jan 26, 2017, 8:14:35 PM)
+[2017.01.26-18.14.35:043][419]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.14.35:122][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078486s)
+[2017.01.26-18.14.35:123][419]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.14.35:123][419]LogPlayLevel: PIE: World Init took: (0.001366s)
+[2017.01.26-18.14.35:124][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.080325s)
+[2017.01.26-18.14.35:182][419]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.14.35:193][419]LogInit: FAudioDevice initialized.
+[2017.01.26-18.14.35:246][419]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.14.35:281][419]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.14.35
+[2017.01.26-18.14.35:283][419]LogWorld: Bringing up level for play took: 0.036749
+[2017.01.26-18.14.35:289][419]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.351
+[2017.01.26-18.14.35:289][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.14.38:328][518]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.14.41:486][618]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.44:537][718]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.47:569][818]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.50:630][918]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.14.51:260][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.14.51:369][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.16.44:905][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.16.44:910][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.16.44:910][824]PIE: New page: PIE session: Map (Jan 26, 2017, 8:16:44 PM)
+[2017.01.26-18.16.44:910][824]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.16.44:986][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075927s)
+[2017.01.26-18.16.44:987][824]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.16.44:987][824]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2017.01.26-18.16.44:988][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.077408s)
+[2017.01.26-18.16.45:058][824]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.16.45:071][824]LogInit: FAudioDevice initialized.
+[2017.01.26-18.16.45:145][824]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.16.45:181][824]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.16.45
+[2017.01.26-18.16.45:184][824]LogWorld: Bringing up level for play took: 0.037946
+[2017.01.26-18.16.45:191][824]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.449
+[2017.01.26-18.16.45:191][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.16.48:417][923]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.16.51:528][ 23]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.16.52:138][ 43]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 100
+[2017.01.26-18.16.52:138][ 43]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/AI/Attack.Attack_C:ExecuteUbergraph_Attack
+
+[2017.01.26-18.16.52:168][ 43]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_64.UI_GameHUD_C_64.WidgetTree.BlutBalken.FloatBinding_64 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.01.26-18.17.03:470][123]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.17.06:680][223]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.17.09:673][323]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.17.12:115][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.17.12:211][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.18.41:048][ 84]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.26-18.18.54:813][469]BlueprintLog: New page: Compile Greater_Spider_AB
+[2017.01.26-18.18.55:381][469]BlueprintEditorCompileResults: Info [1902.90] Compile of Greater_Spider_AB successful! [in 567 ms] (/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB)
+[2017.01.26-18.18.56:921][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.18.56:931][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.18.56:932][512]PIE: New page: PIE session: Map (Jan 26, 2017, 8:18:56 PM)
+[2017.01.26-18.18.56:932][512]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.18.57:005][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073160s)
+[2017.01.26-18.18.57:007][512]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.18.57:007][512]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2017.01.26-18.18.57:007][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.074945s)
+[2017.01.26-18.18.57:078][512]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.18.57:090][512]LogInit: FAudioDevice initialized.
+[2017.01.26-18.18.57:145][512]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.18.57:183][512]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.18.57
+[2017.01.26-18.18.57:185][512]LogWorld: Bringing up level for play took: 0.039104
+[2017.01.26-18.18.57:191][512]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.449
+[2017.01.26-18.18.57:191][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.19.00:737][611]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.19.03:887][701]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 100
+[2017.01.26-18.19.03:887][701]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/AI/Attack.Attack_C:ExecuteUbergraph_Attack
+
+[2017.01.26-18.19.03:907][701]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_65.UI_GameHUD_C_65.WidgetTree.BlutBalken.FloatBinding_65 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.01.26-18.19.08:957][711]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.11:195][779]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 100
+[2017.01.26-18.19.11:195][779]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/AI/Attack.Attack_C:ExecuteUbergraph_Attack
+
+[2017.01.26-18.19.11:225][779]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_65.UI_GameHUD_C_65.WidgetTree.BlutBalken.FloatBinding_65 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.01.26-18.19.24:149][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.19.24:242][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.19.30:496][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 0.057
+[2017.01.26-18.19.30:498][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Patrol_BT] ([1] browsable assets)...
+[2017.01.26-18.19.30:498][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Patrol_BT]
+[2017.01.26-18.19.30:539][955]LogSavePackage: Save=14.40ms
+[2017.01.26-18.19.30:539][955]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Patrol_BT_Auto6E99D81AF4BAA8DB595A50BAD047D8C1E.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/AI/Patrol_BT_Auto6.uasset'
+[2017.01.26-18.19.30:542][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/AI/Patrol_BT_Auto6.uasset
+[2017.01.26-18.19.30:544][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Attack] ([1] browsable assets)...
+[2017.01.26-18.19.30:544][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Attack]
+[2017.01.26-18.19.30:593][955]LogSavePackage: Save=25.61ms
+[2017.01.26-18.19.30:593][955]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Attack_Auto64B18ADCA4B9FE8BB49A4789643675A9C.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/AI/Attack_Auto6.uasset'
+[2017.01.26-18.19.30:598][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/AI/Attack_Auto6.uasset
+[2017.01.26-18.19.30:600][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB] ([1] browsable assets)...
+[2017.01.26-18.19.30:615][955]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB]
+[2017.01.26-18.19.30:615][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB]
+[2017.01.26-18.19.30:701][955]LogSavePackage: Save=66.47ms
+[2017.01.26-18.19.30:701][955]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Greater_Spider_AB_Auto66E89B41C4A45C1238E1E768A9945F23B.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB_Auto6.uasset'
+[2017.01.26-18.19.30:705][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB_Auto6.uasset
+[2017.01.26-18.19.30:705][955]LogFileHelpers: Auto-saving content packages took 0.209
+[2017.01.26-18.19.32:259][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.19.32:264][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.19.32:264][  2]PIE: New page: PIE session: Map (Jan 26, 2017, 8:19:32 PM)
+[2017.01.26-18.19.32:265][  2]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.19.32:333][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067601s)
+[2017.01.26-18.19.32:334][  2]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.19.32:334][  2]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2017.01.26-18.19.32:334][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.069204s)
+[2017.01.26-18.19.32:385][  2]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.19.32:394][  2]LogInit: FAudioDevice initialized.
+[2017.01.26-18.19.32:450][  2]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.19.32:483][  2]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.19.32
+[2017.01.26-18.19.32:486][  2]LogWorld: Bringing up level for play took: 0.035666
+[2017.01.26-18.19.32:491][  2]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.851
+[2017.01.26-18.19.32:491][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.19.35:564][101]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.19.38:669][201]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.41:723][301]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.44:857][401]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.47:969][501]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.51:098][601]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.54:155][701]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.19.57:190][801]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.00:283][901]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.03:410][  1]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.06:693][101]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.09:903][201]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.13:044][301]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.16:022][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.20.16:143][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.20.42:329][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.20.42:335][225]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.26-18.20.42:339][225]LogPlayLevel: [PlayLevel] Compiling Greater_Spider_AB before play...
+[2017.01.26-18.20.42:633][225]LogPlayLevel: PlayLevel: Blueprint regeneration took 298 ms (1 blueprints)
+[2017.01.26-18.20.42:689][225]PIE: New page: PIE session: Map (Jan 26, 2017, 8:20:42 PM)
+[2017.01.26-18.20.42:689][225]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.20.42:757][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067523s)
+[2017.01.26-18.20.42:758][225]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.20.42:758][225]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2017.01.26-18.20.42:759][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.069417s)
+[2017.01.26-18.20.42:814][225]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.20.42:823][225]LogInit: FAudioDevice initialized.
+[2017.01.26-18.20.42:879][225]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.20.42:910][225]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.20.42
+[2017.01.26-18.20.42:913][225]LogWorld: Bringing up level for play took: 0.034138
+[2017.01.26-18.20.42:919][225]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.28
+[2017.01.26-18.20.42:919][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.20.45:101][324]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.20.47:273][424]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.49:458][524]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.51:701][624]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.53:914][724]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.56:084][824]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.20.58:252][924]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.21.00:451][ 24]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.21.02:577][124]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.21.02:751][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.21.02:851][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.23.09:211][117]BlueprintLog: New page: Compile Greater_Spider_AB
+[2017.01.26-18.23.09:455][117]BlueprintEditorCompileResults: Info [2156.97] Compile of Greater_Spider_AB successful! [in 243 ms] (/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB)
+[2017.01.26-18.23.16:635][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.23.16:640][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.23.16:640][343]PIE: New page: PIE session: Map (Jan 26, 2017, 8:23:16 PM)
+[2017.01.26-18.23.16:640][343]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.23.16:713][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072688s)
+[2017.01.26-18.23.16:715][343]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.23.16:715][343]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2017.01.26-18.23.16:715][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.074437s)
+[2017.01.26-18.23.16:785][343]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.23.16:799][343]LogInit: FAudioDevice initialized.
+[2017.01.26-18.23.16:867][343]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.23.16:903][343]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.23.16
+[2017.01.26-18.23.16:906][343]LogWorld: Bringing up level for play took: 0.037875
+[2017.01.26-18.23.16:913][343]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.273
+[2017.01.26-18.23.16:913][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.23.19:277][442]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.23.21:511][542]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.23:762][642]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.26:015][742]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.28:229][842]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.30:471][942]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.32:719][ 42]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.34:960][142]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.37:200][242]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.39:468][342]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.41:798][442]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.44:229][542]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.46:392][642]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.48:568][742]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.50:747][842]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.52:958][942]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.23.53:807][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.23.53:906][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.25.50:629][194]BlueprintLog: New page: Compile Greater_Spider_AB
+[2017.01.26-18.25.50:852][194]BlueprintEditorCompileResults: Info [2318.37] Compile of Greater_Spider_AB successful! [in 222 ms] (/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB)
+[2017.01.26-18.25.54:608][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.25.54:617][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.25.54:617][316]PIE: New page: PIE session: Map (Jan 26, 2017, 8:25:54 PM)
+[2017.01.26-18.25.54:617][316]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.25.54:684][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066705s)
+[2017.01.26-18.25.54:685][316]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.25.54:685][316]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2017.01.26-18.25.54:686][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.068431s)
+[2017.01.26-18.25.54:757][316]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.25.54:767][316]LogInit: FAudioDevice initialized.
+[2017.01.26-18.25.54:823][316]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.25.54:855][316]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.25.54
+[2017.01.26-18.25.54:857][316]LogWorld: Bringing up level for play took: 0.033197
+[2017.01.26-18.25.54:861][316]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.222
+[2017.01.26-18.25.54:862][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.25.57:053][415]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.25.57:057][415]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9926.500 Y=9672.827 Z=69.504] for [AI_Greater_Spider_C]
+[2017.01.26-18.25.59:208][515]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.26.01:505][615]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.26.03:692][715]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.26.05:904][815]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.26.08:098][915]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.26.10:271][ 15]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.26.12:418][115]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.26.13:151][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.26.13:253][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.06:889][989]BlueprintLog: New page: Compile Greater_Spider_AB
+[2017.01.26-18.28.07:103][989]BlueprintEditorCompileResults: Info [2454.62] Compile of Greater_Spider_AB successful! [in 213 ms] (/Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB)
+[2017.01.26-18.28.09:162][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.09:167][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.28.09:168][ 65]PIE: New page: PIE session: Map (Jan 26, 2017, 8:28:09 PM)
+[2017.01.26-18.28.09:168][ 65]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.28.09:243][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074298s)
+[2017.01.26-18.28.09:244][ 65]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.28.09:244][ 65]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2017.01.26-18.28.09:244][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.076072s)
+[2017.01.26-18.28.09:313][ 65]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.28.09:325][ 65]LogInit: FAudioDevice initialized.
+[2017.01.26-18.28.09:381][ 65]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.28.09:415][ 65]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.28.09
+[2017.01.26-18.28.09:418][ 65]LogWorld: Bringing up level for play took: 0.036627
+[2017.01.26-18.28.09:424][ 65]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.215
+[2017.01.26-18.28.09:425][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.11:554][164]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.28.13:576][264]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.28.15:638][364]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.28.17:661][464]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.28.19:720][564]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.28.21:753][664]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.28.23:874][764]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.28.23:912][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.23:995][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.51:199][789]BlueprintLog: New page: Compile AI_Greater_Spider
+[2017.01.26-18.28.51:505][789]BlueprintEditorCompileResults: Info [2499.02] Compile of AI_Greater_Spider successful! [in 306 ms] (/Game/AI/AI_Greater_Spider.AI_Greater_Spider)
+[2017.01.26-18.28.53:815][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.53:819][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.26-18.28.53:819][873]PIE: New page: PIE session: Map (Jan 26, 2017, 8:28:53 PM)
+[2017.01.26-18.28.53:819][873]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.26-18.28.53:887][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067158s)
+[2017.01.26-18.28.53:888][873]LogAIModule: Creating AISystem for world Map
+[2017.01.26-18.28.53:888][873]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2017.01.26-18.28.53:889][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.069053s)
+[2017.01.26-18.28.53:946][873]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.26-18.28.53:955][873]LogInit: FAudioDevice initialized.
+[2017.01.26-18.28.54:012][873]LogWorld: Game class is 'GameMode'
+[2017.01.26-18.28.54:044][873]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.26-19.28.54
+[2017.01.26-18.28.54:047][873]LogWorld: Bringing up level for play took: 0.035285
+[2017.01.26-18.28.54:053][873]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.414
+[2017.01.26-18.28.54:053][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.28.56:205][972]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.26-18.28.58:361][ 72]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.00:514][172]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.02:593][272]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.04:653][372]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.06:700][472]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.08:745][572]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.10:882][672]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.12:978][772]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.15:068][872]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.17:219][972]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.19:434][ 72]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.21:655][172]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.26-18.29.23:724][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.29.23:836][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.26-18.29.28:684][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.26-18.29.30:575][469]LogSavePackage: Save=1802.84ms
+[2017.01.26-18.29.30:575][469]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Map12E5D5584E86347D88F019B28C66B453.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.26-18.29.30:583][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.26-18.29.34:266][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AgroCheck" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AgroCheck.uasset" SILENT=true
+[2017.01.26-18.29.34:371][530]LogSavePackage: Save=76.13ms
+[2017.01.26-18.29.34:371][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/AgroCheck57AA8EF348CE716E107DE38DCF9E566E.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AgroCheck.uasset'
+[2017.01.26-18.29.34:378][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AgroCheck.uasset
+[2017.01.26-18.29.34:384][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Blackboard" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Blackboard.uasset" SILENT=true
+[2017.01.26-18.29.34:415][530]LogSavePackage: Save=7.41ms
+[2017.01.26-18.29.34:415][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/AI_Blackboard8C5F5A314EB97F548D7559A2FEE83748.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Blackboard.uasset'
+[2017.01.26-18.29.34:421][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Blackboard.uasset
+[2017.01.26-18.29.34:441][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Greater_Spider" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Greater_Spider.uasset" SILENT=true
+[2017.01.26-18.29.34:531][530]LogSavePackage: Save=69.61ms
+[2017.01.26-18.29.34:531][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/AI_Greater_Spider861A7F6B490DA211951B07B1013154F0.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Greater_Spider.uasset'
+[2017.01.26-18.29.34:537][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Greater_Spider.uasset
+[2017.01.26-18.29.34:540][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_State" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_State.uasset" SILENT=true
+[2017.01.26-18.29.34:568][530]LogSavePackage: Save=3.09ms
+[2017.01.26-18.29.34:568][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/AI_State4EA7B1524683C3AB98533E8E92BFFF34.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_State.uasset'
+[2017.01.26-18.29.34:573][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_State.uasset
+[2017.01.26-18.29.34:578][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Test_Controler" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Test_Controler.uasset" SILENT=true
+[2017.01.26-18.29.34:612][530]LogSavePackage: Save=12.17ms
+[2017.01.26-18.29.34:612][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/AI_Test_Controler05B7CEFF4584C0C53B617B89A36CE107.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Test_Controler.uasset'
+[2017.01.26-18.29.34:618][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/AI_Test_Controler.uasset
+[2017.01.26-18.29.34:622][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Alive_Check" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Alive_Check.uasset" SILENT=true
+[2017.01.26-18.29.34:657][530]LogSavePackage: Save=13.74ms
+[2017.01.26-18.29.34:657][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Alive_CheckDAA3A2F24DFCF71EB7387B8551DB6381.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Alive_Check.uasset'
+[2017.01.26-18.29.34:664][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Alive_Check.uasset
+[2017.01.26-18.29.34:668][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Attack" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Attack.uasset" SILENT=true
+[2017.01.26-18.29.34:710][530]LogSavePackage: Save=20.61ms
+[2017.01.26-18.29.34:710][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/AttackD76BF3E146074B6F834315B345DF11FB.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Attack.uasset'
+[2017.01.26-18.29.34:716][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Attack.uasset
+[2017.01.26-18.29.34:720][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CheckLoS" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/CheckLoS.uasset" SILENT=true
+[2017.01.26-18.29.34:793][530]LogSavePackage: Save=49.78ms
+[2017.01.26-18.29.34:793][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/CheckLoS912BCF63484085A4C5E094897FEC0680.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/CheckLoS.uasset'
+[2017.01.26-18.29.34:800][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/CheckLoS.uasset
+[2017.01.26-18.29.34:803][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Patrol_BT" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Patrol_BT.uasset" SILENT=true
+[2017.01.26-18.29.34:842][530]LogSavePackage: Save=17.49ms
+[2017.01.26-18.29.34:842][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Patrol_BTD090EA9D4D71E4817143C29B55FDC40D.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Patrol_BT.uasset'
+[2017.01.26-18.29.34:848][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/AI/Patrol_BT.uasset
+[2017.01.26-18.29.34:886][530]LogSavePackage: Save=5.22ms
+[2017.01.26-18.29.34:886][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Spider_Attack_Meele1912B547E4339C842CDFBF989474666F3.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/AnimMontage/Spider_Attack_Meele1.uasset'
+[2017.01.26-18.29.34:892][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/AnimMontage/Spider_Attack_Meele1.uasset
+[2017.01.26-18.29.34:928][530]LogSavePackage: Save=5.40ms
+[2017.01.26-18.29.34:928][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Spider_Attack_Meele2DDACB24242C9C0203F9C41AB9AA76F4D.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/AnimMontage/Spider_Attack_Meele2.uasset'
+[2017.01.26-18.29.34:934][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/AnimMontage/Spider_Attack_Meele2.uasset
+[2017.01.26-18.29.34:970][530]LogSavePackage: Save=4.66ms
+[2017.01.26-18.29.34:970][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Spider_Attack_Meele389021FED45C3C4CE89FAFC8D20A9CABD.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/AnimMontage/Spider_Attack_Meele3.uasset'
+[2017.01.26-18.29.34:977][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/AnimMontage/Spider_Attack_Meele3.uasset
+[2017.01.26-18.29.35:083][530]LogSavePackage: Save=50.05ms
+[2017.01.26-18.29.35:083][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Greater_Spider_ABCB59D1B74FE098B392DA6C8E436D6AE4.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.uasset'
+[2017.01.26-18.29.35:088][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.uasset
+[2017.01.26-18.29.35:126][530]LogSavePackage: Save=5.84ms
+[2017.01.26-18.29.35:126][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Greater_Spider_BlendspaceA69B7D8E4E48D1F75F63E1882FA4774F.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace.uasset'
+[2017.01.26-18.29.35:131][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_Blendspace.uasset
+[2017.01.26-18.29.35:136][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Spawner" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Spawner.uasset" SILENT=true
+[2017.01.26-18.29.35:207][530]LogSavePackage: Save=48.90ms
+[2017.01.26-18.29.35:207][530]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Spawner4B3FCB974F70F68474474CB7CE78DD0D.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Spawner.uasset'
+[2017.01.26-18.29.35:212][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Monster/Spawner.uasset
+[2017.01.26-18.29.35:601][530]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.26-18.29.38:232][531]Cmd: QUIT_EDITOR
+[2017.01.26-18.29.38:742][531]LogExit: Preparing to exit.
+[2017.01.26-18.29.39:843][531]LogExit: Editor shut down
+[2017.01.26-18.29.39:847][531]LogExit: Transaction tracking system shut down
+[2017.01.26-18.29.40:573][531]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.26-18.29.40:574][531]LogExit: Object subsystem successfully closed.
+[2017.01.26-18.29.40:641][531]LogD3D11RHI: Shutdown
+[2017.01.26-18.29.40:641][531]LogD3D11RHI: CleanupD3DDevice
+[2017.01.26-18.29.40:875][531]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.01.26-18.29.40:935][531]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.01.26-18.29.40:948][531]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.01.26-18.29.40:948][531]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.01.26-18.29.40:948][531]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.01.26-18.29.40:949][531]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.01.26-18.29.40:951][531]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.01.26-18.29.40:951][531]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.01.26-18.29.40:952][531]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.01.26-18.29.40:952][531]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.01.26-18.29.40:952][531]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.01.26-18.29.40:953][531]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.01.26-18.29.40:953][531]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.01.26-18.29.40:953][531]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.01.26-18.29.40:954][531]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.01.26-18.29.40:954][531]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.01.26-18.29.40:955][531]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.01.26-18.29.40:955][531]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.01.26-18.29.40:955][531]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.01.26-18.29.40:956][531]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.01.26-18.29.40:962][531]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.01.26-18.29.40:962][531]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.01.26-18.29.40:962][531]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.01.26-18.29.40:962][531]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.01.26-18.29.40:962][531]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.01.26-18.29.40:965][531]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.01.26-18.29.40:968][531]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.01.26-18.29.40:969][531]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.01.26-18.29.40:969][531]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.01.26-18.29.40:970][531]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.01.26-18.29.40:970][531]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.01.26-18.29.41:396][531]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.01.26-18.29.41:397][531]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.01.26-18.29.41:397][531]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.01.26-18.29.41:397][531]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.01.26-18.29.41:398][531]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.01.26-18.29.41:398][531]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.01.26-18.29.41:398][531]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.01.26-18.29.41:398][531]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.01.26-18.29.41:398][531]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.01.26-18.29.41:399][531]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.01.26-18.29.41:400][531]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.01.26-18.29.41:401][531]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.01.26-18.29.41:401][531]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.01.26-18.29.41:401][531]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.01.26-18.29.41:402][531]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.01.26-18.29.41:402][531]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.01.26-18.29.41:403][531]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.01.26-18.29.41:403][531]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.01.26-18.29.41:405][531]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.01.26-18.29.41:405][531]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.01.26-18.29.41:405][531]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.01.26-18.29.41:407][531]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.01.26-18.29.41:408][531]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.01.26-18.29.41:408][531]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.01.26-18.29.41:408][531]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.01.26-18.29.41:451][531]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.01.26-18.29.41:452][531]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.01.26-18.29.41:453][531]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.01.26-18.29.41:456][531]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.01.26-18.29.41:456][531]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.01.26-18.29.41:456][531]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.01.26-18.29.41:456][531]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.01.26-18.29.41:457][531]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.01.26-18.29.41:457][531]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.01.26-18.29.41:457][531]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.01.26-18.29.41:459][531]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.01.26-18.29.41:459][531]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.01.26-18.29.41:461][531]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.01.26-18.29.41:463][531]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.01.26-18.29.41:464][531]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.01.26-18.29.41:465][531]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.01.26-18.29.41:467][531]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.01.26-18.29.41:467][531]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.01.26-18.29.41:467][531]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.01.26-18.29.41:468][531]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.01.26-18.29.41:716][531]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.01.26-18.29.41:718][531]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.01.26-18.29.41:718][531]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.01.26-18.29.41:718][531]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.01.26-18.29.41:718][531]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.01.26-18.29.41:718][531]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.01.26-18.29.41:719][531]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.01.26-18.29.41:719][531]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.01.26-18.29.41:719][531]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.01.26-18.29.41:719][531]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.01.26-18.29.41:719][531]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.01.26-18.29.41:722][531]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.01.26-18.29.41:722][531]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.01.26-18.29.41:722][531]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.01.26-18.29.41:722][531]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.01.26-18.29.41:722][531]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.01.26-18.29.41:724][531]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.01.26-18.29.41:724][531]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.01.26-18.29.41:725][531]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.01.26-18.29.41:726][531]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.01.26-18.29.41:726][531]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.01.26-18.29.41:727][531]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.01.26-18.29.41:730][531]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.01.26-18.29.41:732][531]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.01.26-18.29.41:733][531]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.01.26-18.29.41:733][531]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.01.26-18.29.41:734][531]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.01.26-18.29.41:735][531]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.01.26-18.29.41:736][531]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.01.26-18.29.41:736][531]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.01.26-18.29.41:738][531]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.01.26-18.29.41:739][531]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.01.26-18.29.41:744][531]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.01.26-18.29.41:747][531]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.01.26-18.29.41:749][531]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.01.26-18.29.41:849][531]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.01.26-18.29.41:849][531]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.01.26-18.29.41:850][531]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.01.26-18.29.41:850][531]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.01.26-18.29.41:850][531]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.01.26-18.29.41:851][531]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.01.26-18.29.41:851][531]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.01.26-18.29.41:851][531]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.01.26-18.29.41:851][531]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.01.26-18.29.41:851][531]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.01.26-18.29.41:852][531]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.01.26-18.29.41:852][531]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.01.26-18.29.41:852][531]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.01.26-18.29.41:852][531]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.01.26-18.29.41:852][531]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.01.26-18.29.41:854][531]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.01.26-18.29.41:858][531]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.01.26-18.29.41:858][531]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.01.26-18.29.41:858][531]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.01.26-18.29.41:862][531]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.01.26-18.29.41:865][531]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.01.26-18.29.41:865][531]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.01.26-18.29.41:868][531]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.01.26-18.29.41:868][531]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.01.26-18.29.41:871][531]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.01.26-18.29.41:871][531]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.01.26-18.29.41:871][531]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.01.26-18.29.41:871][531]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.01.26-18.29.41:871][531]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.01.26-18.29.41:871][531]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.01.26-18.29.41:877][531]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.01.26-18.29.42:068][531]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.01.26-18.29.42:068][531]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.01.26-18.29.42:068][531]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.01.26-18.29.42:069][531]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.01.26-18.29.42:149][531]LogDerivedDataCache: Shutdown
+[2017.01.26-18.29.42:149][531]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.01.26-18.29.42:150][531]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.01.26-18.29.42:151][531]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.01.26-18.29.42:151][531]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.01.26-18.29.42:152][531]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.01.26-18.29.42:152][531]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.01.26-18.29.42:153][531]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.01.26-18.29.42:153][531]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.01.26-18.29.42:153][531]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.01.26-18.29.42:153][531]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.01.26-18.29.42:154][531]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.01.26-18.29.42:154][531]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.01.26-18.29.42:154][531]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.01.26-18.29.42:154][531]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.01.26-18.29.42:155][531]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.01.26-18.29.42:155][531]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.01.26-18.29.42:155][531]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.01.26-18.29.42:155][531]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.01.26-18.29.42:156][531]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.01.26-18.29.42:157][531]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.01.26-18.29.42:158][531]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.01.26-18.29.43:667][531]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.01.26-18.29.43:669][531]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.01.26-18.29.43:671][531]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.01.26-18.29.43:671][531]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.26-18.29.43:672][531]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.26-18.29.43:672][531]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.26-18.29.43:672][531]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.26-18.29.43:711][531]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.26-18.29.43:714][531]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.26-18.29.43:715][531]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.26-18.29.43:715][531]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.26-18.29.43:715][531]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.26-18.29.43:715][531]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.26-18.29.43:715][531]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.26-18.29.43:716][531]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.26-18.29.43:717][531]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.26-18.29.43:717][531]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.26-18.29.43:724][531]LogExit: Exiting.
+[2017.01.26-18.29.43:809][531]Log file closed, 01/26/17 19:29:43
