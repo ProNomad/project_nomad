@@ -1,0 +1,727 @@
+﻿Log file open, 01/28/17 16:36:59
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1060258935) SRandInit(1060258937).
+LogTaskGraph: Started task graph with 4 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096555
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.28-15.37.00:123][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.28-15.37.00:123][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.28-15.37.00:134][  0]LogInit: Computer: NOX-PC
+[2017.01.28-15.37.00:134][  0]LogInit: User: Nox
+[2017.01.28-15.37.00:134][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.01.28-15.37.00:134][  0]LogInit: High frequency timer resolution =3.233427 MHz
+[2017.01.28-15.37.00:134][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.01.28-15.37.00:134][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.28-15.37.00:134][  0]LogMemory: Process Physical Memory: 191.49 MB used, 191.49 MB peak
+[2017.01.28-15.37.00:134][  0]LogMemory: Process Virtual Memory: 196.54 MB used, 196.54 MB peak
+[2017.01.28-15.37.00:134][  0]LogMemory: Physical Memory: 5793.64 MB used, 8190.18 MB total
+[2017.01.28-15.37.00:134][  0]LogMemory: Virtual Memory: 523.09 MB used, 8388608.00 MB total
+[2017.01.28-15.37.00:224][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.28-15.37.00:737][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.28-15.37.00:771][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650 Ti' (Feature Level 11_0)
+[2017.01.28-15.37.00:772][  0]LogD3D11RHI:       1989/0/3839 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.28-15.37.00:772][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.28-15.37.00:780][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.28-15.37.00:780][  0]LogD3D11RHI:     GPU DeviceId: 0x11c6 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.28-15.37.00:780][  0]LogWindows: EnumDisplayDevices:
+[2017.01.28-15.37.00:780][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650 Ti' (P:1 D:1)
+[2017.01.28-15.37.00:780][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:1)
+[2017.01.28-15.37.00:780][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
+[2017.01.28-15.37.00:781][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
+[2017.01.28-15.37.00:781][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.01.28-15.37.00:781][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.01.28-15.37.00:781][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.01.28-15.37.00:781][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.01.28-15.37.00:781][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650 Ti
+[2017.01.28-15.37.00:781][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.01.28-15.37.00:781][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.01.28-15.37.00:781][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.28-15.37.00:791][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.28-15.37.00:808][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.01.28-15.37.00:808][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/12248/).
+[2017.01.28-15.37.00:808][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nox/AppData/Local/Temp/UnrealShaderWorkingDir/EDF5229947D0813D9987A9B0731452D0/'.
+[2017.01.28-15.37.00:808][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.28-15.37.02:255][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.28-15.37.02:268][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.28-15.37.02:280][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.28-15.37.02:293][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.28-15.37.02:306][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.28-15.37.02:318][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.28-15.37.02:329][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.28-15.37.02:340][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.28-15.37.02:352][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.28-15.37.02:364][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.28-15.37.02:376][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.28-15.37.02:401][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.28-15.37.02:401][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.28-15.37.02:403][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.28-15.37.02:428][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.28-15.37.02:439][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.28-15.37.02:450][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.28-15.37.02:460][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.28-15.37.02:473][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.28-15.37.02:473][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.28-15.37.02:551][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.28-15.37.02:663][  0]LogDerivedDataCache: Loaded boot cache 0.11s 48MB C:/Users/Nox/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.28-15.37.02:664][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nox/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.28-15.37.02:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.28-15.37.02:664][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.28-15.37.02:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.28-15.37.02:664][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.28-15.37.02:691][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.28-15.37.02:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nox/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.28-15.37.02:970][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.28-15.37.02:971][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.28-15.37.03:171][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.28-15.37.03:171][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.28-15.37.03:171][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.28-15.37.03:530][  0]LogAssetRegistry: FAssetRegistry took 0.0203 seconds to start up
+[2017.01.28-15.37.03:548][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.013461 seconds
+[2017.01.28-15.37.03:560][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.28-15.37.03:560][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.01.28-15.37.03:560][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.28-15.37.03:568][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.28-15.37.03:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.28-15.37.03:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.28-15.37.04:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.28-15.37.04:946][  0]SourceControl: Info Source control is disabled
+[2017.01.28-15.37.05:159][  0]LogEngine: Initializing Engine...
+[2017.01.28-15.37.05:160][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.28-15.37.05:160][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.28-15.37.05:357][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.28-15.37.05:375][  0]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.28-15.37.05:404][  0]LogInit: FAudioDevice initialized.
+[2017.01.28-15.37.05:450][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/Nox/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.28-15.37.05:466][  0]LogInit: Texture streaming: Enabled
+[2017.01.28-15.37.05:949][  0]LogInit: Transaction tracking system initialized
+[2017.01.28-15.37.05:973][  0]BlueprintLog: New page: Editor Load
+[2017.01.28-15.37.06:047][  0]LocalizationService: Info Localization service is disabled
+[2017.01.28-15.37.06:108][  0]LogConsoleResponse:Display: 
+[2017.01.28-15.37.06:229][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.28-15.37.06:229][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.28-15.37.06:332][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/' took 0.03s
+[2017.01.28-15.37.06:333][  0]Cmd: MAP LOAD FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.28-15.37.06:333][  0]LightingResults: New page: Lighting Build
+[2017.01.28-15.37.06:336][  0]MapCheck: New page: Map Check
+[2017.01.28-15.37.06:336][  0]LightingResults: New page: Lighting Build
+[2017.01.28-15.37.10:860][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.28-15.37.10:914][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.28-15.37.10:923][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.28-15.37.11:002][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.516ms to complete.
+[2017.01.28-15.37.11:002][  0]LogFileHelpers: Loading map 'Map' took 4.669
+[2017.01.28-15.37.11:292][  0]LogCollectionManager: Loaded 0 collections in 0.001466 seconds
+[2017.01.28-15.37.11:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.28-15.37.11:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Developers/Nox/Collections/' took 0.01s
+[2017.01.28-15.37.11:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.28-15.37.11:334][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.28-15.37.11:347][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2047 classes and 369 folders.
+[2017.01.28-15.37.11:352][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.28-15.37.11:352][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.28-15.37.11:353][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2017.01.28-15.37.11:357][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.28-15.37.11:400][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.01.28-15.37.11:404][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.01.28-15.37.11:424][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.28-15.37.11:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.28-15.37.11:511][  0]LogLoad: Full Startup: 12.19 seconds (BP compile: 1.17 seconds)
+[2017.01.28-15.37.11:511][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.28-15.37.11:524][  0]LogOcInput: OculusInput pre-init called
+[2017.01.28-15.37.11:552][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.28-15.37.11:673][  0]LogRenderer: Reallocating scene render targets to support 512x512 (Frame:1).
+[2017.01.28-15.37.11:843][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.01.28-15.37.11:956][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.28-15.37.25:238][388]LogAssetRegistry: Asset discovery search completed in 21.7274 seconds
+[2017.01.28-15.37.25:238][388]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.28-15.37.25:238][388]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.01.28-15.38.56:067][411]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.28-15.39.46:215][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:217][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:218][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:219][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:220][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:221][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:222][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:223][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:224][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:225][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:226][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:226][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:227][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:228][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:229][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:230][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:231][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:231][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:232][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:233][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:234][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:235][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:235][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:236][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:237][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:238][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:239][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:240][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:240][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:241][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:242][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:243][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:244][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:244][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:245][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:246][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:247][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:248][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:248][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:249][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:250][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:251][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:252][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:252][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:253][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:254][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:255][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:256][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:256][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:257][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:258][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:259][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:260][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:260][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:261][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:262][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:262][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:263][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:264][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:265][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:265][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:266][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:267][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:268][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:268][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:269][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:270][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:271][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:271][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:272][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:273][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:274][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:274][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:275][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:276][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:277][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:277][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:278][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:279][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:280][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:280][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:281][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:282][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:282][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:283][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:284][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:285][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:285][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:286][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:287][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:287][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:288][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:289][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:290][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:290][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:291][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:292][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:292][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:293][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:294][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:294][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:295][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:296][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:296][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:297][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:298][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:298][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:299][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:300][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:300][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:301][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:301][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:302][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:303][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:303][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:304][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:305][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:305][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:306][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:306][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:307][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:308][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:308][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:309][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:310][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:310][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:311][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:311][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:312][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:313][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:313][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:314][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:315][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:315][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:316][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:316][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:317][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:318][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:318][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:319][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:319][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:320][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:321][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:321][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:322][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:322][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:323][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:324][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:324][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.46:343][118]LogEditorActor: Deleted 149 Actors (0.179 secs)
+[2017.01.28-15.39.54:707][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:708][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:709][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:710][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:710][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:711][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:712][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:712][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:713][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:713][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:714][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:714][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.39.54:732][720]LogEditorActor: Deleted 12 Actors (0.045 secs)
+[2017.01.28-15.42.20:483][704]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.01.28-15.42.53:068][606]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.42.57:740][841]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.42.58:089][841]LogLinker:Warning: Can't find file '/Game/Architecture/SM_Floor_400x400'
+[2017.01.28-15.42.58:090][841]LogLinker:Warning: Can't find file '/Game/Architecture/SM_Floor_400x400'
+[2017.01.28-15.42.58:092][841]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/SM_Floor_400x400.SM_Floor_400x400'
+[2017.01.28-15.42.58:106][841]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.42.58:120][841]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.42.58:176][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.01.28-15.42.58:182][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.01.28-15.42.58:187][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2017.01.28-15.42.58:203][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2017.01.28-15.42.58:226][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2017.01.28-15.42.58:243][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_22, compiling. 
+[2017.01.28-15.42.58:248][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2017.01.28-15.42.58:253][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2017.01.28-15.42.58:263][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.01.28-15.42.58:275][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.01.28-15.43.02:205][971]MaterialEditorStats: Info Base pass shader with static lighting: 119 instructions
+[2017.01.28-15.43.02:205][971]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 90 instructions
+[2017.01.28-15.43.02:205][971]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.28-15.43.02:205][971]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.01.28-15.43.04:377][ 58]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.04:419][ 58]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.04:433][ 58]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.09:262][249]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2017.01.28-15.43.09:262][249]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2017.01.28-15.43.09:262][249]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 77 instructions
+[2017.01.28-15.43.09:262][249]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.43.09:262][249]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.01.28-15.43.12:072][372]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.12:101][372]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.12:116][372]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.16:067][516]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.16:082][516]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.16:083][516]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.01.28-15.43.19:864][657]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.19:879][657]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.22:741][767]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.22:756][767]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.24:958][851]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.24:973][851]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.31:422][114]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.31:438][114]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.33:607][203]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.33:621][203]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.33:647][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.01.28-15.43.35:208][266]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.35:223][266]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.35:249][266]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.01.28-15.43.37:128][342]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.43.37:144][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.43.37:169][342]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.01.28-15.43.44:412][610]MaterialEditorStats: Info Base pass shader with static lighting: 284 instructions
+[2017.01.28-15.43.44:413][610]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 264 instructions
+[2017.01.28-15.43.44:413][610]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 300 instructions
+[2017.01.28-15.43.44:413][610]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.43.44:413][610]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.44.04:037][813]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.04:051][813]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.05:096][856]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.05:111][856]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.12:324][ 44]MaterialEditorStats: Info Base pass shader with static lighting: 284 instructions
+[2017.01.28-15.44.12:324][ 44]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 264 instructions
+[2017.01.28-15.44.12:324][ 44]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 300 instructions
+[2017.01.28-15.44.12:324][ 44]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.44.12:324][ 44]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.44.17:602][175]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.17:616][175]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.18:948][228]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.18:963][228]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.26:247][500]MaterialEditorStats: Info Base pass shader with static lighting: 284 instructions
+[2017.01.28-15.44.26:247][500]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 264 instructions
+[2017.01.28-15.44.26:247][500]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 300 instructions
+[2017.01.28-15.44.26:247][500]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.44.26:247][500]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.44.28:303][593]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.28:317][593]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.29:482][642]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.29:497][642]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.36:207][892]MaterialEditorStats: Info Base pass shader with static lighting: 284 instructions
+[2017.01.28-15.44.36:207][892]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 264 instructions
+[2017.01.28-15.44.36:207][892]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 300 instructions
+[2017.01.28-15.44.36:207][892]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.44.36:207][892]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.44.36:241][893]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.36:255][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.37:619][943]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.37:635][943]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.44:823][199]MaterialEditorStats: Info Base pass shader with static lighting: 284 instructions
+[2017.01.28-15.44.44:823][199]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 264 instructions
+[2017.01.28-15.44.44:823][199]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 300 instructions
+[2017.01.28-15.44.44:823][199]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.44.44:823][199]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.44.49:380][379]LogMaterialEditor: Saving and Compiling material nox_ocean
+[2017.01.28-15.44.50:151][379]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.50:183][379]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.44.50:223][379]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.50:268][379]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.44.50:295][379]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.45.08:585][379]LogSavePackage: Save=58.65ms
+[2017.01.28-15.45.08:585][379]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/nox_ocean72B25DA2494FE4F4178CCCB3B00853D1.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/StarterContent/Materials/nox_ocean.uasset'
+[2017.01.28-15.45.08:586][379]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/StarterContent/Materials/nox_ocean.uasset
+[2017.01.28-15.45.08:594][379]MaterialEditorStats: Info Base pass shader with static lighting: 322 instructions
+[2017.01.28-15.45.08:594][379]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 302 instructions
+[2017.01.28-15.45.08:594][379]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 338 instructions
+[2017.01.28-15.45.08:594][379]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.45.08:594][379]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.45.22:485][ 93]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.01.28-15.45.22:524][ 93]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.01.28-15.45.22:554][ 93]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.01.28-15.48.10:746][431]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.48.13:012][528]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.48.15:497][641]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.48.15:759][647]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.48.17:122][701]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.50.03:251][309]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.28-15.50.04:000][346]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor1)
+[2017.01.28-15.50.04:509][375]Cmd: DELETE
+[2017.01.28-15.50.04:509][375]Cmd: ACTOR DELETE
+[2017.01.28-15.50.04:527][375]LogEditorActor: Deleted Actor: InstancedFoliageActor
+[2017.01.28-15.50.04:577][375]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2017.01.28-15.50.35:844][588]LogActorFactory: Actor Factory created stone_02
+[2017.01.28-15.50.37:892][755]LogActorFactory: Actor Factory created stone_02
+[2017.01.28-15.50.38:712][798]LogActorFactory: Actor Factory created stone_01
+[2017.01.28-15.50.39:352][835]LogActorFactory: Actor Factory created stone_01
+[2017.01.28-15.50.48:251][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_02)
+[2017.01.28-15.51.42:922][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_01)
+[2017.01.28-15.51.56:249][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_02)
+[2017.01.28-15.51.57:809][778]Cmd: EDIT COPY
+[2017.01.28-15.51.58:017][788]Cmd: EDIT PASTE
+[2017.01.28-15.52.11:826][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_01)
+[2017.01.28-15.52.12:329][561]Cmd: EDIT COPY
+[2017.01.28-15.52.12:516][570]Cmd: EDIT PASTE
+[2017.01.28-15.52.23:954][185]Cmd: EDIT COPY
+[2017.01.28-15.52.24:164][191]Cmd: EDIT PASTE
+[2017.01.28-15.52.29:937][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_3)
+[2017.01.28-15.52.30:493][541]Cmd: EDIT COPY
+[2017.01.28-15.52.30:685][551]Cmd: EDIT PASTE
+[2017.01.28-15.52.36:842][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_02)
+[2017.01.28-15.52.37:451][902]Cmd: EDIT COPY
+[2017.01.28-15.52.37:676][914]Cmd: EDIT PASTE
+[2017.01.28-15.52.54:967][888]Cmd: EDIT COPY
+[2017.01.28-15.52.55:188][896]Cmd: EDIT PASTE
+[2017.01.28-15.53.15:623][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_02)
+[2017.01.28-15.53.16:170][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_01)
+[2017.01.28-15.53.16:522][ 31]Cmd: EDIT COPY
+[2017.01.28-15.53.16:714][ 41]Cmd: EDIT PASTE
+[2017.01.28-15.53.22:117][327]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.28-15.53.25:820][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_6)
+[2017.01.28-15.53.32:855][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_7)
+[2017.01.28-15.53.41:637][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_8)
+[2017.01.28-15.53.47:050][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_5)
+[2017.01.28-15.53.51:152][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_4)
+[2017.01.28-15.53.57:650][299]Cmd: EDIT COPY
+[2017.01.28-15.53.57:910][308]Cmd: EDIT PASTE
+[2017.01.28-15.53.59:042][369]Cmd: DELETE
+[2017.01.28-15.53.59:042][369]Cmd: ACTOR DELETE
+[2017.01.28-15.53.59:062][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.53.59:102][369]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2017.01.28-15.53.59:370][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_7)
+[2017.01.28-15.53.59:970][419]Cmd: EDIT COPY
+[2017.01.28-15.54.00:133][427]Cmd: EDIT PASTE
+[2017.01.28-15.54.07:194][815]Cmd: EDIT COPY
+[2017.01.28-15.54.07:409][823]Cmd: EDIT PASTE
+[2017.01.28-15.54.30:658][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_4)
+[2017.01.28-15.54.31:092][133]Cmd: EDIT COPY
+[2017.01.28-15.54.31:302][143]Cmd: EDIT PASTE
+[2017.01.28-15.54.38:626][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_4)
+[2017.01.28-15.54.39:461][612]Cmd: EDIT COPY
+[2017.01.28-15.54.39:684][624]Cmd: EDIT PASTE
+[2017.01.28-15.54.55:461][543]LogActorFactory: Actor Factory created plant_fern_01
+[2017.01.28-15.54.56:271][595]LogActorFactory: Actor Factory created plant_fern_01
+[2017.01.28-15.54.57:373][676]Cmd: DELETE
+[2017.01.28-15.54.57:373][676]Cmd: ACTOR DELETE
+[2017.01.28-15.54.57:390][676]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.54.57:414][676]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2017.01.28-15.54.58:468][758]Cmd: TRANSACTION UNDO
+[2017.01.28-15.54.58:468][758]LogEditorTransaction: Undo Delete Actors
+[2017.01.28-15.54.58:612][758]LogMaterial: Missing cached shader map for material nox_ocean, compiling. 
+[2017.01.28-15.54.58:626][758]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.55.04:821][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.01.28-15.55.05:447][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plant_fern_01)
+[2017.01.28-15.55.05:628][166]MaterialEditorStats: Info Base pass shader with static lighting: 284 instructions
+[2017.01.28-15.55.05:628][166]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 264 instructions
+[2017.01.28-15.55.05:628][166]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 300 instructions
+[2017.01.28-15.55.05:628][166]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2017.01.28-15.55.05:628][166]MaterialEditorStats: Info Texture samplers: 12/16
+[2017.01.28-15.55.06:035][194]Cmd: DELETE
+[2017.01.28-15.55.06:035][194]Cmd: ACTOR DELETE
+[2017.01.28-15.55.06:051][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.55.06:052][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-15.55.06:071][194]LogEditorActor: Deleted 2 Actors (0.036 secs)
+[2017.01.28-15.55.45:808][309]LogActorFactory: Actor Factory created SM_bush1
+[2017.01.28-15.55.48:582][521]LogActorFactory: Actor Factory created SM_bush1
+[2017.01.28-15.55.49:638][572]LogActorFactory: Actor Factory created SM_bush2
+[2017.01.28-15.55.50:819][657]LogActorFactory: Actor Factory created SM_bush2
+[2017.01.28-15.55.51:564][690]LogActorFactory: Actor Factory created SM_bush3
+[2017.01.28-15.55.52:545][752]LogActorFactory: Actor Factory created SM_bush3
+[2017.01.28-15.55.53:792][814]LogActorFactory: Actor Factory created SM_bush4
+[2017.01.28-15.55.56:308][  4]LogActorFactory: Actor Factory created SM_bush4
+[2017.01.28-15.55.58:024][ 97]LogActorFactory: Actor Factory created SM_bush5
+[2017.01.28-15.55.59:156][175]LogActorFactory: Actor Factory created SM_bush5
+[2017.01.28-15.55.59:745][199]LogActorFactory: Actor Factory created SM_bush6
+[2017.01.28-15.56.00:603][253]LogActorFactory: Actor Factory created SM_bush6
+[2017.01.28-15.56.01:292][275]LogActorFactory: Actor Factory created SM_bush1
+[2017.01.28-15.56.02:655][360]LogActorFactory: Actor Factory created SM_bush1
+[2017.01.28-15.56.03:411][386]LogActorFactory: Actor Factory created SM_bush2
+[2017.01.28-15.56.04:165][431]LogActorFactory: Actor Factory created SM_bush2
+[2017.01.28-15.56.11:211][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.01.28-15.56.32:027][992]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:027][992]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:042][993]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:042][993]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:183][  3]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:183][  3]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:661][ 37]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:661][ 37]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-15.56.32:675][ 38]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.28-16.01.06:776][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.28-16.01.06:776][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.28-16.01.06:802][ 59]PIE: New page: PIE session: Map (Jan 28, 2017, 6:01:06 PM)
+[2017.01.28-16.01.06:803][ 59]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.28-16.01.06:871][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067898s)
+[2017.01.28-16.01.06:872][ 59]LogAIModule: Creating AISystem for world Map
+[2017.01.28-16.01.06:872][ 59]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2017.01.28-16.01.06:872][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.069505s)
+[2017.01.28-16.01.06:923][ 59]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.28-16.01.06:949][ 59]LogInit: FAudioDevice initialized.
+[2017.01.28-16.01.07:077][ 59]LogWorld: Game class is 'GameMode'
+[2017.01.28-16.01.07:142][ 59]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.28-17.01.07
+[2017.01.28-16.01.07:179][ 59]LogWorld: Bringing up level for play took: 0.051338
+[2017.01.28-16.01.07:241][ 59]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.01.28-16.01.07:331][ 59]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.677
+[2017.01.28-16.01.07:331][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.28-16.01.07:556][ 60]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062188 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
+[2017.01.28-16.01.07:557][ 60]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083779 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_C_0', movement 'Walking'
+[2017.01.28-16.01.08:896][158]LogBlueprintUserMessages: [Spawner_78] 1
+[2017.01.28-16.01.10:201][258]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.11:459][358]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.12:697][458]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.13:943][558]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.15:183][658]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.16:435][758]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.17:730][858]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.19:076][958]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.20:337][ 58]LogBlueprintUserMessages: [Spawner_78] 2
+[2017.01.28-16.01.20:872][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.28-16.01.20:977][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.28-16.01.30:761][631]LogActorFactory: Actor Factory created SM_tree1
+[2017.01.28-16.01.31:921][704]LogActorFactory: Actor Factory created SM_tree1
+[2017.01.28-16.01.32:623][721]LogActorFactory: Actor Factory created SM_tree10
+[2017.01.28-16.01.35:974][909]LogActorFactory: Actor Factory created SM_tree10
+[2017.01.28-16.01.38:182][989]LogActorFactory: Actor Factory created SM_tree8
+[2017.01.28-16.01.42:121][184]LogActorFactory: Actor Factory created SM_tree8
+[2017.01.28-16.01.43:383][218]LogActorFactory: Actor Factory created SM_tree10
+[2017.01.28-16.01.44:108][249]LogActorFactory: Actor Factory created SM_tree10
+[2017.01.28-16.01.44:693][267]Cmd: DELETE
+[2017.01.28-16.01.44:693][267]Cmd: ACTOR DELETE
+[2017.01.28-16.01.44:712][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-16.01.44:741][267]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2017.01.28-16.01.45:140][274]LogActorFactory: Actor Factory created SM_tree3
+[2017.01.28-16.01.45:806][305]LogActorFactory: Actor Factory created SM_tree3
+[2017.01.28-16.01.45:917][308]Cmd: DELETE
+[2017.01.28-16.01.45:917][308]Cmd: ACTOR DELETE
+[2017.01.28-16.01.45:936][308]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-16.01.45:957][308]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.01.28-16.01.46:586][322]LogActorFactory: Actor Factory created SM_tree5
+[2017.01.28-16.01.48:358][408]LogActorFactory: Actor Factory created SM_tree5
+[2017.01.28-16.01.55:083][626]LogActorFactory: Actor Factory created SM_grass_flower_patch3
+[2017.01.28-16.01.55:929][662]LogActorFactory: Actor Factory created SM_grass_flower_patch3
+[2017.01.28-16.01.56:320][679]Cmd: DELETE
+[2017.01.28-16.01.56:320][679]Cmd: ACTOR DELETE
+[2017.01.28-16.01.56:336][679]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.28-16.01.56:354][679]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2017.01.28-16.04.28:130][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.28-16.04.28:300][884]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2017.01.28-16.04.28:309][884]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.01.28-16.04.28:315][884]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2017.01.28-16.04.28:316][884]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2017.01.28-16.04.28:317][884]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2017.01.28-16.04.28:317][884]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2017.01.28-16.04.28:339][884]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2017.01.28-16.04.28:340][884]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2017.01.28-16.04.28:341][884]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2017.01.28-16.04.28:357][884]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2017.01.28-16.04.28:429][884]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2017.01.28-16.04.28:431][884]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2017.01.28-16.04.28:432][884]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2017.01.28-16.04.28:478][884]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2017.01.28-16.04.28:479][884]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2017.01.28-16.04.28:480][884]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2017.01.28-16.04.28:521][884]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2017.01.28-16.04.28:527][884]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2017.01.28-16.04.28:546][884]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2017.01.28-16.04.28:548][884]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2017.01.28-16.04.28:583][884]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2017.01.28-16.04.28:583][884]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2017.01.28-16.04.28:584][884]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2017.01.28-16.04.28:584][884]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2017.01.28-16.04.28:641][884]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2017.01.28-16.04.28:642][884]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2017.01.28-16.04.28:643][884]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2017.01.28-16.04.28:643][884]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2017.01.28-16.04.28:644][884]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2017.01.28-16.04.28:644][884]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2017.01.28-16.04.28:645][884]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2017.01.28-16.04.28:645][884]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2017.01.28-16.04.28:646][884]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2017.01.28-16.04.28:646][884]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2017.01.28-16.04.28:647][884]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2017.01.28-16.04.28:663][884]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2017.01.28-16.04.28:664][884]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2017.01.28-16.04.28:684][884]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2017.01.28-16.04.28:733][884]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2017.01.28-16.04.28:737][884]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2017.01.28-16.04.28:739][884]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2017.01.28-16.04.28:740][884]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2017.01.28-16.04.28:740][884]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2017.01.28-16.04.28:741][884]LogTexture:Display: Building textures: Texture2D_2 (BGRA8)
+[2017.01.28-16.04.28:741][884]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2017.01.28-16.04.28:743][884]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2017.01.28-16.04.28:743][884]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2017.01.28-16.04.28:744][884]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2017.01.28-16.04.28:744][884]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2017.01.28-16.04.28:745][884]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2017.01.28-16.04.28:745][884]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2017.01.28-16.04.28:745][884]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2017.01.28-16.04.28:746][884]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2017.01.28-16.04.28:746][884]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2017.01.28-16.04.28:747][884]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2017.01.28-16.04.28:747][884]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2017.01.28-16.04.28:748][884]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2017.01.28-16.04.29:130][884]LogSavePackage: Save=958.48ms
+[2017.01.28-16.04.29:130][884]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Map_Auto177D29455410242C4AA65F4A7D8B1AA4A.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap'
+[2017.01.28-16.04.29:131][884]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Autosaves/Game/Map/Map_Auto1.umap
+[2017.01.28-16.04.29:133][884]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Map' took 1.051
+[2017.01.28-16.04.29:133][884]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.051
+[2017.01.28-16.04.30:403][898]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.28-16.05.35:423][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.28-16.05.35:964][ 83]LogSavePackage: Save=505.34ms
+[2017.01.28-16.05.35:964][ 83]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/MapA02C725B43DBEA56628614BF2D43C3F7.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.28-16.05.35:967][ 83]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.28-16.05.36:049][ 83]LogFileHelpers: Saving map 'Map' took 0.711
+[2017.01.28-16.05.51:418][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.28-16.05.51:418][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.28-16.05.51:418][266]PIE: New page: PIE session: Map (Jan 28, 2017, 6:05:51 PM)
+[2017.01.28-16.05.51:418][266]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.28-16.05.51:485][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066414s)
+[2017.01.28-16.05.51:486][266]LogAIModule: Creating AISystem for world Map
+[2017.01.28-16.05.51:486][266]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2017.01.28-16.05.51:486][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.067783s)
+[2017.01.28-16.05.51:522][266]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.28-16.05.51:548][266]LogInit: FAudioDevice initialized.
+[2017.01.28-16.05.51:615][266]LogWorld: Game class is 'GameMode'
+[2017.01.28-16.05.51:632][266]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.28-17.05.51
+[2017.01.28-16.05.51:634][266]LogWorld: Bringing up level for play took: 0.017284
+[2017.01.28-16.05.51:638][266]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.05.51:638][266]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.978
+[2017.01.28-16.05.51:639][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.28-16.05.52:915][365]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.05.52:917][365]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.05.54:221][465]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.05.54:223][465]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.05.55:522][565]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.05.55:523][565]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.05.56:952][665]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.05.56:954][665]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.05.58:523][765]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.05.58:524][765]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.00:127][865]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.00:129][865]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.01:859][965]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.01:861][965]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.03:678][ 65]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.03:679][ 65]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.05:510][165]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.05:512][165]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.07:301][265]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.07:303][265]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.09:190][365]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.09:192][365]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.11:049][465]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.11:050][465]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.12:824][565]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.12:826][565]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9930.000 Y=9665.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.28-16.06.14:621][665]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.28-16.06.14:622][665]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=99
