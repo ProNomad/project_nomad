@@ -1300,4 +1300,405 @@ LogInit: Object subsystem initialized
 [2017.01.29-16.30.00:346][389]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Spawner from function: 'ExecuteUbergraph_Alive_Check' from node: Remove Actor in graph: EventGraph in object: Alive_Check with description: Accessed None trying to read property Spawner
 [2017.01.29-16.30.00:358][390]LogBlueprintUserMessages: [Spawner_78] 0
 [2017.01.29-16.30.00:359][390]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.29-16.30.00:778][409]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Spawner from function: 'ExecuteUbergraph_Alive_Check' from node: Remove Actor in graph: EventGraph 
+[2017.01.29-16.30.00:778][409]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Spawner from function: 'ExecuteUbergraph_Alive_Check' from node: Remove Actor in graph: EventGraph in object: Alive_Check with description: Accessed None trying to read property Spawner
+[2017.01.29-16.30.01:349][436]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Spawner from function: 'ExecuteUbergraph_Alive_Check' from node: Remove Actor in graph: EventGraph in object: Alive_Check with description: Accessed None trying to read property Spawner
+[2017.01.29-16.30.01:812][457]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Spawner from function: 'ExecuteUbergraph_Alive_Check' from node: Remove Actor in graph: EventGraph in object: Alive_Check with description: Accessed None trying to read property Spawner
+[2017.01.29-16.30.02:341][482]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Spawner from function: 'ExecuteUbergraph_Alive_Check' from node: Remove Actor in graph: EventGraph in object: Alive_Check with description: Accessed None trying to read property Spawner
+[2017.01.29-16.30.02:524][490]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.30.02:526][490]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.30.03:946][557]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.30.04:008][557]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.30.16:576][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.29-16.30.17:106][ 76]LogSavePackage: Save=452.57ms
+[2017.01.29-16.30.17:106][ 76]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Map2974345242C5F57F47BD2D8C9C7E63B7.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.29-16.30.17:113][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.29-16.31.01:802][669]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.01.29-16.31.02:036][669]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.29-16.31.37:692][963]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.01.29-16.31.37:898][963]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.29-16.32.07:066][989]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.29-16.32.19:550][406]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_Slot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:AnimGraph.AnimGraphNode_Slot_0 or AnimGraphNode_Slot /Game/Character/Animation/NewAnimBlueprint.NewAnimBlueprint:AnimGraph.AnimGraphNode_Slot_0
+[2017.01.29-16.32.19:550][406]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_Slot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:AnimGraph.AnimGraphNode_Slot_0 or AnimGraphNode_Slot /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:AnimGraph.AnimGraphNode_Slot_0
+[2017.01.29-16.32.19:550][406]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_Slot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:AnimGraph.AnimGraphNode_Slot_0 or AnimGraphNode_Slot /Engine/Transient.PROTO_BP_AnimBlueprint_0:AnimGraph.AnimGraphNode_Slot_0
+[2017.01.29-16.32.19:550][406]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:AnimGraph.AnimGraphNode_Slot_0.EdGraphPin_53) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:AnimGraph.AnimGraphNode_StateMachine_0.EdGraphPin_51).  Import failed...
+[2017.01.29-16.32.19:550][406]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'AnimGraphNode_Slot_0.EdGraphPin_53''
+[2017.01.29-16.32.46:121][339]BlueprintLog: New page: Compile MixamoAnimBP_Goblin
+[2017.01.29-16.32.46:632][339]BlueprintEditorCompileResults: Info [2107.94] Compile of MixamoAnimBP_Goblin successful! [in 510 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin)
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/Blueprints/Interactables/Waffen/BP_BaseWeapon.BP_BaseWeapon:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/Blueprints/SceneCaptures/BP_CharactorRecorder.BP_CharactorRecorder:AttachItem.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/UI/UI_Equipment.UI_Equipment:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/UI/UI_Inventory.UI_Inventory:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/Character/Animation/NewAnimBlueprint.NewAnimBlueprint:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/AI/AI_Greater_Spider.AI_Greater_Spider:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_MacroInstance_0
+[2017.01.29-16.33.23:961][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_MacroInstance_0.EdGraphPin_214) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_125.EdGraphPin_218).  Import failed...
+[2017.01.29-16.33.23:961][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_0.EdGraphPin_214''
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_9 or K2Node_CallFunction /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_9
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_9 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_9
+[2017.01.29-16.33.23:961][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_9 or K2Node_CallFunction /Game/AI/AI_Test_Controler.AI_Test_Controler:ReceiveTick.K2Node_CallFunction_9
+[2017.01.29-16.33.23:961][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_9.EdGraphPin_219) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_125.EdGraphPin_218).  Import failed...
+[2017.01.29-16.33.23:961][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9.EdGraphPin_219''
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/Map/Map.Map:PersistentLevel.Map.ReceiveBeginPlay.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:Interaction.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/UI/UI_InventoryItem.UI_InventoryItem:EnableActionBar.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/AI/Attack.Attack:ReceiveExecuteAI.K2Node_CallFunction_19
+[2017.01.29-16.33.23:962][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_19.EdGraphPin_223) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_125.EdGraphPin_218).  Import failed...
+[2017.01.29-16.33.23:962][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_19.EdGraphPin_223''
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Blueprints/Game/Character_Controller.Character_Controller:SetBestInteractable.K2Node_Knot_3
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/UI/UI_Equipment.UI_Equipment:EventGraph.K2Node_Knot_3
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/AI/AgroCheck.AgroCheck:EventGraph.K2Node_Knot_3
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/AI/CheckLoS.CheckLoS:EventGraph.K2Node_Knot_3
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_Knot_3
+[2017.01.29-16.33.23:962][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_Knot_3.EdGraphPin_154) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_125.EdGraphPin_218).  Import failed...
+[2017.01.29-16.33.23:962][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_3.EdGraphPin_154''
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Blueprints/Interactables/Waffen/BP_BaseWeapon.BP_BaseWeapon:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:962][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Blueprints/SceneCaptures/BP_CharactorRecorder.BP_CharactorRecorder:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_EquipmentSlot.UI_EquipmentSlot:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_Equipment.UI_Equipment:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_Inventory.UI_Inventory:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_InventoryItem.UI_InventoryItem:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Character/Animation/NewAnimBlueprint.NewAnimBlueprint:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/AI_Greater_Spider.AI_Greater_Spider:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Monster/Spawner.Spawner:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/Alive_Check.Alive_Check:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/Attack.Attack:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/faceEnemy.faceEnemy:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/setMovementSpeed.setMovementSpeed:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Monster/Wolf/Wolf.Wolf:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:963][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_DynamicCast_0.EdGraphPin_415) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_125.EdGraphPin_218).  Import failed...
+[2017.01.29-16.33.23:963][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_0.EdGraphPin_415''
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_20 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_20
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_20 or K2Node_CallFunction /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_20
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_20 or K2Node_CallFunction /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:UnregisterInteractable.K2Node_CallFunction_20
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_20 or K2Node_CallFunction /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_20
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_20 or K2Node_CallFunction /Game/UI/UI_InventoryItem.UI_InventoryItem:DropItem.K2Node_CallFunction_20
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_20 or K2Node_CallFunction /Game/Map/Map.Map:PersistentLevel.Map.InpActEvt_J_K2Node_InputKeyEvent_2.K2Node_CallFunction_20
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_20.EdGraphPin_226) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_19.EdGraphPin_224).  Import failed...
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_20.EdGraphPin_226''
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/Game/Character_Controller.Character_Controller:AddToInventory.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/Game/Character_Controller.Character_Controller:AttachEquipment.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/Game/Character_Controller.Character_Controller:EventGraph.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/Game/Character_Controller.Character_Controller:GetBestInteractable.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/SceneCaptures/BP_CharactorRecorder.BP_CharactorRecorder:AttachItem.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/UI/UI_Inventory.UI_Inventory:EventGraph.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Character/Animation/NewAnimBlueprint.NewAnimBlueprint:EventGraph.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/AI/AI_Greater_Spider.AI_Greater_Spider:EventGraph.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/AI/Alive_Check.Alive_Check:EventGraph.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_Knot_1
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_Knot_1.EdGraphPin_152) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_19.EdGraphPin_224).  Import failed...
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_152''
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_VariableSet_190 or K2Node_VariableSet /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_VariableSet_190
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_VariableSet_190.EdGraphPin_103) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_CallFunction_20.EdGraphPin_227).  Import failed...
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_190.EdGraphPin_103''
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/Blueprints/Interactables/Armor/BP_BaseArmor.BP_BaseArmor:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/Monster/Wolf/AIHealth.AIHealth:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/Monster/Spawner.Spawner:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/Blueprints/Interactables/Waffen/BP_BlackKnight.BP_BlackKnight:EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_Event_1 or K2Node_Event /Game/Map/Map.Map:PersistentLevel.Map.EventGraph.K2Node_Event_1
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Monster/Spawner.Spawner:EventGraph.K2Node_Event_1.EdGraphPin_211 or EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_Event_1.EdGraphPin_211
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Spawner.Spawner:EventGraph.K2Node_Event_1.EdGraphPin_211) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_MacroInstance_0.EdGraphPin_213).  Import failed...
+[2017.01.29-16.33.23:964][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_1.EdGraphPin_211''
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Blueprints/Interactables/Waffen/BP_BaseWeapon.BP_BaseWeapon:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Blueprints/SceneCaptures/BP_CharactorRecorder.BP_CharactorRecorder:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_EquipmentSlot.UI_EquipmentSlot:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:964][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_Equipment.UI_Equipment:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_Inventory.UI_Inventory:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/UI/UI_InventoryItem.UI_InventoryItem:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Character/Animation/NewAnimBlueprint.NewAnimBlueprint:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/AI_Greater_Spider.AI_Greater_Spider:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Monster/Spawner.Spawner:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/Alive_Check.Alive_Check:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/Attack.Attack:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/faceEnemy.faceEnemy:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/AI/setMovementSpeed.setMovementSpeed:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Interactables/BP_BaseInteractable.BP_BaseInteractable:EventGraph.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Monster/Wolf/Wolf.Wolf:EventGraph.K2Node_DynamicCast_0
+[2017.01.29-16.33.23:966][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_DynamicCast_0.EdGraphPin_412) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_MacroInstance_0.EdGraphPin_215).  Import failed...
+[2017.01.29-16.33.23:966][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_0.EdGraphPin_412''
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/Game/Character_Controller.Character_Controller:EventGraph.K2Node_VariableSet_0
+[2017.01.29-16.33.23:966][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/SceneCaptures/BP_CharactorRecorder.BP_CharactorRecorder:AttachItem.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/UI/UI_Equipment.UI_Equipment:SetEquipmentSlot.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/AI/Attack.Attack:EventGraph.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/AI/setMovementSpeed.setMovementSpeed:EventGraph.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Map/Map.Map:PersistentLevel.Map.EventGraph.K2Node_VariableSet_0
+[2017.01.29-16.33.23:967][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_VariableSet_0.EdGraphPin_89) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_VariableSet_190.EdGraphPin_101).  Import failed...
+[2017.01.29-16.33.23:967][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_89''
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/Blueprints/Game/Character_Controller.Character_Controller:EventGraph.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/Blueprints/Interactables/Waffen/BP_BaseWeapon.BP_BaseWeapon:EventGraph.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/UI/UI_Inventory.UI_Inventory:EventGraph.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/UI/UI_EquipmentSlot.UI_EquipmentSlot:EnableActionBar.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Character/Animation/Alt/Human_Anim_BP.Human_Anim_BP:EventGraph.K2Node_CallFunction_25 or K2Node_CallFunction /Game/AI/movetoPatrolPoint.movetoPatrolPoint:OnFail_445C075A4BF927B3D5078689542E058E.K2Node_CallFunction_25
+[2017.01.29-16.33.23:967][610]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Monster/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/Greater_Spider_AB.Greater_Spider_AB:EventGraph.K2Node_CallFunction_25.EdGraphPin_228) from referencer (EdGraphPin /Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin:EventGraph.K2Node_VariableSet_190.EdGraphPin_102).  Import failed...
+[2017.01.29-16.33.23:967][610]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_25.EdGraphPin_228''
+[2017.01.29-16.33.34:993][987]BlueprintLog: New page: Compile MixamoAnimBP_Goblin
+[2017.01.29-16.33.35:147][987]BlueprintEditorCompileResults: Info [2156.45] Compile of MixamoAnimBP_Goblin successful! [in 154 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/Anims/MixamoAnimBP_Goblin.MixamoAnimBP_Goblin)
+[2017.01.29-16.33.41:667][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.33.41:667][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.33.41:667][211]PIE: New page: PIE session: Map (Jan 29, 2017, 6:33:41 PM)
+[2017.01.29-16.33.41:667][211]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.33.41:736][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068658s)
+[2017.01.29-16.33.41:737][211]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.33.41:738][211]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2017.01.29-16.33.41:738][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.070905s)
+[2017.01.29-16.33.41:793][211]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.33.41:803][211]LogInit: FAudioDevice initialized.
+[2017.01.29-16.33.41:860][211]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.33.41:884][211]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.33.41
+[2017.01.29-16.33.41:887][211]LogWorld: Bringing up level for play took: 0.025977
+[2017.01.29-16.33.41:891][211]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.33.41:891][211]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.427
+[2017.01.29-16.33.41:892][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.33.44:059][309]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.33.44:117][309]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.33.44:931][340]LogEditorViewport: Clicking on Actor (LMB): NPC_Einsiedler_C (MixamoCharacter_Master)
+[2017.01.29-16.33.57:493][739]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.29-16.34.03:349][928]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.34.03:926][928]BlueprintEditorCompileResults: Info [2185.23] Compile of NPC_Einsiedler successful! [in 577 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.34.06:194][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.34.06:194][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.34.06:194][ 15]PIE: New page: PIE session: Map (Jan 29, 2017, 6:34:06 PM)
+[2017.01.29-16.34.06:194][ 15]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.34.06:260][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066096s)
+[2017.01.29-16.34.06:261][ 15]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.34.06:261][ 15]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2017.01.29-16.34.06:262][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.067686s)
+[2017.01.29-16.34.06:311][ 15]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.34.06:322][ 15]LogInit: FAudioDevice initialized.
+[2017.01.29-16.34.06:379][ 15]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.34.06:405][ 15]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.34.06
+[2017.01.29-16.34.06:408][ 15]LogWorld: Bringing up level for play took: 0.028463
+[2017.01.29-16.34.06:411][ 15]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.34.06:412][ 15]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.094
+[2017.01.29-16.34.06:412][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.34.08:199][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.34.08:282][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.34.10:043][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.29-16.34.10:564][168]LogSavePackage: Save=440.72ms
+[2017.01.29-16.34.10:564][168]LogSavePackage: Moving '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/MapCEC9FE0F4BDEC5DC40E36AB3D3E973C2.tmp' to '../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.29-16.34.10:570][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Alquesh/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.29-16.34.11:849][222]LogEditorViewport: Clicking on Actor (LMB): NPC_Einsiedler_C (MixamoCharacter_Master)
+[2017.01.29-16.34.11:948][224]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCylinder)
+[2017.01.29-16.37.36:605][883]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.37.37:529][883]BlueprintEditorCompileResults: Info [2398.84] Compile of NPC_Einsiedler successful! [in 923 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.38.01:139][719]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.38.01:398][719]BlueprintEditorCompileResults: Info [2422.70] Compile of NPC_Einsiedler successful! [in 258 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.38.04:891][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.04:891][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.38.04:892][848]PIE: New page: PIE session: Map (Jan 29, 2017, 6:38:04 PM)
+[2017.01.29-16.38.04:892][848]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.38.04:967][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074934s)
+[2017.01.29-16.38.04:968][848]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.38.04:968][848]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2017.01.29-16.38.04:968][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.076620s)
+[2017.01.29-16.38.05:026][848]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.38.05:036][848]LogInit: FAudioDevice initialized.
+[2017.01.29-16.38.05:096][848]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.38.05:121][848]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.38.05
+[2017.01.29-16.38.05:124][848]LogWorld: Bringing up level for play took: 0.026796
+[2017.01.29-16.38.05:128][848]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.05:128][848]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.81
+[2017.01.29-16.38.05:128][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.07:317][947]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.07:318][947]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.09:445][ 47]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.09:447][ 47]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.11:554][147]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.11:556][147]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.13:684][247]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.13:686][247]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.15:808][347]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.15:809][347]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.15:923][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.16:018][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.34:513][ 40]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.38.34:766][ 40]BlueprintEditorCompileResults: Info [2456.07] Compile of NPC_Einsiedler successful! [in 252 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.38.37:046][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.37:046][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.38.37:046][130]PIE: New page: PIE session: Map (Jan 29, 2017, 6:38:37 PM)
+[2017.01.29-16.38.37:046][130]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.38.37:121][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074738s)
+[2017.01.29-16.38.37:123][130]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.38.37:123][130]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2017.01.29-16.38.37:123][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.076498s)
+[2017.01.29-16.38.37:176][130]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.38.37:185][130]LogInit: FAudioDevice initialized.
+[2017.01.29-16.38.37:239][130]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.38.37:263][130]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.38.37
+[2017.01.29-16.38.37:266][130]LogWorld: Bringing up level for play took: 0.026527
+[2017.01.29-16.38.37:271][130]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.37:271][130]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.953
+[2017.01.29-16.38.37:272][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.39:379][229]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.39:381][229]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.41:418][329]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.41:421][329]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.43:394][429]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.38.43:396][429]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.45:327][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.45:431][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.58:366][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.38.58:366][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.38.58:366][943]PIE: New page: PIE session: Map (Jan 29, 2017, 6:38:58 PM)
+[2017.01.29-16.38.58:367][943]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.38.58:431][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064396s)
+[2017.01.29-16.38.58:432][943]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.38.58:432][943]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.01.29-16.38.58:432][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.065828s)
+[2017.01.29-16.38.58:487][943]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.38.58:497][943]LogInit: FAudioDevice initialized.
+[2017.01.29-16.38.58:552][943]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.38.58:576][943]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.38.58
+[2017.01.29-16.38.58:579][943]LogWorld: Bringing up level for play took: 0.025940
+[2017.01.29-16.38.58:583][943]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.38.58:583][943]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.265
+[2017.01.29-16.38.58:584][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.39.02:165][ 42]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.02:167][ 42]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.05:680][142]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.05:682][142]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.09:147][242]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.09:152][242]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.15:615][352]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.15:619][352]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.18:606][452]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.18:608][452]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.21:679][557]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.21:684][557]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.23:111][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.39.23:218][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.39.36:134][135]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.39.36:407][135]BlueprintEditorCompileResults: Info [2517.71] Compile of NPC_Einsiedler successful! [in 273 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.39.38:648][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.39.38:649][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.39.38:649][223]PIE: New page: PIE session: Map (Jan 29, 2017, 6:39:38 PM)
+[2017.01.29-16.39.38:649][223]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.39.38:729][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079607s)
+[2017.01.29-16.39.38:729][223]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.39.38:729][223]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.01.29-16.39.38:730][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.080954s)
+[2017.01.29-16.39.38:787][223]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.39.38:798][223]LogInit: FAudioDevice initialized.
+[2017.01.29-16.39.38:851][223]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.39.38:877][223]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.39.38
+[2017.01.29-16.39.38:879][223]LogWorld: Bringing up level for play took: 0.027062
+[2017.01.29-16.39.38:884][223]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.38:884][223]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.565
+[2017.01.29-16.39.38:884][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.39.40:936][322]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.40:937][322]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.43:102][422]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.43:105][422]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.45:197][522]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.45:198][522]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.47:353][622]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.47:357][622]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.49:520][722]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.49:524][722]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.51:707][822]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.51:709][822]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.53:863][922]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.53:864][922]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.56:049][ 22]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.39.56:050][ 22]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.39.58:010][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.39.58:108][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.42.09:686][536]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.42.09:987][536]BlueprintEditorCompileResults: Info [2671.29] Compile of NPC_Einsiedler successful! [in 300 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.42.17:784][846]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.42.18:048][846]BlueprintEditorCompileResults: Info [2679.35] Compile of NPC_Einsiedler successful! [in 262 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.42.20:882][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.42.20:882][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.42.20:882][962]PIE: New page: PIE session: Map (Jan 29, 2017, 6:42:20 PM)
+[2017.01.29-16.42.20:883][962]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.42.20:962][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079482s)
+[2017.01.29-16.42.20:963][962]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.42.20:963][962]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2017.01.29-16.42.20:963][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.081182s)
+[2017.01.29-16.42.21:017][962]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.42.21:028][962]LogInit: FAudioDevice initialized.
+[2017.01.29-16.42.21:083][962]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.42.21:108][962]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.42.21
+[2017.01.29-16.42.21:110][962]LogWorld: Bringing up level for play took: 0.026708
+[2017.01.29-16.42.21:114][962]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.21:114][962]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.796
+[2017.01.29-16.42.21:114][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.42.23:309][ 61]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.23:310][ 61]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.25:435][161]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.25:439][161]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.27:559][261]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.27:560][261]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.29:718][361]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.29:720][361]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.31:852][461]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.31:858][461]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.34:028][561]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.34:030][561]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.36:178][661]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.36:180][661]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.38:290][761]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.42.38:291][761]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.42.39:897][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.42.39:997][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.44.10:270][573]BlueprintLog: New page: Compile NPC_Einsiedler
+[2017.01.29-16.44.10:634][573]BlueprintEditorCompileResults: Info [2791.94] Compile of NPC_Einsiedler successful! [in 363 ms] (/Game/NPC/MixamoAnimPack/Mixamo_Goblin/NPC_Einsiedler.NPC_Einsiedler)
+[2017.01.29-16.44.12:995][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.44.12:995][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.29-16.44.12:995][656]PIE: New page: PIE session: Map (Jan 29, 2017, 6:44:12 PM)
+[2017.01.29-16.44.12:995][656]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.29-16.44.13:067][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071517s)
+[2017.01.29-16.44.13:068][656]LogAIModule: Creating AISystem for world Map
+[2017.01.29-16.44.13:069][656]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2017.01.29-16.44.13:069][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.073053s)
+[2017.01.29-16.44.13:132][656]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.29-16.44.13:144][656]LogInit: FAudioDevice initialized.
+[2017.01.29-16.44.13:212][656]LogWorld: Game class is 'GameMode'
+[2017.01.29-16.44.13:243][656]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 60) at 2017.01.29-17.44.13
+[2017.01.29-16.44.13:247][656]LogWorld: Bringing up level for play took: 0.034400
+[2017.01.29-16.44.13:253][656]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.13:254][656]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.935
+[2017.01.29-16.44.13:254][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.44.13:307][657]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.067992 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
+[2017.01.29-16.44.15:733][755]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.15:738][755]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.18:099][855]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.18:101][855]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.20:498][955]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.20:502][955]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.22:882][ 55]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.22:884][ 55]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.25:258][155]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.25:260][155]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.27:633][255]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.27:636][255]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.29:982][355]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.29:987][355]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.32:356][455]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.32:361][455]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.34:721][555]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.34:723][555]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.37:082][655]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.37:090][655]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.39:427][755]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.39:431][755]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.41:736][855]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.29-16.44.41:738][855]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.29-16.44.41:969][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.44.42:085][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.29-16.44.44:144][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../Users/Alquesh/Documents/Unreal Project
