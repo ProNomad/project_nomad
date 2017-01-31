@@ -1,0 +1,876 @@
+﻿Log file open, 01/30/17 23:10:39
+LogInit:Display: Running engine for game: Project_Nomand
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1286576349) SRandInit(1286576351).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088305
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: 
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.30-22.10.39:539][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.30-22.10.39:539][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.30-22.10.39:555][  0]LogInit: Computer: DEX
+[2017.01.30-22.10.39:555][  0]LogInit: User: Dextex
+[2017.01.30-22.10.39:555][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.30-22.10.39:555][  0]LogInit: High frequency timer resolution =3.417976 MHz
+[2017.01.30-22.10.39:556][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.30-22.10.39:556][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.30-22.10.39:556][  0]LogMemory: Process Physical Memory: 191.71 MB used, 191.71 MB peak
+[2017.01.30-22.10.39:556][  0]LogMemory: Process Virtual Memory: 195.30 MB used, 195.30 MB peak
+[2017.01.30-22.10.39:556][  0]LogMemory: Physical Memory: 8694.30 MB used, 16328.00 MB total
+[2017.01.30-22.10.39:556][  0]LogMemory: Virtual Memory: 553.49 MB used, 134217728.00 MB total
+[2017.01.30-22.10.39:613][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.30-22.10.40:065][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.30-22.10.40:681][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.30-22.10.40:681][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.30-22.10.40:683][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.30-22.10.40:683][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.30-22.10.40:683][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.30-22.10.40:689][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.30-22.10.40:689][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.30-22.10.40:689][  0]LogWindows: EnumDisplayDevices:
+[2017.01.30-22.10.40:690][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.30-22.10.40:691][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.01.30-22.10.40:691][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.30-22.10.40:692][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.30-22.10.40:693][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.30-22.10.40:693][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.30-22.10.40:693][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.30-22.10.40:693][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.30-22.10.40:693][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.30-22.10.41:264][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.30-22.10.41:338][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.30-22.10.41:339][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/12780/).
+[2017.01.30-22.10.41:339][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/731801BD4FC4505002565AB90581FAAE/'.
+[2017.01.30-22.10.41:339][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.30-22.10.42:526][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.30-22.10.42:540][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.30-22.10.42:553][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.30-22.10.42:563][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.30-22.10.42:573][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.30-22.10.42:581][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.30-22.10.42:589][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.30-22.10.42:598][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.30-22.10.42:608][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.30-22.10.42:618][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.30-22.10.42:629][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.30-22.10.42:646][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.30-22.10.42:646][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.30-22.10.42:648][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.30-22.10.42:673][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.30-22.10.42:681][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.30-22.10.42:689][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.30-22.10.42:697][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.30-22.10.42:708][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.30-22.10.42:708][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.30-22.10.42:826][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.30-22.10.42:884][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.30-22.10.42:885][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.30-22.10.42:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.30-22.10.42:885][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.30-22.10.42:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.30-22.10.42:885][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.30-22.10.42:902][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.30-22.10.42:915][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.30-22.10.43:120][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.30-22.10.43:120][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.30-22.10.43:290][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.30-22.10.43:290][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.30-22.10.43:290][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.30-22.10.43:614][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.01.30-22.10.43:634][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015312 seconds
+[2017.01.30-22.10.43:642][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.30-22.10.43:642][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.01.30-22.10.43:642][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.30-22.10.43:683][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.30-22.10.45:053][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.30-22.10.45:053][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.30-22.10.45:829][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.30-22.10.46:084][  0]SourceControl: Info Source control is disabled
+[2017.01.30-22.10.46:498][  0]LogEngine: Initializing Engine...
+[2017.01.30-22.10.46:500][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.30-22.10.46:502][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.30-22.10.46:648][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.30-22.10.46:713][  0]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.30-22.10.46:767][  0]LogInit: FAudioDevice initialized.
+[2017.01.30-22.10.46:796][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.30-22.10.46:809][  0]LogInit: Texture streaming: Enabled
+[2017.01.30-22.10.46:844][  0]LogInit: Transaction tracking system initialized
+[2017.01.30-22.10.46:879][  0]BlueprintLog: New page: Editor Load
+[2017.01.30-22.10.47:006][  0]LocalizationService: Info Localization service is disabled
+[2017.01.30-22.10.47:091][  0]LogConsoleResponse:Display: 
+[2017.01.30-22.10.47:207][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.30-22.10.47:207][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.30-22.10.47:355][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.05s
+[2017.01.30-22.10.47:355][  0]Cmd: MAP LOAD FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.30-22.10.47:356][  0]LightingResults: New page: Lighting Build
+[2017.01.30-22.10.47:361][  0]MapCheck: New page: Map Check
+[2017.01.30-22.10.47:361][  0]LightingResults: New page: Lighting Build
+[2017.01.30-22.10.50:476][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.30-22.10.50:537][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.30-22.10.50:542][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.30-22.10.50:637][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.244ms to complete.
+[2017.01.30-22.10.50:637][  0]LogFileHelpers: Loading map 'Map' took 3.282
+[2017.01.30-22.10.50:896][  0]LogCollectionManager: Loaded 0 collections in 0.003375 seconds
+[2017.01.30-22.10.50:944][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.30-22.10.50:944][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2017.01.30-22.10.50:944][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.30-22.10.50:945][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.01.30-22.10.50:954][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2047 classes and 369 folders.
+[2017.01.30-22.10.50:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.30-22.10.50:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.30-22.10.50:961][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.01.30-22.10.50:968][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.01.30-22.10.51:025][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.01.30-22.10.51:031][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.30-22.10.51:128][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.30-22.10.51:146][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.30-22.10.51:176][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.01.30-22.10.51:176][  0]LogLoad: Full Startup: 12.62 seconds (BP compile: 0.84 seconds)
+[2017.01.30-22.10.51:176][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.30-22.10.51:516][  0]LogOcInput: OculusInput pre-init called
+[2017.01.30-22.10.51:542][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.30-22.10.51:609][  0]LogRenderer: Reallocating scene render targets to support 512x512 (Frame:1).
+[2017.01.30-22.10.51:745][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2017.01.30-22.10.51:798][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.30-22.10.52:202][  2]LogAssetRegistry: Asset discovery search completed in 8.6096 seconds
+[2017.01.30-22.10.52:202][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.30-22.10.52:202][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.01.30-22.14.44:428][737]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.30-22.14.44:428][737]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.30-22.14.46:545][954]LogRenderer: Reallocating scene render targets to support 1268x556 (Frame:240).
+[2017.01.30-22.14.51:715][307]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Dextex\Desktop\hose_test.fbx)
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: LayeredTexture, ItemCount : 2
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: Model, ItemCount : 67
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: Material, ItemCount : 2
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: Deformer, ItemCount : 66
+[2017.01.30-22.14.51:726][307]LogFbx: ItemName: Video, ItemCount : 2
+[2017.01.30-22.14.51:730][307]LogFbx: Loading FBX Scene from C:\Users\Dextex\Desktop\hose_test.fbx
+[2017.01.30-22.14.51:754][307]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.30-22.14.57:498][307]LogFbx: Loading FBX Scene from C:\Users\Dextex\Desktop\hose_test.fbx
+[2017.01.30-22.14.57:521][307]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.30-22.14.57:523][307]LogFbx: =================================================
+[2017.01.30-22.14.57:523][307]LogFbx: Dumping Node START [Char_2] 
+[2017.01.30-22.14.57:523][307]LogFbx: 	Total Deformer Count -241873264.
+[2017.01.30-22.14.57:523][307]LogFbx: 		[Node 1]  (Type Skin).
+[2017.01.30-22.14.57:523][307]LogFbx: =================================================
+[2017.01.30-22.14.57:523][307]LogFbx: 	Attribute () Type (4).
+[2017.01.30-22.14.57:523][307]LogFbx: 		[Node Attribute Child 1] Char_2 (Type Mesh).
+[2017.01.30-22.14.57:523][307]LogFbx: Dumping Node END [Char_2]
+[2017.01.30-22.14.57:523][307]LogFbx: =================================================
+[2017.01.30-22.14.57:523][307]LogFbx: Dumping Node START [Char_2] 
+[2017.01.30-22.14.57:523][307]LogFbx: 	Total Deformer Count -241868672.
+[2017.01.30-22.14.57:523][307]LogFbx: 		[Node 1]  (Type Skin).
+[2017.01.30-22.14.57:523][307]LogFbx: =================================================
+[2017.01.30-22.14.57:523][307]LogFbx: 	Attribute () Type (4).
+[2017.01.30-22.14.57:523][307]LogFbx: 		[Node Attribute Child 1] Char_2 (Type Mesh).
+[2017.01.30-22.14.57:523][307]LogFbx: Dumping Node END [Char_2]
+[2017.01.30-22.14.57:524][307]LogFbx: =================================================
+[2017.01.30-22.14.57:524][307]LogFbx: Dumping Node START [Char_2] 
+[2017.01.30-22.14.57:524][307]LogFbx: 	Total Deformer Count -241868672.
+[2017.01.30-22.14.57:524][307]LogFbx: 		[Node 1]  (Type Skin).
+[2017.01.30-22.14.57:524][307]LogFbx: =================================================
+[2017.01.30-22.14.57:524][307]LogFbx: 	Attribute () Type (4).
+[2017.01.30-22.14.57:524][307]LogFbx: 		[Node Attribute Child 1] Char_2 (Type Mesh).
+[2017.01.30-22.14.57:524][307]LogFbx: Dumping Node END [Char_2]
+[2017.01.30-22.14.57:527][307]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.01.30-22.14.57:529][307]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Char_2
+[2017.01.30-22.14.57:529][307]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.01.30-22.14.57:534][307]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.01.30-22.14.57:585][307]LogSkeletalMesh: Chunk 0: 401 rigid vertices, 1186 soft vertices, 9 active bones
+[2017.01.30-22.14.57:588][307]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2952 triangles
+[2017.01.30-22.14.57:590][307]LogLinker:Warning: Can't find file '/Game/NPC/MixamoAnimPack/Mixamo_Goblin/hose_test_PhysicsAsset'
+[2017.01.30-22.14.57:591][307]LogLinker:Warning: Can't find file '/Game/NPC/MixamoAnimPack/Mixamo_Goblin/hose_test_PhysicsAsset'
+[2017.01.30-22.14.57:591][307]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/NPC/MixamoAnimPack/Mixamo_Goblin/hose_test_PhysicsAsset.hose_test_PhysicsAsset'
+[2017.01.30-22.14.57:596][307]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.30-22.15.05:188][ 65]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.01.30-22.15.05:282][ 65]LogRenderer: Reallocating scene render targets to support 1268x880 (Frame:1890).
+[2017.01.30-22.15.15:963][915]LogRenderer: Reallocating scene render targets to support 1268x916 (Frame:3819).
+[2017.01.30-22.15.15:963][915]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.30-22.15.42:234][202]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2017.01.30-22.15.54:030][133]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.01.30-22.16.10:655][600]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.01.30-22.16.33:858][331]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.30-22.16.33:858][331]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.30-22.17.04:510][549]BlueprintLog: New page: Compile Character_Controller
+[2017.01.30-22.17.06:438][549]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Is Not Valid 
+[2017.01.30-22.17.06:438][549]BlueprintEditorCompileResults: Info [0387.88] Compile of Character_Controller successful! [in 1,928 ms] (/Game/Blueprints/Game/Character_Controller.Character_Controller)
+[2017.01.30-22.17.08:915][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.17.08:915][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.30-22.17.08:948][764]PIE: New page: PIE session: Map (Jan 31, 2017, 12:17:08 AM)
+[2017.01.30-22.17.08:948][764]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.30-22.17.09:047][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098498s)
+[2017.01.30-22.17.09:047][764]LogAIModule: Creating AISystem for world Map
+[2017.01.30-22.17.09:048][764]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2017.01.30-22.17.09:048][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.099782s)
+[2017.01.30-22.17.09:140][764]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.30-22.17.09:176][764]LogInit: FAudioDevice initialized.
+[2017.01.30-22.17.09:314][764]LogWorld: Game class is 'GameMode'
+[2017.01.30-22.17.09:337][764]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.30-23.17.09
+[2017.01.30-22.17.09:380][764]LogWorld: Bringing up level for play took: 0.065953
+[2017.01.30-22.17.09:401][764]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.01.30-22.17.09:431][764]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.09:432][764]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.068
+[2017.01.30-22.17.09:432][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.17.09:563][765]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062043 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
+[2017.01.30-22.17.10:471][863]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.17.10:472][863]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.11:366][963]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.17.11:367][963]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.12:301][ 63]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.17.12:302][ 63]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.13:246][163]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.17.13:247][163]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.14:171][263]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.17.14:172][263]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.14:867][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.17.14:953][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.17.55:809][ 41]BlueprintLog: New page: Compile Character_Controller
+[2017.01.30-22.17.56:923][ 41]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Is Not Valid 
+[2017.01.30-22.17.56:923][ 41]BlueprintEditorCompileResults: Info [0438.36] Compile of Character_Controller successful! [in 1,113 ms] (/Game/Blueprints/Game/Character_Controller.Character_Controller)
+[2017.01.30-22.17.59:122][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.17.59:122][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.30-22.17.59:122][225]PIE: New page: PIE session: Map (Jan 31, 2017, 12:17:59 AM)
+[2017.01.30-22.17.59:122][225]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.30-22.17.59:177][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054424s)
+[2017.01.30-22.17.59:177][225]LogAIModule: Creating AISystem for world Map
+[2017.01.30-22.17.59:177][225]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2017.01.30-22.17.59:177][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.055129s)
+[2017.01.30-22.17.59:253][225]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.30-22.17.59:288][225]LogInit: FAudioDevice initialized.
+[2017.01.30-22.17.59:342][225]LogWorld: Game class is 'GameMode'
+[2017.01.30-22.17.59:360][225]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.30-23.17.59
+[2017.01.30-22.17.59:361][225]LogWorld: Bringing up level for play took: 0.018506
+[2017.01.30-22.17.59:364][225]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.17.59:364][225]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.001
+[2017.01.30-22.17.59:365][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.18.00:275][324]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.00:276][324]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.01:165][424]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.01:166][424]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.02:044][524]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.02:045][524]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.02:932][624]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.02:933][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.03:818][724]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.03:819][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.04:711][824]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.04:712][824]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.05:620][924]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.05:621][924]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.06:522][ 24]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.06:523][ 24]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.07:413][124]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.07:414][124]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.08:344][224]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.08:345][224]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.09:308][324]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.09:309][324]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.10:281][424]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.10:282][424]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.11:260][524]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.11:261][524]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.12:187][624]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.12:188][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.13:169][724]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.13:171][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.14:092][824]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.14:093][824]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.14:988][924]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.14:989][924]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.15:884][ 24]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.15:885][ 24]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.16:789][124]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.16:791][124]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.17:694][224]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.17:695][224]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.18:585][324]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.18:586][324]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.19:478][424]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.19:480][424]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.20:391][524]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.20:392][524]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.21:287][624]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.21:289][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.22:186][724]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.22:187][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.23:076][824]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.18.23:077][824]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.18.23:341][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.18.23:385][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.19.50:676][828]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.01.30-22.19.53:638][ 33]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.01.30-22.20.40:140][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/Char_Skeleton" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset" SILENT=true
+[2017.01.30-22.20.40:159][457]LogSavePackage: Save=6.38ms
+[2017.01.30-22.20.40:159][457]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Char_SkeletonC54003C54F6E27C3467AE6ACEABD681E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset'
+[2017.01.30-22.20.40:162][457]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset
+[2017.01.30-22.21.18:980][204]BlueprintLog: New page: Compile Character_Controller
+[2017.01.30-22.21.20:165][204]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Is Not Valid 
+[2017.01.30-22.21.20:165][204]BlueprintEditorCompileResults: Info [0641.61] Compile of Character_Controller successful! [in 1,184 ms] (/Game/Blueprints/Game/Character_Controller.Character_Controller)
+[2017.01.30-22.21.21:677][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.21.21:678][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.30-22.21.21:678][338]PIE: New page: PIE session: Map (Jan 31, 2017, 12:21:21 AM)
+[2017.01.30-22.21.21:678][338]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.30-22.21.21:731][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053608s)
+[2017.01.30-22.21.21:732][338]LogAIModule: Creating AISystem for world Map
+[2017.01.30-22.21.21:732][338]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2017.01.30-22.21.21:732][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.054457s)
+[2017.01.30-22.21.21:812][338]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.30-22.21.21:847][338]LogInit: FAudioDevice initialized.
+[2017.01.30-22.21.21:906][338]LogWorld: Game class is 'GameMode'
+[2017.01.30-22.21.21:923][338]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.30-23.21.21
+[2017.01.30-22.21.21:925][338]LogWorld: Bringing up level for play took: 0.017897
+[2017.01.30-22.21.21:928][338]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.21:929][338]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.565
+[2017.01.30-22.21.21:929][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.21.22:862][437]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.22:863][437]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.23:780][537]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.23:781][537]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.24:683][637]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.24:684][637]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.25:583][737]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.25:584][737]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.26:499][837]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.26:499][837]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.27:416][937]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.27:416][937]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.28:356][ 37]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.28:357][ 37]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.29:283][137]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.29:285][137]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.30:198][237]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.30:201][237]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.31:089][337]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.31:090][337]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.31:992][437]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.31:993][437]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.32:894][537]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.32:895][537]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.33:793][637]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.33:794][637]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.34:690][737]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.34:691][737]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.35:624][837]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.35:625][837]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.36:526][937]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.36:527][937]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.37:456][ 37]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.37:457][ 37]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.38:359][137]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.38:360][137]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.39:268][237]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.39:270][237]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.40:171][337]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.40:173][337]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.41:079][437]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.41:080][437]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.42:007][537]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.42:008][537]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.42:922][637]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.42:923][637]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.43:839][737]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.43:840][737]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.44:788][837]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.44:790][837]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.45:715][937]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.45:716][937]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.46:611][ 37]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.21.46:612][ 37]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.21.46:840][ 63]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.21.46:885][ 63]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.01:775][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.01:775][146]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.30-22.22.01:791][146]LogPlayLevel: [PlayLevel] Compiling Character_Controller before play...
+[2017.01.30-22.22.02:794][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 1018 ms (14 blueprints)
+[2017.01.30-22.22.02:795][146]LogPlayLevel: [PlayLevel] Compiling AgroCheck before play...
+[2017.01.30-22.22.02:927][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 1151 ms (14 blueprints)
+[2017.01.30-22.22.02:928][146]LogPlayLevel: [PlayLevel] Compiling AI_Greater_Spider before play...
+[2017.01.30-22.22.03:078][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 1302 ms (19 blueprints)
+[2017.01.30-22.22.03:080][146]LogPlayLevel: [PlayLevel] Compiling BP_BaseInteractable before play...
+[2017.01.30-22.22.03:767][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 1991 ms (21 blueprints)
+[2017.01.30-22.22.03:767][146]LogPlayLevel: [PlayLevel] Compiling BP_BaseItem before play...
+[2017.01.30-22.22.04:291][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 2515 ms (21 blueprints)
+[2017.01.30-22.22.04:291][146]LogPlayLevel: [PlayLevel] Compiling BPI_Interact before play...
+[2017.01.30-22.22.04:540][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 2764 ms (21 blueprints)
+[2017.01.30-22.22.04:542][146]LogPlayLevel: [PlayLevel] Compiling BP_CharactorRecorder before play...
+[2017.01.30-22.22.04:743][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 2968 ms (22 blueprints)
+[2017.01.30-22.22.04:744][146]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.01.30-22.22.05:002][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3227 ms (22 blueprints)
+[2017.01.30-22.22.05:004][146]LogPlayLevel: [PlayLevel] Compiling NewAnimBlueprint before play...
+[2017.01.30-22.22.05:122][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3347 ms (22 blueprints)
+[2017.01.30-22.22.05:123][146]LogPlayLevel: [PlayLevel] Compiling UI_EquipmentSlot before play...
+[2017.01.30-22.22.05:255][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3479 ms (22 blueprints)
+[2017.01.30-22.22.05:256][146]LogPlayLevel: [PlayLevel] Compiling UI_Equipment before play...
+[2017.01.30-22.22.05:394][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3619 ms (22 blueprints)
+[2017.01.30-22.22.05:395][146]LogPlayLevel: [PlayLevel] Compiling UI_GameHUD before play...
+[2017.01.30-22.22.05:489][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3713 ms (23 blueprints)
+[2017.01.30-22.22.05:490][146]LogPlayLevel: [PlayLevel] Compiling UI_Inventory before play...
+[2017.01.30-22.22.05:632][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3856 ms (23 blueprints)
+[2017.01.30-22.22.05:632][146]LogPlayLevel: [PlayLevel] Compiling UI_InventoryItem before play...
+[2017.01.30-22.22.05:733][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 3957 ms (23 blueprints)
+[2017.01.30-22.22.05:734][146]LogPlayLevel: [PlayLevel] Compiling Spawner before play...
+[2017.01.30-22.22.05:843][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4067 ms (23 blueprints)
+[2017.01.30-22.22.05:843][146]LogPlayLevel: [PlayLevel] Compiling Alive_Check before play...
+[2017.01.30-22.22.05:928][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4152 ms (23 blueprints)
+[2017.01.30-22.22.05:928][146]LogPlayLevel: [PlayLevel] Compiling Attack before play...
+[2017.01.30-22.22.06:023][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4248 ms (23 blueprints)
+[2017.01.30-22.22.06:024][146]LogPlayLevel: [PlayLevel] Compiling faceEnemy before play...
+[2017.01.30-22.22.06:114][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4338 ms (23 blueprints)
+[2017.01.30-22.22.06:115][146]LogPlayLevel: [PlayLevel] Compiling Greater_Spider_AB before play...
+[2017.01.30-22.22.06:222][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4446 ms (23 blueprints)
+[2017.01.30-22.22.06:222][146]LogPlayLevel: [PlayLevel] Compiling BP_BaseArmor before play...
+[2017.01.30-22.22.06:334][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4558 ms (23 blueprints)
+[2017.01.30-22.22.06:335][146]LogPlayLevel: [PlayLevel] Compiling BP_BlackKnight before play...
+[2017.01.30-22.22.06:433][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4657 ms (23 blueprints)
+[2017.01.30-22.22.06:434][146]LogPlayLevel: [PlayLevel] Compiling BPI_RecorderComm before play...
+[2017.01.30-22.22.06:688][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 4912 ms (23 blueprints)
+[2017.01.30-22.22.06:690][146]LogPlayLevel: [PlayLevel] Compiling Map before play...
+[2017.01.30-22.22.06:802][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 5026 ms (23 blueprints)
+[2017.01.30-22.22.06:869][146]PIE: New page: PIE session: Map (Jan 31, 2017, 12:22:06 AM)
+[2017.01.30-22.22.06:869][146]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.30-22.22.06:923][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054034s)
+[2017.01.30-22.22.06:924][146]LogAIModule: Creating AISystem for world Map
+[2017.01.30-22.22.06:924][146]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.01.30-22.22.06:924][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.055096s)
+[2017.01.30-22.22.06:998][146]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.30-22.22.07:033][146]LogInit: FAudioDevice initialized.
+[2017.01.30-22.22.07:089][146]LogWorld: Game class is 'GameMode'
+[2017.01.30-22.22.07:104][146]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.30-23.22.07
+[2017.01.30-22.22.07:106][146]LogWorld: Bringing up level for play took: 0.016323
+[2017.01.30-22.22.07:110][146]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.07:110][146]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 5.746
+[2017.01.30-22.22.07:110][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.07:125][147]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062043 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
+[2017.01.30-22.22.08:028][245]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.08:029][245]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.08:931][345]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.08:932][345]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.09:849][445]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.09:850][445]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.10:745][545]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.10:746][545]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.11:637][645]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.11:638][645]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.12:533][745]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.12:533][745]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.13:460][845]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.13:461][845]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.14:393][945]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.14:394][945]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.15:311][ 45]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.15:312][ 45]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.16:221][145]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.16:223][145]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.17:152][245]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.17:153][245]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.18:088][345]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.18:089][345]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.19:004][445]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.19:005][445]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.19:934][545]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.19:936][545]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.20:868][645]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.20:869][645]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.21:780][745]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.21:783][745]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.22:416][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.22:462][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.26:779][272]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.01.30-22.22.38:199][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.01.30-22.22.39:659][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.39:659][294]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.30-22.22.39:662][294]LogPlayLevel: [PlayLevel] Compiling Character_Controller before play...
+[2017.01.30-22.22.41:296][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 1636 ms (14 blueprints)
+[2017.01.30-22.22.41:296][294]LogPlayLevel: [PlayLevel] Compiling BP_BaseInteractable before play...
+[2017.01.30-22.22.41:946][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 2287 ms (16 blueprints)
+[2017.01.30-22.22.41:946][294]LogPlayLevel: [PlayLevel] Compiling BP_BaseItem before play...
+[2017.01.30-22.22.42:450][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 2790 ms (16 blueprints)
+[2017.01.30-22.22.42:452][294]LogPlayLevel: [PlayLevel] Compiling BP_CharactorRecorder before play...
+[2017.01.30-22.22.42:654][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 2994 ms (17 blueprints)
+[2017.01.30-22.22.42:655][294]LogPlayLevel: [PlayLevel] Compiling AgroCheck before play...
+[2017.01.30-22.22.42:761][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 3101 ms (17 blueprints)
+[2017.01.30-22.22.42:762][294]LogPlayLevel: [PlayLevel] Compiling AI_Greater_Spider before play...
+[2017.01.30-22.22.42:891][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 3231 ms (22 blueprints)
+[2017.01.30-22.22.42:891][294]LogPlayLevel: [PlayLevel] Compiling BPI_Interact before play...
+[2017.01.30-22.22.43:129][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 3469 ms (22 blueprints)
+[2017.01.30-22.22.43:130][294]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.01.30-22.22.43:407][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 3747 ms (22 blueprints)
+[2017.01.30-22.22.43:407][294]LogPlayLevel: [PlayLevel] Compiling NewAnimBlueprint before play...
+[2017.01.30-22.22.43:527][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 3867 ms (22 blueprints)
+[2017.01.30-22.22.43:528][294]LogPlayLevel: [PlayLevel] Compiling UI_EquipmentSlot before play...
+[2017.01.30-22.22.43:643][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 3983 ms (22 blueprints)
+[2017.01.30-22.22.43:644][294]LogPlayLevel: [PlayLevel] Compiling UI_Equipment before play...
+[2017.01.30-22.22.43:770][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4110 ms (22 blueprints)
+[2017.01.30-22.22.43:771][294]LogPlayLevel: [PlayLevel] Compiling UI_GameHUD before play...
+[2017.01.30-22.22.43:868][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4209 ms (23 blueprints)
+[2017.01.30-22.22.43:869][294]LogPlayLevel: [PlayLevel] Compiling UI_Inventory before play...
+[2017.01.30-22.22.44:004][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4344 ms (23 blueprints)
+[2017.01.30-22.22.44:005][294]LogPlayLevel: [PlayLevel] Compiling UI_InventoryItem before play...
+[2017.01.30-22.22.44:111][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4451 ms (23 blueprints)
+[2017.01.30-22.22.44:111][294]LogPlayLevel: [PlayLevel] Compiling BP_BaseArmor before play...
+[2017.01.30-22.22.44:219][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4559 ms (23 blueprints)
+[2017.01.30-22.22.44:219][294]LogPlayLevel: [PlayLevel] Compiling BP_BlackKnight before play...
+[2017.01.30-22.22.44:310][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4650 ms (23 blueprints)
+[2017.01.30-22.22.44:310][294]LogPlayLevel: [PlayLevel] Compiling BPI_RecorderComm before play...
+[2017.01.30-22.22.44:557][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 4897 ms (23 blueprints)
+[2017.01.30-22.22.44:558][294]LogPlayLevel: [PlayLevel] Compiling Spawner before play...
+[2017.01.30-22.22.44:673][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 5013 ms (23 blueprints)
+[2017.01.30-22.22.44:674][294]LogPlayLevel: [PlayLevel] Compiling Alive_Check before play...
+[2017.01.30-22.22.44:773][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 5113 ms (23 blueprints)
+[2017.01.30-22.22.44:773][294]LogPlayLevel: [PlayLevel] Compiling Attack before play...
+[2017.01.30-22.22.44:874][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 5215 ms (23 blueprints)
+[2017.01.30-22.22.44:875][294]LogPlayLevel: [PlayLevel] Compiling faceEnemy before play...
+[2017.01.30-22.22.44:970][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 5311 ms (23 blueprints)
+[2017.01.30-22.22.44:971][294]LogPlayLevel: [PlayLevel] Compiling Greater_Spider_AB before play...
+[2017.01.30-22.22.45:089][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 5429 ms (23 blueprints)
+[2017.01.30-22.22.45:089][294]LogPlayLevel: [PlayLevel] Compiling Map before play...
+[2017.01.30-22.22.45:187][294]LogPlayLevel: PlayLevel: Blueprint regeneration took 5527 ms (23 blueprints)
+[2017.01.30-22.22.45:257][294]PIE: New page: PIE session: Map (Jan 31, 2017, 12:22:45 AM)
+[2017.01.30-22.22.45:257][294]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
+[2017.01.30-22.22.45:311][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053636s)
+[2017.01.30-22.22.45:312][294]LogAIModule: Creating AISystem for world Map
+[2017.01.30-22.22.45:312][294]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2017.01.30-22.22.45:312][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.054736s)
+[2017.01.30-22.22.45:392][294]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.30-22.22.45:424][294]LogInit: FAudioDevice initialized.
+[2017.01.30-22.22.45:479][294]LogWorld: Game class is 'GameMode'
+[2017.01.30-22.22.45:494][294]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.30-23.22.45
+[2017.01.30-22.22.45:496][294]LogWorld: Bringing up level for play took: 0.016346
+[2017.01.30-22.22.45:499][294]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.45:499][294]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 6.135
+[2017.01.30-22.22.45:499][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.45:517][295]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062043 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
+[2017.01.30-22.22.46:448][393]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.46:450][393]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.47:385][493]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.47:386][493]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.48:320][593]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.48:321][593]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.49:239][693]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.49:240][693]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.49:631][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
+
+[2017.01.30-22.22.49:632][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
+
+[2017.01.30-22.22.49:633][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
+
+[2017.01.30-22.22.49:634][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
+
+[2017.01.30-22.22.49:635][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
+
+[2017.01.30-22.22.49:635][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
+
+[2017.01.30-22.22.49:635][734]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
+
+[2017.01.30-22.22.49:635][734]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
+
+[2017.01.30-22.22.50:184][793]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.50:185][793]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.51:103][893]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.51:104][893]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.52:025][993]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.52:026][993]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.52:942][ 93]LogBlueprintUserMessages: [Spawner_78] 0
+[2017.01.30-22.22.52:943][ 93]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
+[2017.01.30-22.22.53:854][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.22.53:891][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.23.03:905][324]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.30-22.25.25:781][682]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'BP Base Interactable Reference is not compatible with Self Reference.' at  Unregister Interactable
+Using Interface BPI_Interact_C 
+[2017.01.30-22.25.25:782][682]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'BP Base Interactable Reference is not compatible with Self Reference.' at  Register Interactable
+Using Interface BPI_Interact_C 
+[2017.01.30-22.25.25:884][682]LogBlueprint:Warning: Compiler Warning [0887.32] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 0 Warning(s) [in 110 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.25.25:893][682]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'BP Base Interactable Reference is not compatible with Self Reference.' at  Unregister Interactable
+Using Interface BPI_Interact_C 
+[2017.01.30-22.25.25:893][682]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'BP Base Interactable Reference is not compatible with Self Reference.' at  Register Interactable
+Using Interface BPI_Interact_C 
+[2017.01.30-22.25.26:075][682]LogBlueprint:Warning: Compiler Warning [0887.52] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 0 Warning(s) [in 187 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.25.26:075][682]LogBlueprint:Warning: Compiler Warning [0887.52] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.25.26:075][682]LogBlueprint:Warning: Compiler Warning [0887.52] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.25.26:075][682]LogBlueprint:Warning: Compiler Warning [0887.52] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.25.26:075][682]LogBlueprint:Warning: Compiler Warning [0887.52] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.25.26:075][682]LogBlueprint:Warning: Compiler Warning [0887.52] Compile of BP_BaseInteractable_S failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.27.16:268][ 71]BlueprintLog: New page: Compile BPI_Interact
+[2017.01.30-22.27.16:581][ 71]BlueprintEditorCompileResults: Info [0998.02] Compile of BPI_Interact successful! [in 312 ms] (/Game/Blueprints/Interactables/Interfaces/BPI_Interact.BPI_Interact)
+[2017.01.30-22.28.21:036][432]BlueprintLog: New page: Compile BP_BaseInteractable_S
+[2017.01.30-22.28.21:049][432]LogBlueprint:Error: Compiler Error Message node  Register Interactable S
+Using Interface BPI_Interact_C  must have a valid target or reference to self.
+[2017.01.30-22.28.21:049][432]LogBlueprint:Error: Compiler Error Message node  Unregister Interactable S
+Using Interface BPI_Interact_C  must have a valid target or reference to self.
+[2017.01.30-22.28.21:054][432]LogBlueprint:Error: Compiler Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.01.30-22.28.21:381][432]LogBlueprint:Warning: Compiler Warning [1062.82] Compile of BP_BaseInteractable_S failed. 3 Fatal Issue(s) 0 Warning(s) [in 344 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.28.21:381][432]BlueprintEditorCompileResults:Error: Error Message node  Register Interactable S
+Using Interface BPI_Interact_C  must have a valid target or reference to self.
+[2017.01.30-22.28.21:381][432]BlueprintEditorCompileResults:Error: Error Message node  Unregister Interactable S
+Using Interface BPI_Interact_C  must have a valid target or reference to self.
+[2017.01.30-22.28.21:381][432]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.01.30-22.28.21:381][432]BlueprintEditorCompileResults:Warning: Warning [1062.82] Compile of BP_BaseInteractable_S failed. 3 Fatal Issue(s) 0 Warning(s) [in 344 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.28.32:838][260]BlueprintLog: New page: Compile BP_BaseInteractable_S
+[2017.01.30-22.28.32:854][260]LogBlueprint:Error: Compiler Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.01.30-22.28.33:065][260]LogBlueprint:Warning: Compiler Warning [1074.51] Compile of BP_BaseInteractable_S failed. 1 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.28.33:066][260]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.01.30-22.28.33:066][260]BlueprintEditorCompileResults:Warning: Warning [1074.51] Compile of BP_BaseInteractable_S failed. 1 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/Blueprints/Interactables/BP_BaseInteractable_S.BP_BaseInteractable_S)
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_636' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_630' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_636' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_630' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_636' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_630' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_636' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_630' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Game/Blueprints/Interactables/BP_BaseInteractable'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Game/Blueprints/Interactables/BP_BaseInteractable'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Game/Blueprints/Game/Character_Controller'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Game/Blueprints/Game/Character_Controller'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Game/Blueprints/Interactables/Interfaces/BPI_Interact'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Game/Blueprints/Interactables/Interfaces/BPI_Interact'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_BaseInteractable_S_C_1' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_BaseInteractable_S_C_0' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_636' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_630' or package '/Game/Blueprints/Interactables/BP_BaseInteractable_S'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Interactable' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BP_BaseInteractable_S_C_640' or package '/Engine/Transient'.
+[2017.01.30-22.30.39:275][725]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BP_BaseInteractable_S_C_639' or package '/Engine/Transient'.
+[2017.01.30-22.31.02:733][279]BlueprintLog: New page: Compile BPI_Interact
+[2017.01.30-22.31.02:985][279]BlueprintEditorCompileResults: Info [1224.43] Compile of BPI_Interact successful! [in 251 ms] (/Game/Blueprints/Interactables/Interfaces/BPI_Interact.BPI_Interact)
+[2017.01.30-22.31.27:800][836]LogEditorViewport: Clicking on Actor (LMB): Character_Controller_C (Character_Controller)
+[2017.01.30-22.31.28:619][903]LogEditorViewport: Clicking on Actor (LMB): Character_Controller_C (Character_Controller)
+[2017.01.30-22.31.47:968][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/hose_test_PhysicsAsset" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Monster/hose_test_PhysicsAsset.uasset" SILENT=true
+[2017.01.30-22.31.47:975][481]LogSavePackage: Save=5.22ms
+[2017.01.30-22.31.47:975][481]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test_PhysicsAsset36AAF4254AD641516E28198FE27D7738.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Monster/hose_test_PhysicsAsset.uasset'
+[2017.01.30-22.31.47:978][481]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Monster/hose_test_PhysicsAsset.uasset
+[2017.01.30-22.31.47:993][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/hose_test" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Monster/hose_test.uasset" SILENT=true
+[2017.01.30-22.31.48:013][481]LogSavePackage: Save=17.05ms
+[2017.01.30-22.31.48:013][481]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test6A6C8ECC43F89F02CB8B66A0BEADB3F7.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Monster/hose_test.uasset'
+[2017.01.30-22.31.48:016][481]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Monster/hose_test.uasset
+[2017.01.30-22.31.48:280][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/Char_Skeleton" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset" SILENT=true
+[2017.01.30-22.31.48:295][481]LogSavePackage: Save=4.87ms
+[2017.01.30-22.31.48:295][481]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Char_Skeleton45F892FF419AC85D4EC996B118586307.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset'
+[2017.01.30-22.31.48:296][481]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset
+[2017.01.30-22.31.56:896][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/hose_test_PhysicsAsset" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/hose_test_PhysicsAsset.uasset" SILENT=true
+[2017.01.30-22.31.56:904][188]LogSavePackage: Save=5.49ms
+[2017.01.30-22.31.56:904][188]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test_PhysicsAssetC86F98014782D5B8CD656BA318BBDE6B.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/hose_test_PhysicsAsset.uasset'
+[2017.01.30-22.31.56:907][188]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/hose_test_PhysicsAsset.uasset
+[2017.01.30-22.31.56:919][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/hose_test" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/hose_test.uasset" SILENT=true
+[2017.01.30-22.31.56:942][188]LogSavePackage: Save=20.91ms
+[2017.01.30-22.31.56:942][188]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_testE866DF5243B61FB7295DC9832097486E.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/hose_test.uasset'
+[2017.01.30-22.31.56:945][188]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/hose_test.uasset
+[2017.01.30-22.31.57:257][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/Char_Skeleton" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset" SILENT=true
+[2017.01.30-22.31.57:268][188]LogSavePackage: Save=6.44ms
+[2017.01.30-22.31.57:268][188]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Char_Skeleton6055C6ED43B202C4BCB4719D655470C8.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset'
+[2017.01.30-22.31.57:270][188]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset
+[2017.01.30-22.32.08:902][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rüstung/hose_test_PhysicsAsset" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/hose_test_PhysicsAsset.uasset" SILENT=true
+[2017.01.30-22.32.08:914][132]LogSavePackage: Save=7.62ms
+[2017.01.30-22.32.08:914][132]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test_PhysicsAsset4456A3BA48E7ACB3F7C3068C1F71BAE2.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/hose_test_PhysicsAsset.uasset'
+[2017.01.30-22.32.08:918][132]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/hose_test_PhysicsAsset.uasset
+[2017.01.30-22.32.08:932][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rüstung/hose_test" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/hose_test.uasset" SILENT=true
+[2017.01.30-22.32.08:950][132]LogSavePackage: Save=15.77ms
+[2017.01.30-22.32.08:950][132]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test452D796E45A0A9DD00131EADB04999B1.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/hose_test.uasset'
+[2017.01.30-22.32.08:953][132]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/hose_test.uasset
+[2017.01.30-22.32.09:259][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/Char_Skeleton" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset" SILENT=true
+[2017.01.30-22.32.09:269][132]LogSavePackage: Save=4.61ms
+[2017.01.30-22.32.09:269][132]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Char_SkeletonDE177A804F7976B67EE64381419BA61F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset'
+[2017.01.30-22.32.09:270][132]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset
+[2017.01.30-22.32.16:657][738]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.01.30-22.32.21:596][ 79]LogSavePackage: Save=9.11ms
+[2017.01.30-22.32.21:597][ 79]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test_PhysicsAsset7BF3360D478BD290B15DD9A325450584.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/Hose/hose_test_PhysicsAsset.uasset'
+[2017.01.30-22.32.21:601][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/Hose/hose_test_PhysicsAsset.uasset
+[2017.01.30-22.32.21:618][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rüstung/Hose/hose_test" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/Hose/hose_test.uasset" SILENT=true
+[2017.01.30-22.32.21:636][ 79]LogSavePackage: Save=15.91ms
+[2017.01.30-22.32.21:636][ 79]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/hose_test3B7B8679492B9656450BDBA09D82F0E5.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/Hose/hose_test.uasset'
+[2017.01.30-22.32.21:639][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Rüstung/Hose/hose_test.uasset
+[2017.01.30-22.32.21:958][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mesh/Char_Skeleton" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset" SILENT=true
+[2017.01.30-22.32.21:970][ 79]LogSavePackage: Save=5.96ms
+[2017.01.30-22.32.21:970][ 79]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Char_Skeleton48D00AD5499792CCFEA019B7E44C046B.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset'
+[2017.01.30-22.32.21:972][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Character/Mesh/Char_Skeleton.uasset
+[2017.01.30-22.32.30:535][500]LogEditorFactories: Performing atomic reimport of [C:/Users/Dextex/Desktop/hose_test.fbx]
+[2017.01.30-22.32.30:567][500]LogFbx: Loading FBX Scene from C:/Users/Dextex/Desktop/hose_test.fbx
+[2017.01.30-22.32.30:586][500]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.30-22.32.30:588][500]LogFbx: =================================================
+[2017.01.30-22.32.30:588][500]LogFbx: Dumping Node START [Char_2] 
+[2017.01.30-22.32.30:588][500]LogFbx: 	Total Deformer Count 208422800.
+[2017.01.30-22.32.30:588][500]LogFbx: 		[Node 1]  (Type Skin).
+[2017.01.30-22.32.30:588][500]LogFbx: =================================================
+[2017.01.30-22.32.30:588][500]LogFbx: 	Attribute () Type (4).
+[2017.01.30-22.32.30:588][500]LogFbx: 		[Node Attribute Child 1] Char_2 (Type Mesh).
+[2017.01.30-22.32.30:588][500]LogFbx: Dumping Node END [Char_2]
+[2017.01.30-22.32.30:588][500]LogFbx: =================================================
+[2017.01.30-22.32.30:588][500]LogFbx: Dumping Node START [Char_2] 
+[2017.01.30-22.32.30:588][500]LogFbx: 	Total Deformer Count 208430696.
+[2017.01.30-22.32.30:588][500]LogFbx: 		[Node 1]  (Type Skin).
+[2017.01.30-22.32.30:588][500]LogFbx: =================================================
+[2017.01.30-22.32.30:588][500]LogFbx: 	Attribute () Type (4).
+[2017.01.30-22.32.30:588][500]LogFbx: 		[Node Attribute Child 1] Char_2 (Type Mesh).
+[2017.01.30-22.32.30:588][500]LogFbx: Dumping Node END [Char_2]
+[2017.01.30-22.32.30:589][500]LogFbx: =================================================
+[2017.01.30-22.32.30:589][500]LogFbx: Dumping Node START [Char_2] 
+[2017.01.30-22.32.30:589][500]LogFbx: 	Total Deformer Count 208430696.
+[2017.01.30-22.32.30:589][500]LogFbx: 		[Node 1]  (Type Skin).
+[2017.01.30-22.32.30:589][500]LogFbx: =================================================
+[2017.01.30-22.32.30:589][500]LogFbx: 	Attribute () Type (4).
+[2017.01.30-22.32.30:589][500]LogFbx: 		[Node Attribute Child 1] Char_2 (Type Mesh).
+[2017.01.30-22.32.30:589][500]LogFbx: Dumping Node END [Char_2]
+[2017.01.30-22.32.30:589][500]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2017.01.30-22.32.30:606][500]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.01.30-22.32.30:608][500]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Char_2
+[2017.01.30-22.32.30:608][500]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.01.30-22.32.30:613][500]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2017.01.30-22.32.30:707][500]LogSkeletalMesh: Chunk 0: 401 rigid vertices, 1186 soft vertices, 9 active bones
+[2017.01.30-22.32.30:711][500]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2952 triangles
+[2017.01.30-22.32.30:713][500]LogEditorFactories: -- imported successfully
+[2017.01.30-22.32.44:574][848]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Dextex\Desktop\hose.fbx)
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: LayeredTexture, ItemCount : 2
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: Model, ItemCount : 67
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: Material, ItemCount : 2
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: Deformer, ItemCount : 66
+[2017.01.30-22.32.44:582][848]LogFbx: ItemName: Video, ItemCount : 2
+[2017.01.30-22.32.44:586][848]LogFbx: Loading FBX Scene from C:\Users\Dextex\Desktop\hose.fbx
+[2017.01.30-22.32.44:609][848]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.30-22.32.50:456][848]LogFbx: Loading FBX Scene from C:\Users\Dextex\Desktop\hose.fbx
+[2017.01.30-22.32.50:477][848]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.30-22.32.50:520][848]LogStaticMesh: Building static mesh hose...
+[2017.01.30-22.32.50:563][848]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Rüstung/Hose/hose.hose
+[2017.01.30-22.32.50:592][848]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.30-22.33.15:238][580]BlueprintLog: New page: Compile Hose
+[2017.01.30-22.33.15:349][580]BlueprintEditorCompileResults: Info [1356.79] Compile of Hose successful! [in 110 ms] (/Game/Blueprints/Interactables/Armor/Hose.Hose)
+[2017.01.30-22.33.24:653][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
+[2017.01.30-22.33.24:654][302]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.30-22.33.24:657][302]LogPlayLevel: [PlayLevel] Compiling Character_Controller before play...
+[2017.01.30-22.33.26:054][302]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_BlackKnight_C /Game/Map/Map.Map:PersistentLevel.BP_BlackKnight2
+	Function /Game/Blueprints/Interactables/BP_BaseItem.BP_BaseItem_C:UserConstructionScript:0066
+[2017.01.30-22.33.26:054][302]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_BaseItem_C.UserConstructionScript
+BP_BaseWeapon_C.UserConstructionScript
+BP_BlackKnight_C.UserConstructionScript
+
+[2017.01.30-22.33.26:055][302]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.01.30-22.33.27:011][302]LogCrashTracker: 
+
+
+[2017.01.30-22.33.27:012][302]LogCrashTracker: 
+
+
+[2017.01.30-22.33.27:012][302]LogWindows:Error: === Critical error: ===
+Assertion failed: ContainerPtr [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h] [Line: 287] 
+
+
+
+
+
+[2017.01.30-22.33.27:037][302]LogExit: Executing StaticShutdownAfterError
+[2017.01.30-22.33.27:044][302]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.01.30-22.33.27:044][302]Log file closed, 01/30/17 23:33:27
