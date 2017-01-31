@@ -1,9 +1,9 @@
-﻿Log file open, 01/31/17 22:22:14
+﻿Log file open, 01/31/17 22:58:06
 LogInit:Display: Running engine for game: Project_Nomand
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1125200774) SRandInit(1125200776).
-LogTaskGraph: Started task graph with 4 named threads and 9 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.095858
+LogInit:Display: RandInit(1960622413) SRandInit(1960622415).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080636
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -26,7 +26,7 @@ LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
 LogInit: Command line:  
-LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Base directory: G:/UNI/Programme/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -44,1551 +44,423 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.31-21.22.14:200][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.31-21.22.14:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.31-21.22.14:210][  0]LogInit: Computer: NOX-PC
-[2017.01.31-21.22.14:210][  0]LogInit: User: Nox
-[2017.01.31-21.22.14:210][  0]LogInit: CPU Page size=65536, Cores=6
-[2017.01.31-21.22.14:210][  0]LogInit: High frequency timer resolution =3.233408 MHz
-[2017.01.31-21.22.14:211][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.01.31-21.22.14:211][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.31-21.22.14:211][  0]LogMemory: Process Physical Memory: 192.68 MB used, 192.68 MB peak
-[2017.01.31-21.22.14:211][  0]LogMemory: Process Virtual Memory: 196.56 MB used, 196.56 MB peak
-[2017.01.31-21.22.14:211][  0]LogMemory: Physical Memory: 4193.80 MB used, 8190.18 MB total
-[2017.01.31-21.22.14:211][  0]LogMemory: Virtual Memory: 523.09 MB used, 8388608.00 MB total
-[2017.01.31-21.22.14:253][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
-[2017.01.31-21.22.14:768][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.31-21.22.14:792][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650 Ti' (Feature Level 11_0)
-[2017.01.31-21.22.14:792][  0]LogD3D11RHI:       1989/0/3839 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.01.31-21.22.14:792][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.31-21.22.14:799][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.31-21.22.14:799][  0]LogD3D11RHI:     GPU DeviceId: 0x11c6 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.31-21.22.14:799][  0]LogWindows: EnumDisplayDevices:
-[2017.01.31-21.22.14:799][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650 Ti' (P:1 D:1)
-[2017.01.31-21.22.14:799][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:1)
-[2017.01.31-21.22.14:799][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
-[2017.01.31-21.22.14:799][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
-[2017.01.31-21.22.14:800][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.01.31-21.22.14:800][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.01.31-21.22.14:800][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.01.31-21.22.14:800][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.01.31-21.22.14:800][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650 Ti
-[2017.01.31-21.22.14:800][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
-[2017.01.31-21.22.14:800][  0]LogD3D11RHI:      Driver Date: 8-11-2016
-[2017.01.31-21.22.14:800][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.01.31-21.22.14:810][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.31-21.22.14:826][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.01.31-21.22.14:826][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/5368/).
-[2017.01.31-21.22.14:826][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nox/AppData/Local/Temp/UnrealShaderWorkingDir/737040B74C14E7D682FCF8ADDD1DC7CF/'.
-[2017.01.31-21.22.14:826][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.31-21.22.16:806][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.31-21.22.16:818][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.31-21.22.16:830][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.31-21.22.16:843][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.31-21.22.16:855][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.31-21.22.16:866][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.31-21.22.16:877][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.31-21.22.16:888][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.31-21.22.16:898][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.31-21.22.16:909][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.31-21.22.16:919][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.31-21.22.16:941][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.31-21.22.16:941][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.31-21.22.16:942][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.31-21.22.16:965][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.31-21.22.16:975][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.31-21.22.16:985][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.31-21.22.16:995][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.31-21.22.17:006][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.31-21.22.17:006][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.31-21.22.17:080][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.31-21.22.17:168][  0]LogDerivedDataCache: Loaded boot cache 0.09s 48MB C:/Users/Nox/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.01.31-21.22.17:169][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nox/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2017.01.31-21.22.17:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.31-21.22.17:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.31-21.22.17:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.31-21.22.17:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.31-21.22.17:195][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.31-21.22.17:206][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nox/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.31-21.22.17:441][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.31-21.22.17:442][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.31-21.22.17:635][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.01.31-21.22.17:635][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.31-21.22.17:635][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.01.31-21.22.17:949][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
-[2017.01.31-21.22.17:966][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.013525 seconds
-[2017.01.31-21.22.17:976][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2017.01.31-21.22.17:976][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2017.01.31-21.22.17:976][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.31-21.22.17:984][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.31-21.22.18:190][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.31-21.22.18:190][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.31-21.22.18:920][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.31-21.22.19:132][  0]SourceControl: Info Source control is disabled
-[2017.01.31-21.22.19:335][  0]LogEngine: Initializing Engine...
-[2017.01.31-21.22.19:335][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.01.31-21.22.19:336][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.01.31-21.22.19:517][  0]LogAIModule: Creating AISystem for world NewWorld
-[2017.01.31-21.22.19:534][  0]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.22.19:561][  0]LogInit: FAudioDevice initialized.
-[2017.01.31-21.22.19:598][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Nox/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.01.31-21.22.19:612][  0]LogInit: Texture streaming: Enabled
-[2017.01.31-21.22.19:633][  0]LogInit: Transaction tracking system initialized
-[2017.01.31-21.22.19:656][  0]BlueprintLog: New page: Editor Load
-[2017.01.31-21.22.19:724][  0]LocalizationService: Info Localization service is disabled
-[2017.01.31-21.22.19:781][  0]LogConsoleResponse:Display: 
-[2017.01.31-21.22.19:889][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2017.01.31-21.22.19:889][  0]LogCook:Display: Mobile HDR setting 1
-[2017.01.31-21.22.19:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/' took 0.03s
-[2017.01.31-21.22.19:983][  0]Cmd: MAP LOAD FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.31-21.22.19:984][  0]LightingResults: New page: Lighting Build
-[2017.01.31-21.22.19:986][  0]MapCheck: New page: Map Check
-[2017.01.31-21.22.19:986][  0]LightingResults: New page: Lighting Build
-[2017.01.31-21.22.22:694][  0]LogBlueprint:Warning: ValidateTemplates '/Game/AI/AI_Greater_Spider_Child.AI_Greater_Spider_Child_C:InheritableComponentHandler': overridden template is invalid - component 'None' from '/Game/AI/AI_Greater_Spider.AI_Greater_Spider_C'
-[2017.01.31-21.22.24:708][  0]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.22.24:791][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.31-21.22.24:801][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.31-21.22.24:891][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.921ms to complete.
-[2017.01.31-21.22.24:891][  0]LogFileHelpers: Loading map 'Map' took 4.908
-[2017.01.31-21.22.25:276][  0]LogCollectionManager: Loaded 0 collections in 0.001693 seconds
-[2017.01.31-21.22.25:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
-[2017.01.31-21.22.25:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Developers/Nox/Collections/' took 0.01s
-[2017.01.31-21.22.25:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
-[2017.01.31-21.22.25:317][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.01.31-21.22.25:330][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2047 classes and 369 folders.
-[2017.01.31-21.22.25:335][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.01.31-21.22.25:335][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.01.31-21.22.25:335][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
-[2017.01.31-21.22.25:340][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.01.31-21.22.25:381][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.01.31-21.22.25:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.01.31-21.22.25:403][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.01.31-21.22.25:475][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.01.31-21.22.25:475][  0]LogLoad: Full Startup: 12.06 seconds (BP compile: 1.16 seconds)
-[2017.01.31-21.22.25:475][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.01.31-21.22.25:488][  0]LogOcInput: OculusInput pre-init called
-[2017.01.31-21.22.25:511][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.01.31-21.22.25:636][  0]LogRenderer: Reallocating scene render targets to support 512x512 (Frame:1).
-[2017.01.31-21.22.25:794][  0]LogRenderer: Reallocating scene render targets to support 1292x640 (Frame:2).
-[2017.01.31-21.22.25:826][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2017.01.31-21.22.26:162][  3]LogAssetRegistry: Asset discovery search completed in 8.2337 seconds
-[2017.01.31-21.22.26:162][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.01.31-21.22.26:162][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2017.01.31-21.23.55:382][341]LogEditorViewport: Clicking on Actor (LMB): DM_wall_C (DM_wall)
-[2017.01.31-21.24.02:624][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.02:624][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.24.02:626][589]PIE: New page: PIE session: Map (Jan 31, 2017, 11:24:02 PM)
-[2017.01.31-21.24.02:626][589]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.24.02:723][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097139s)
-[2017.01.31-21.24.02:724][589]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.24.02:724][589]LogPlayLevel: PIE: World Init took: (0.001255s)
-[2017.01.31-21.24.02:725][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.098898s)
-[2017.01.31-21.24.02:893][589]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.24.02:920][589]LogInit: FAudioDevice initialized.
-[2017.01.31-21.24.02:997][589]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.24.03:888][589]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.24.03
-[2017.01.31-21.24.03:906][589]LogWorld: Bringing up level for play took: 0.907319
-[2017.01.31-21.24.03:910][589]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.01.31-21.24.03:916][589]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.24.03:916][589]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 1.412
-[2017.01.31-21.24.03:917][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.03:982][590]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066568 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
-[2017.01.31-21.24.03:982][590]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054399 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.24.03:982][590]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054375 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child3_479', movement 'Walking'
-[2017.01.31-21.24.03:983][590]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054399 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.24.03:983][590]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054399 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.24.06:162][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.06:213][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.50:661][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Kisten/Holzkiste" FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Models/Kisten/Holzkiste.uasset" SILENT=true
-[2017.01.31-21.24.50:730][721]LogSavePackage: Save=51.09ms
-[2017.01.31-21.24.50:730][721]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Holzkiste0CECA63840668706DFAD998D2F34C258.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Models/Kisten/Holzkiste.uasset'
-[2017.01.31-21.24.50:731][721]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Models/Kisten/Holzkiste.uasset
-[2017.01.31-21.24.56:352][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.56:352][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.24.56:352][885]PIE: New page: PIE session: Map (Jan 31, 2017, 11:24:56 PM)
-[2017.01.31-21.24.56:352][885]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.24.56:450][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097413s)
-[2017.01.31-21.24.56:451][885]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.24.56:451][885]LogPlayLevel: PIE: World Init took: (0.001176s)
-[2017.01.31-21.24.56:451][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.099017s)
-[2017.01.31-21.24.56:496][885]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.24.56:535][885]LogInit: FAudioDevice initialized.
-[2017.01.31-21.24.56:598][885]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.24.56:646][885]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.24.56
-[2017.01.31-21.24.56:651][885]LogWorld: Bringing up level for play took: 0.051789
-[2017.01.31-21.24.56:657][885]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.24.56:657][885]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.152
-[2017.01.31-21.24.56:658][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.56:718][886]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.086295 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
-[2017.01.31-21.24.56:718][886]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074742 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.24.56:718][886]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074742 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.24.56:718][886]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074742 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.24.56:719][886]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074720 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child3_479', movement 'Walking'
-[2017.01.31-21.24.58:409][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.24.58:475][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.25.00:322][986]LogEditorViewport: Clicking on Actor (LMB): DM_wall_C (DM_wall)
-[2017.01.31-21.25.22:932][610]LogTexture:Display: Building textures: T_CobbleStone_Pebble_N (BC5)
-[2017.01.31-21.25.23:831][610]LogTexture:Display: Building textures: T_CobbleStone_Pebble_D (AutoDXT)
-[2017.01.31-21.25.28:364][610]LogTexture:Display: Building textures: T_CobbleStone_Pebble_M (AutoDXT)
-[2017.01.31-21.25.41:409][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Wand/Wand" FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Models/Wand/Wand.uasset" SILENT=true
-[2017.01.31-21.25.41:431][912]LogSavePackage: Save=12.64ms
-[2017.01.31-21.25.41:431][912]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/WandCB54DFEC4A84C2DFBBB28AB839656AF0.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Models/Wand/Wand.uasset'
-[2017.01.31-21.25.41:433][912]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Models/Wand/Wand.uasset
-[2017.01.31-21.26.06:214][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.26.06:214][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.26.06:214][889]PIE: New page: PIE session: Map (Jan 31, 2017, 11:26:06 PM)
-[2017.01.31-21.26.06:214][889]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.26.06:307][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092801s)
-[2017.01.31-21.26.06:308][889]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.26.06:308][889]LogPlayLevel: PIE: World Init took: (0.001242s)
-[2017.01.31-21.26.06:309][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.094498s)
-[2017.01.31-21.26.06:345][889]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.26.06:398][889]LogInit: FAudioDevice initialized.
-[2017.01.31-21.26.06:464][889]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.26.06:512][889]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.26.06
-[2017.01.31-21.26.06:517][889]LogWorld: Bringing up level for play took: 0.051383
-[2017.01.31-21.26.06:537][889]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.26.06:537][889]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.031
-[2017.01.31-21.26.06:537][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.26.06:598][890]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069577 > MaxSimulationTimeStep (0.050) for 'Character_Controller_536', movement 'Walking'
-[2017.01.31-21.26.06:599][890]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057452 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.26.06:599][890]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057429 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child3_479', movement 'Walking'
-[2017.01.31-21.26.06:599][890]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057452 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.26.06:599][890]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057452 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.26.09:414][988]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.26.09:416][988]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.26.13:465][ 88]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.26.13:468][ 88]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.26.16:574][188]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.26.16:575][188]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.26.18:603][288]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.26.18:604][288]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.26.21:509][388]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.26.21:510][388]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.26.23:317][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.26.23:365][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.26.34:278][776]LogEditorViewport: Clicking on Actor (LMB): NPC_Einsiedler_C (MixamoCharacter_Master)
-[2017.01.31-21.27.12:915][955]LogEditorViewport: Clicking on Actor (LMB): DM_Holzkiste_C (DM_Holzkiste)
-[2017.01.31-21.27.29:429][483]LogEditorViewport: Clicking on Actor (LMB): AI_Bear_C (AI_Bear)
-[2017.01.31-21.27.39:301][782]LogEditorViewport: Clicking on Actor (LMB): Character_Controller_C (Character_Controller)
-[2017.01.31-21.28.36:010][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.28.36:010][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.28.36:011][860]PIE: New page: PIE session: Map (Jan 31, 2017, 11:28:36 PM)
-[2017.01.31-21.28.36:011][860]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.28.36:107][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095844s)
-[2017.01.31-21.28.36:108][860]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.28.36:108][860]LogPlayLevel: PIE: World Init took: (0.001273s)
-[2017.01.31-21.28.36:108][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.097552s)
-[2017.01.31-21.28.36:192][860]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.28.36:218][860]LogInit: FAudioDevice initialized.
-[2017.01.31-21.28.36:281][860]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.28.36:327][860]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.28.36
-[2017.01.31-21.28.36:333][860]LogWorld: Bringing up level for play took: 0.050786
-[2017.01.31-21.28.36:339][860]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.28.36:339][860]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.169
-[2017.01.31-21.28.36:340][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.28.36:401][861]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095054 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.28.36:401][861]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095054 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child3_479', movement 'Walking'
-[2017.01.31-21.28.36:401][861]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095054 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.28.36:401][861]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095054 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.28.39:763][959]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.28.39:764][959]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.28.42:689][ 59]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.28.42:690][ 59]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.28.45:694][159]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.28.45:696][159]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.28.46:329][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.28.46:471][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.29.04:689][440]LogActorFactory: Actor Factory created obj_table
-[2017.01.31-21.29.07:601][486]LogActorFactory: Actor Factory created obj_table
-[2017.01.31-21.29.37:710][211]LogActorFactory: Actor Factory created obj_becher
-[2017.01.31-21.29.38:670][235]LogActorFactory: Actor Factory created obj_becher
-[2017.01.31-21.29.46:618][469]LogActorFactory: Actor Factory created obj_shelf
-[2017.01.31-21.29.47:813][514]LogActorFactory: Actor Factory created obj_shelf
-[2017.01.31-21.30.16:079][459]LogActorFactory: Actor Factory created Holzkiste
-[2017.01.31-21.30.17:937][530]LogActorFactory: Actor Factory created Holzkiste
-[2017.01.31-21.30.29:363][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (obj_shelf)
-[2017.01.31-21.30.56:645][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.30.56:645][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.30.56:645][824]PIE: New page: PIE session: Map (Jan 31, 2017, 11:30:56 PM)
-[2017.01.31-21.30.56:646][824]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.30.56:743][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096919s)
-[2017.01.31-21.30.56:744][824]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.30.56:744][824]LogPlayLevel: PIE: World Init took: (0.001168s)
-[2017.01.31-21.30.56:744][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.098542s)
-[2017.01.31-21.30.56:778][824]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.30.56:804][824]LogInit: FAudioDevice initialized.
-[2017.01.31-21.30.56:866][824]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.30.56:915][824]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.30.56
-[2017.01.31-21.30.56:921][824]LogWorld: Bringing up level for play took: 0.053019
-[2017.01.31-21.30.56:927][824]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.30.56:927][824]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.417
-[2017.01.31-21.30.56:928][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.30.56:991][825]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.052118 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child3_479', movement 'Walking'
-[2017.01.31-21.30.56:992][825]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.052141 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.30.56:992][825]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.052141 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.30.56:992][825]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.052141 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.31.00:118][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.31.00:204][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.31.12:386][244]LogEditorViewport: Clicking on Actor (LMB): BP_BlackKnight_C (BP_BlackKnight)
-[2017.01.31-21.32.08:672][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.32.08:672][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.32.08:673][679]PIE: New page: PIE session: Map (Jan 31, 2017, 11:32:08 PM)
-[2017.01.31-21.32.08:673][679]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.32.08:770][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097340s)
-[2017.01.31-21.32.08:771][679]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.32.08:771][679]LogPlayLevel: PIE: World Init took: (0.001162s)
-[2017.01.31-21.32.08:772][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.098966s)
-[2017.01.31-21.32.08:810][679]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.32.08:836][679]LogInit: FAudioDevice initialized.
-[2017.01.31-21.32.08:899][679]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.32.08:947][679]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.32.08
-[2017.01.31-21.32.08:953][679]LogWorld: Bringing up level for play took: 0.052155
-[2017.01.31-21.32.08:959][679]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.08:959][679]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map 0.447
-[2017.01.31-21.32.08:959][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.32.09:020][680]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069298 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child3_479', movement 'Walking'
-[2017.01.31-21.32.09:021][680]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069320 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.32.09:021][680]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069320 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.32.09:021][680]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069320 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.32.12:528][778]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.12:530][778]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.15:785][878]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.15:786][878]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.19:217][978]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.19:219][978]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.22:475][ 78]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.22:476][ 78]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.25:471][178]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.25:473][178]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.28:663][278]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.28:664][278]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.31:510][378]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.31:511][378]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.34:173][478]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.34:174][478]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.36:865][578]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.36:866][578]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.39:604][678]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.39:606][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.41:793][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
-
-[2017.01.31-21.32.41:793][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
-
-[2017.01.31-21.32.41:793][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
-
-[2017.01.31-21.32.41:794][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
-
-[2017.01.31-21.32.41:795][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
-
-[2017.01.31-21.32.41:796][744]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
-
-[2017.01.31-21.32.42:924][778]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.42:926][778]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.43:952][810]LogBlueprintUserMessages: [Character_Controller_536] 0
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [0/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [0/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
-
-[2017.01.31-21.32.43:953][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
-
-[2017.01.31-21.32.43:954][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
-
-[2017.01.31-21.32.43:955][810]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
-
-[2017.01.31-21.32.43:956][810]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
-
-[2017.01.31-21.32.46:170][878]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.46:171][878]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.49:296][978]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.49:297][978]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.52:610][ 78]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.52:611][ 78]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.55:947][178]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.55:948][178]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.32.59:943][278]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.32.59:944][278]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
-
-[2017.01.31-21.33.00:736][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
-
-[2017.01.31-21.33.00:737][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
-
-[2017.01.31-21.33.00:738][301]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
-
-[2017.01.31-21.33.01:583][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
-
-[2017.01.31-21.33.01:584][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
-
-[2017.01.31-21.33.01:585][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
-
-[2017.01.31-21.33.01:586][326]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
-
-[2017.01.31-21.33.03:345][378]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.03:346][378]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.03:510][383]LogBlueprintUserMessages: [Character_Controller_536] 0
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [0/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [0/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
-
-[2017.01.31-21.33.03:511][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
-
-[2017.01.31-21.33.03:512][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
-
-[2017.01.31-21.33.03:513][383]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
-
-[2017.01.31-21.33.06:289][478]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.06:290][478]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.08:658][578]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.08:659][578]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.11:596][678]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.11:597][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.14:375][778]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.14:376][778]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.16:994][878]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.16:995][878]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.19:543][978]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.19:544][978]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.22:517][ 78]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.22:519][ 78]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.26:438][178]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.26:439][178]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.31:245][278]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.31:246][278]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.33:262][378]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.33:264][378]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.34:841][478]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.34:842][478]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.36:465][578]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.36:467][578]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.38:144][678]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.38:146][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.40:123][778]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.40:125][778]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.42:843][878]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.42:845][878]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.45:651][978]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.45:652][978]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.47:533][ 78]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.47:535][ 78]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.49:258][178]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.49:259][178]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.52:172][278]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.52:173][278]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.55:286][378]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.55:287][378]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.57:566][478]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.57:567][478]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.33.59:906][578]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.33.59:908][578]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.34.02:635][678]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.34.02:636][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.34.04:088][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.34.04:153][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.34.53:082][146]LogStaticMesh: Building static mesh Vase...
-[2017.01.31-21.34.53:213][146]LogStaticMesh: Built static mesh [0.20s] /Game/Models/Vasen/Vase.Vase
-[2017.01.31-21.34.53:302][146]LogActorFactory: Actor Factory created Vase
-[2017.01.31-21.34.55:696][217]LogActorFactory: Actor Factory created Vase
-[2017.01.31-21.35.28:128][122]LogEditorViewport: Clicking on Actor (LMB): Helm_C (Helm)
-[2017.01.31-21.35.44:228][548]LogEditorViewport: Clicking on Actor (LMB): Brust_C (Brust)
-[2017.01.31-21.35.54:159][888]LogEditorViewport: Clicking on Actor (LMB): EpischeHose_C (EpischeHose)
-[2017.01.31-21.36.21:977][676]LogEditorViewport: Clicking on Actor (LMB): BP_Blackwyrmblade_C (BP_Blackwyrmblade)
-[2017.01.31-21.36.45:031][609]LogEditorViewport: Clicking on Actor (LMB): AI_Greater_Spider_Child_C (AI_Greater_Spider_Child3)
-[2017.01.31-21.36.57:884][987]LogEditorViewport: Clicking on Actor (LMB): BP_BlackKnight_C (BP_BlackKnight2)
-[2017.01.31-21.36.59:237][ 21]Cmd: DELETE
-[2017.01.31-21.36.59:237][ 21]Cmd: ACTOR DELETE
-[2017.01.31-21.36.59:275][ 21]LogEditorActor: Deleted Actor: BP_BlackKnight_C
-[2017.01.31-21.36.59:299][ 21]LogEditorActor: Deleted 1 Actors (0.059 secs)
-[2017.01.31-21.37.00:248][ 48]LogEditorViewport: Clicking on Actor (LMB): Herosword11_C (Herosword11)
-[2017.01.31-21.38.16:725][983]Cmd: DELETE
-[2017.01.31-21.38.16:725][983]Cmd: ACTOR DELETE
-[2017.01.31-21.38.16:742][983]LogEditorActor: Deleted Actor: Emitter
-[2017.01.31-21.38.16:763][983]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2017.01.31-21.38.59:236][560]LogStaticMesh: Building static mesh Standfackel...
-[2017.01.31-21.38.59:283][560]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Standfackel.Standfackel
-[2017.01.31-21.38.59:334][560]LogActorFactory: Actor Factory created Standfackel
-[2017.01.31-21.39.00:406][583]LogActorFactory: Actor Factory created Standfackel
-[2017.01.31-21.39.01:124][596]LogActorFactory: Actor Factory created Standfackel
-[2017.01.31-21.39.02:255][620]LogActorFactory: Actor Factory created Standfackel
-[2017.01.31-21.39.33:633][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.39.33:633][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.39.33:633][238]PIE: New page: PIE session: Map (Jan 31, 2017, 11:39:33 PM)
-[2017.01.31-21.39.33:633][238]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.39.33:725][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092289s)
-[2017.01.31-21.39.33:727][238]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.39.33:727][238]LogPlayLevel: PIE: World Init took: (0.001174s)
-[2017.01.31-21.39.33:727][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.093926s)
-[2017.01.31-21.39.33:762][238]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.39.33:788][238]LogInit: FAudioDevice initialized.
-[2017.01.31-21.39.33:855][238]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.39.33:904][238]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.39.33
-[2017.01.31-21.39.33:910][238]LogWorld: Bringing up level for play took: 0.053808
-[2017.01.31-21.39.33:916][238]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.39.33:916][238]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.602
-[2017.01.31-21.39.33:917][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.39.33:979][239]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090471 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.39.33:979][239]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090471 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.39.33:979][239]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090471 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.39.37:600][337]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.39.37:601][337]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.39.38:235][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.39.38:313][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.39.50:484][695]Cmd: EDIT COPY
-[2017.01.31-21.39.50:674][698]Cmd: EDIT PASTE
-[2017.01.31-21.40.03:484][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Standfackel2)
-[2017.01.31-21.40.06:089][ 63]Cmd: EDIT COPY
-[2017.01.31-21.40.06:383][ 68]Cmd: EDIT PASTE
-[2017.01.31-21.40.38:535][827]Cmd: DELETE
-[2017.01.31-21.40.38:536][827]Cmd: ACTOR DELETE
-[2017.01.31-21.40.38:553][827]LogEditorActor: Deleted Actor: Emitter
-[2017.01.31-21.40.38:594][827]LogEditorActor: Deleted 1 Actors (0.058 secs)
-[2017.01.31-21.40.45:338][921]Cmd: DELETE
-[2017.01.31-21.40.45:338][921]Cmd: ACTOR DELETE
-[2017.01.31-21.40.45:382][921]LogEditorActor: Deleted Actor: Emitter
-[2017.01.31-21.40.45:404][921]LogEditorActor: Deleted 1 Actors (0.064 secs)
-[2017.01.31-21.40.52:799][236]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit)
-[2017.01.31-21.40.54:215][299]Cmd: DELETE
-[2017.01.31-21.40.54:215][299]Cmd: ACTOR DELETE
-[2017.01.31-21.40.54:231][299]LogEditorActor: Deleted Actor: Emitter
-[2017.01.31-21.40.54:252][299]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2017.01.31-21.41.04:536][828]LogEditorViewport: Clicking on Actor (LMB): Wolf_C (Wolf)
-[2017.01.31-21.41.06:357][918]Cmd: DELETE
-[2017.01.31-21.41.06:357][918]Cmd: ACTOR DELETE
-[2017.01.31-21.41.14:112][918]LogEditorActor: Deleted Actor: Wolf_C
-[2017.01.31-21.41.14:135][918]LogEditorActor: Deleted 1 Actors (7.777 secs)
-[2017.01.31-21.41.16:416][ 20]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.01.31-21.41.18:462][ 92]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.01.31-21.41.31:094][452]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.41.32:782][505]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.41.33:446][520]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.41.34:424][551]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.41.37:637][648]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.41.38:570][677]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.41.41:967][781]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.41.42:648][802]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.41.47:652][960]Cmd: EDIT COPY
-[2017.01.31-21.41.47:846][966]Cmd: EDIT PASTE
-[2017.01.31-21.41.50:068][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_45)
-[2017.01.31-21.41.50:264][ 39]Cmd: EDIT COPY
-[2017.01.31-21.41.50:489][ 47]Cmd: EDIT PASTE
-[2017.01.31-21.42.07:066][499]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT)
-[2017.01.31-21.43.29:381][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree140)
-[2017.01.31-21.43.38:112][516]LogActorFactory: Actor Factory created SM_tree1
-[2017.01.31-21.43.38:680][535]LogActorFactory: Actor Factory created SM_tree1
-[2017.01.31-21.43.39:250][544]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.43.39:895][565]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.43.40:514][575]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.43.41:179][595]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.43.41:786][605]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.43.42:422][624]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.43.42:981][632]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.43.43:525][648]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.43.45:462][707]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.43.46:060][733]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.43.46:630][743]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.43.47:428][776]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.43.47:979][786]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.43.48:799][817]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.43.49:489][828]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.43.50:187][851]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.43.50:865][862]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.43.51:360][878]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.43.51:939][887]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.43.52:881][917]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.43.54:887][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree202)
-[2017.01.31-21.43.55:226][993]Cmd: DELETE
-[2017.01.31-21.43.55:226][993]Cmd: ACTOR DELETE
-[2017.01.31-21.43.55:243][993]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.31-21.43.55:270][993]LogEditorActor: Deleted 1 Actors (0.044 secs)
-[2017.01.31-21.43.55:863][  3]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.43.56:726][ 38]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.43.58:809][ 96]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.43.59:434][119]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.00:177][131]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.00:937][159]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.01:585][169]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.02:169][188]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.06:072][298]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.44.06:711][320]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.44.07:453][335]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.07:924][350]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.08:401][357]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.44.08:999][377]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.44.09:664][390]LogActorFactory: Actor Factory created SM_tree1
-[2017.01.31-21.44.10:188][407]LogActorFactory: Actor Factory created SM_tree1
-[2017.01.31-21.44.16:529][658]LogActorFactory: Actor Factory created SM_tree1
-[2017.01.31-21.44.17:030][681]LogActorFactory: Actor Factory created SM_tree1
-[2017.01.31-21.44.17:658][693]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.44.18:291][724]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.44.18:883][735]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.19:478][762]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.20:110][775]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.44.20:557][794]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.44.21:137][805]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.21:633][825]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.22:254][836]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.22:931][867]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.23:695][882]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.24:421][914]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.25:072][927]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.44.25:710][956]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.44.26:368][969]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.27:038][998]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.27:647][ 10]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.28:305][ 36]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.28:988][ 49]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.30:205][107]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.30:839][119]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.31:581][151]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.32:092][160]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.32:670][184]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.33:384][197]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.34:014][223]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.34:666][235]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.35:262][259]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.37:360][340]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.38:063][367]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.38:598][377]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.39:290][406]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.39:854][418]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.44.40:626][451]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.44.41:264][462]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.41:748][482]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.42:471][496]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.43:079][519]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.44.43:769][530]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.44:382][552]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.46:816][637]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.47:454][664]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.48:100][675]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.48:794][702]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.44.49:349][711]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.44.50:029][736]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.44.51:486][775]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.52:410][811]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.44.53:038][822]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.53:938][854]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.54:446][862]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.44.55:181][890]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.44.55:740][900]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.56:550][931]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.44.57:181][943]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.57:553][955]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.58:150][965]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.58:607][979]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.44.59:085][986]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.44.59:748][  7]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.45.00:352][ 17]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.45.01:074][ 40]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.45.01:659][ 49]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.45.02:505][ 76]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.45.03:062][ 84]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.45.03:994][113]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.45.24:753][548]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.45.27:402][645]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.45.29:788][709]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.45.30:280][722]LogActorFactory: Actor Factory created stone_02
-[2017.01.31-21.45.38:912][971]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.45.39:549][989]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.45.40:249][  4]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.45.41:045][ 27]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.45.45:216][141]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.45.46:178][168]LogActorFactory: Actor Factory created stone_01
-[2017.01.31-21.45.59:885][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.31-21.45.59:968][542]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
-[2017.01.31-21.45.59:969][542]LogBlueprint:Warning: Compiler Warning [1426.53] Compile of PersistentLevel.Map successful, but with 1 Warning(s) [in 9 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.45.59:973][542]LogBlueprint:Warning: Compiler Warning [1426.54] Compile of PersistentLevel.Map successful, but with 2 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.45.59:973][542]LogBlueprint:Warning: Compiler Warning [1426.54] Compile of PersistentLevel.Map successful, but with 3 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.46.00:063][542]LogBlueprint:Warning: Compiler Warning [1426.63] Compile of PersistentLevel.Map successful, but with 4 Warning(s) [in 90 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.46.00:064][542]LogBlueprint:Warning: Compiler Warning [1426.63] Compile of PersistentLevel.Map successful, but with 5 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.46.00:064][542]LogBlueprint:Warning: Compiler Warning [1426.63] Compile of PersistentLevel.Map successful, but with 6 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.46.00:802][542]LogSavePackage: Save=847.70ms
-[2017.01.31-21.46.00:802][542]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Map403257914F7C36AADB65C48ECDCEFD42.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
-[2017.01.31-21.46.00:805][542]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
-[2017.01.31-21.46.37:688][520]LogEditorViewport: Clicking on Actor (LMB): AI_Greater_Spider_Child_C (AI_Greater_Spider_Child2)
-[2017.01.31-21.46.54:482][ 36]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.01.31-21.46.55:336][ 64]LogEditorViewport: Clicking on Actor (LMB): AI_Greater_Spider_Child_C (AI_Greater_Spider_Child4)
-[2017.01.31-21.47.09:133][484]LogEditorViewport: Clicking on Actor (LMB): AI_Greater_Spider_Child_C (AI_Greater_Spider_Child3)
-[2017.01.31-21.47.35:493][268]LogActorFactory: Actor Factory created SM_bush6
-[2017.01.31-21.47.36:219][300]LogActorFactory: Actor Factory created SM_bush6
-[2017.01.31-21.47.36:916][316]LogActorFactory: Actor Factory created SM_bush5
-[2017.01.31-21.47.37:820][358]LogActorFactory: Actor Factory created SM_bush5
-[2017.01.31-21.47.38:512][377]Cmd: DELETE
-[2017.01.31-21.47.38:512][377]Cmd: ACTOR DELETE
-[2017.01.31-21.47.38:529][377]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.31-21.47.38:554][377]LogEditorActor: Deleted 1 Actors (0.042 secs)
-[2017.01.31-21.47.38:810][382]LogActorFactory: Actor Factory created SM_bush2
-[2017.01.31-21.47.39:587][418]LogActorFactory: Actor Factory created SM_bush2
-[2017.01.31-21.47.40:193][431]LogActorFactory: Actor Factory created SM_bush1
-[2017.01.31-21.47.40:888][462]LogActorFactory: Actor Factory created SM_bush1
-[2017.01.31-21.47.41:509][477]LogActorFactory: Actor Factory created SM_bush3
-[2017.01.31-21.47.42:498][523]LogActorFactory: Actor Factory created SM_bush3
-[2017.01.31-21.47.46:081][629]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.47.46:841][661]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.47.47:418][672]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.47.48:149][704]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.47.48:706][715]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.47.49:503][748]LogActorFactory: Actor Factory created SM_tree7
-[2017.01.31-21.47.50:071][759]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.47.50:866][793]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.47.51:463][804]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.47.52:144][830]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.47.52:723][840]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.47.53:771][882]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.47.54:368][892]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.47.54:902][910]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.47.55:444][920]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.47.56:171][950]LogActorFactory: Actor Factory created SM_tree2
-[2017.01.31-21.47.56:823][961]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.47.57:352][980]LogActorFactory: Actor Factory created SM_tree4
-[2017.01.31-21.47.58:010][990]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.47.58:792][ 20]LogActorFactory: Actor Factory created SM_tree5
-[2017.01.31-21.47.59:356][ 30]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.48.00:114][ 60]LogActorFactory: Actor Factory created SM_tree6
-[2017.01.31-21.48.01:026][ 76]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.48.02:805][149]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.48.05:231][205]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.48.06:014][225]LogActorFactory: Actor Factory created SM_tree3
-[2017.01.31-21.48.06:660][235]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.48.07:521][259]LogActorFactory: Actor Factory created SM_tree10
-[2017.01.31-21.48.13:241][456]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.48.14:110][477]LogActorFactory: Actor Factory created SM_tree8
-[2017.01.31-21.48.16:193][531]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.48.17:001][560]LogActorFactory: Actor Factory created SM_tree9
-[2017.01.31-21.48.32:995][992]LogEditorViewport: Clicking on Actor (LMB): Schulter_C (Schulter)
-[2017.01.31-21.48.39:803][151]LogEditorViewport: Clicking on Actor (LMB): Schuh_C (Schuh)
-[2017.01.31-21.48.42:718][214]LogEditorViewport: Clicking on Actor (LMB): Brust_C (Brust)
-[2017.01.31-21.48.44:604][253]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.01.31-21.48.45:907][279]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.01.31-21.48.47:072][302]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.01.31-21.48.47:692][313]LogEditorViewport: Clicking on Actor (LMB): Schulter_C (Schulter)
-[2017.01.31-21.48.48:259][322]LogEditorViewport: Clicking on Actor (LMB): Schulter_C (Schulter)
-[2017.01.31-21.48.54:305][446]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
-[2017.01.31-21.48.55:469][470]LogEditorViewport: Clicking on Actor (LMB): Brust_C (Brust)
-[2017.01.31-21.49.08:061][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.49.08:061][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.31-21.49.08:061][827]PIE: New page: PIE session: Map (Jan 31, 2017, 11:49:08 PM)
-[2017.01.31-21.49.08:061][827]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map
-[2017.01.31-21.49.08:161][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099351s)
-[2017.01.31-21.49.08:162][827]LogAIModule: Creating AISystem for world Map
-[2017.01.31-21.49.08:162][827]LogPlayLevel: PIE: World Init took: (0.001256s)
-[2017.01.31-21.49.08:162][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map.Map to /Game/Map/UEDPIE_0_Map.Map (0.101087s)
-[2017.01.31-21.49.08:199][827]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.31-21.49.08:224][827]LogInit: FAudioDevice initialized.
-[2017.01.31-21.49.08:289][827]LogWorld: Game class is 'GameMode'
-[2017.01.31-21.49.08:342][827]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.01.31-22.49.08
-[2017.01.31-21.49.08:348][827]LogWorld: Bringing up level for play took: 0.057026
-[2017.01.31-21.49.08:354][827]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.08:354][827]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Map -0.173
-[2017.01.31-21.49.08:354][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.49.08:418][828]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073521 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child4_689', movement 'Walking'
-[2017.01.31-21.49.08:418][828]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073498 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child_62', movement 'Walking'
-[2017.01.31-21.49.08:418][828]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073496 > MaxSimulationTimeStep (0.050) for 'AI_Greater_Spider_Child2_239', movement 'Walking'
-[2017.01.31-21.49.12:453][926]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.12:454][926]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.15:890][ 26]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.15:892][ 26]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.19:285][126]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.19:286][126]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.22:810][226]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.22:811][226]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.26:538][326]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.26:540][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.30:195][426]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.30:196][426]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.34:634][526]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.34:636][526]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.38:047][626]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.38:048][626]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.41:883][726]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.41:885][726]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.45:063][826]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.45:064][826]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.49:739][926]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.49:740][926]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.52:847][ 26]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.52:848][ 26]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.49.58:052][126]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.49.58:053][126]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.01:659][226]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.01:660][226]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.04:478][326]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.04:480][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.07:971][426]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.07:972][426]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.11:835][526]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.11:836][526]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.15:308][626]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.15:309][626]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.17:555][726]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.17:556][726]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.21:627][826]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.21:631][826]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.25:292][926]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.25:293][926]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.28:920][ 26]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.28:921][ 26]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.32:385][126]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.32:386][126]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.35:337][226]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.35:338][226]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.38:822][326]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.38:823][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.42:684][426]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.42:685][426]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/1]!
-
-[2017.01.31-21.50.43:078][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/1]!
-
-[2017.01.31-21.50.43:079][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/1]!
-
-[2017.01.31-21.50.43:080][436]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/1]!
-
-[2017.01.31-21.50.44:952][484]LogBlueprintUserMessages: [Character_Controller_536] 1
-[2017.01.31-21.50.44:952][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [1/0]!
-
-[2017.01.31-21.50.44:952][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
-
-[2017.01.31-21.50.44:952][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [2/0]!
-
-[2017.01.31-21.50.44:952][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [3/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [4/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [5/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [5/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [6/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [6/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [7/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [7/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [8/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [8/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [9/0]!
-
-[2017.01.31-21.50.44:953][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [9/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [10/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [10/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [11/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [11/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [12/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [12/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [13/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [13/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [14/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [14/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [15/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [15/0]!
-
-[2017.01.31-21.50.44:954][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [16/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [16/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [17/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [17/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [18/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [18/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array TargetArray out of bounds [19/0]!
-
-[2017.01.31-21.50.44:955][484]LogScriptCore:Warning: Attempted to get an item from array Inventory out of bounds [19/0]!
-
-[2017.01.31-21.50.46:544][526]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.46:545][526]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.50:160][626]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.50:161][626]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.52:854][726]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.52:855][726]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.50.56:443][826]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.50.56:444][826]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.00:012][926]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.51.00:013][926]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.03:614][ 26]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.51.03:615][ 26]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.06:760][126]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.51.06:761][126]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.10:137][226]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.51.10:139][226]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.13:565][326]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.51.13:567][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.16:770][426]LogBlueprintUserMessages: [Spawner_78] 0
-[2017.01.31-21.51.16:771][426]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8125.000 Y=955.000 Z=-40.000] for [AI_Greater_Spider_C]
-[2017.01.31-21.51.19:447][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.51.19:518][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map.Map:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map.Map:PersistentLevel.Map' with GeneratedClass '/Game/Map/Map.Map_C' with ClassGeneratedBy '/Game/Map/Map.Map:PersistentLevel.Map'
-[2017.01.31-21.51.28:310][723]LogPhysics:Error: PHYSX: (..\..\PhysX\src\NpShape.cpp 641) eINVALID_PARAMETER : NpShape::setFlag(s): triangle mesh, heightfield and plane shapes can only be simulation shapes if part of a PxRigidStatic!
-[2017.01.31-21.51.28:319][723]PIE:Warning: Warning Trying to simulate physics on ''/Game/Map/Map.Map:PersistentLevel.Brust_132.InteractableMesh'' but it has ComplexAsSimple collision.
-[2017.01.31-21.51.30:166][765]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
-[2017.01.31-21.51.30:264][765]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.01.31-21.51.30:290][765]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
-[2017.01.31-21.51.30:357][765]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.01.31-21.51.30:383][765]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
-[2017.01.31-21.51.30:448][765]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.01.31-21.51.30:486][765]LogMaterial: Missing cached shader map for material terrain_mat, compiling. 
-[2017.01.31-21.51.30:554][765]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.01.31-21.51.30:562][765]LogTexture:Display: Building textures: Texture2D_2 (G8)
-[2017.01.31-21.52.30:062][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.31-21.52.30:117][397]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
-[2017.01.31-21.52.30:117][397]LogBlueprint:Warning: Compiler Warning [1816.68] Compile of PersistentLevel.Map successful, but with 1 Warning(s) [in 5 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.52.30:118][397]LogBlueprint:Warning: Compiler Warning [1816.68] Compile of PersistentLevel.Map successful, but with 2 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.52.30:118][397]LogBlueprint:Warning: Compiler Warning [1816.68] Compile of PersistentLevel.Map successful, but with 3 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.52.30:213][397]LogBlueprint:Warning: Compiler Warning [1816.77] Compile of PersistentLevel.Map successful, but with 4 Warning(s) [in 95 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.52.30:213][397]LogBlueprint:Warning: Compiler Warning [1816.77] Compile of PersistentLevel.Map successful, but with 5 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.52.30:213][397]LogBlueprint:Warning: Compiler Warning [1816.77] Compile of PersistentLevel.Map successful, but with 6 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
-[2017.01.31-21.52.31:033][397]LogSavePackage: Save=925.05ms
-[2017.01.31-21.52.31:033][397]LogSavePackage: Moving 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Saved/Map06A8B84747D1FA9C3346B7883F8D43FF.tmp' to 'C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap'
-[2017.01.31-21.52.31:037][397]LogSavePackage:Display: Finished SavePackage C:/Users/Nox/Documents/Unreal Projects/project_nomad/Project_Nomand/Content/Map/Map.umap
-[2017.01.31-21.52.48:036][652]Cmd: QUIT_EDITOR
-[2017.01.31-21.52.48:152][652]LogExit: Preparing to exit.
-[2017.01.31-21.52.49:282][652]LogExit: Editor shut down
-[2017.01.31-21.52.49:283][652]LogExit: Transaction tracking system shut down
-[2017.01.31-21.52.49:519][652]LogObj: Freed 0b from 0 cluster array pools.
-[2017.01.31-21.52.49:519][652]LogExit: Object subsystem successfully closed.
-[2017.01.31-21.52.49:552][652]LogD3D11RHI: Shutdown
-[2017.01.31-21.52.49:552][652]LogD3D11RHI: CleanupD3DDevice
-[2017.01.31-21.52.49:734][652]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (215)
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2017.01.31-21.52.49:744][652]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2017.01.31-21.52.49:746][652]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2017.01.31-21.52.49:746][652]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2017.01.31-21.52.49:746][652]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2017.01.31-21.52.49:747][652]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2017.01.31-21.52.49:748][652]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2017.01.31-21.52.49:748][652]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2017.01.31-21.52.49:748][652]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2017.01.31-21.52.49:748][652]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2017.01.31-21.52.49:878][652]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2017.01.31-21.52.49:879][652]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2017.01.31-21.52.49:919][652]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2017.01.31-21.52.50:134][652]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2017.01.31-21.52.50:135][652]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2017.01.31-21.52.50:136][652]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2017.01.31-21.52.50:137][652]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2017.01.31-21.52.50:138][652]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2017.01.31-21.52.50:138][652]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module Media (90)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2017.01.31-21.52.50:238][652]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2017.01.31-21.52.50:239][652]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2017.01.31-21.52.50:240][652]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2017.01.31-21.52.50:243][652]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2017.01.31-21.52.50:243][652]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2017.01.31-21.52.50:243][652]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2017.01.31-21.52.50:243][652]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2017.01.31-21.52.50:243][652]LogModuleManager: Shutting down and abandoning module Core (64)
-[2017.01.31-21.52.50:243][652]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2017.01.31-21.52.50:244][652]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2017.01.31-21.52.50:396][652]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2017.01.31-21.52.50:396][652]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2017.01.31-21.52.50:396][652]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2017.01.31-21.52.50:396][652]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2017.01.31-21.52.50:435][652]LogDerivedDataCache: Shutdown
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2017.01.31-21.52.50:435][652]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2017.01.31-21.52.50:436][652]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2017.01.31-21.52.54:445][652]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2017.01.31-21.52.54:446][652]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2017.01.31-21.52.54:446][652]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2017.01.31-21.52.54:446][652]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.01.31-21.52.54:446][652]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.01.31-21.52.54:446][652]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.01.31-21.52.54:446][652]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.01.31-21.52.54:449][652]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.01.31-21.52.54:452][652]LogExit: Exiting.
-[2017.01.31-21.52.54:518][652]Log file closed, 01/31/17 22:52:54
+[2017.01.31-21.58.06:555][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.31-21.58.06:555][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.31-21.58.06:566][  0]LogInit: Computer: DEX
+[2017.01.31-21.58.06:566][  0]LogInit: User: Dextex
+[2017.01.31-21.58.06:566][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.31-21.58.06:566][  0]LogInit: High frequency timer resolution =3.417976 MHz
+[2017.01.31-21.58.06:567][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.31-21.58.06:567][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.31-21.58.06:567][  0]LogMemory: Process Physical Memory: 190.84 MB used, 190.84 MB peak
+[2017.01.31-21.58.06:567][  0]LogMemory: Process Virtual Memory: 195.30 MB used, 195.30 MB peak
+[2017.01.31-21.58.06:567][  0]LogMemory: Physical Memory: 7992.85 MB used, 16328.00 MB total
+[2017.01.31-21.58.06:567][  0]LogMemory: Virtual Memory: 553.49 MB used, 134217728.00 MB total
+[2017.01.31-21.58.06:623][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.31-21.58.07:053][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.31-21.58.07:627][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.31-21.58.07:627][  0]LogD3D11RHI:       8144/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.31-21.58.07:630][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.31-21.58.07:630][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.31-21.58.07:630][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.31-21.58.07:635][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.31-21.58.07:635][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.31-21.58.07:635][  0]LogWindows: EnumDisplayDevices:
+[2017.01.31-21.58.07:636][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.31-21.58.07:637][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.01.31-21.58.07:637][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.31-21.58.07:638][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.31-21.58.07:639][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.31-21.58.07:639][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.31-21.58.07:639][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.31-21.58.07:639][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.31-21.58.07:639][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.31-21.58.08:176][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.31-21.58.08:245][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.31-21.58.08:245][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../MP2/project_nomad/Project_Nomand/Intermediate/Shaders/WorkingDirectory/1940/).
+[2017.01.31-21.58.08:246][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dextex/AppData/Local/Temp/UnrealShaderWorkingDir/F83B3ECE43DECD9B7186B8B950CC6236/'.
+[2017.01.31-21.58.08:246][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.31-21.58.09:380][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.31-21.58.09:391][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.31-21.58.09:402][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.31-21.58.09:412][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.31-21.58.09:423][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.31-21.58.09:433][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.31-21.58.09:442][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.31-21.58.09:449][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.31-21.58.09:459][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.31-21.58.09:467][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.31-21.58.09:475][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.31-21.58.09:491][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.31-21.58.09:491][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.31-21.58.09:493][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.31-21.58.09:516][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.31-21.58.09:523][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.31-21.58.09:531][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.31-21.58.09:538][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.31-21.58.09:546][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.31-21.58.09:546][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.31-21.58.09:656][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.31-21.58.09:669][  0]LogDerivedDataCache: Loaded boot cache 0.01s 12MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.31-21.58.09:669][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.31-21.58.09:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.31-21.58.09:669][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.31-21.58.09:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MP2/project_nomad/Project_Nomand/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.31-21.58.09:669][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.31-21.58.09:686][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.31-21.58.09:698][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dextex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.31-21.58.09:898][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.31-21.58.09:899][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.31-21.58.10:082][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.31-21.58.10:082][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.31-21.58.10:082][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.31-21.58.10:780][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.01.31-21.58.10:801][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.017375 seconds
+[2017.01.31-21.58.10:808][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.31-21.58.10:808][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.01.31-21.58.10:808][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.31-21.58.10:817][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.31-21.58.11:127][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.31-21.58.11:127][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.31-21.58.35:801][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.31-21.58.36:422][  0]SourceControl: Info Source control is disabled
+[2017.01.31-21.58.37:106][  0]LogEngine: Initializing Engine...
+[2017.01.31-21.58.37:196][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.31-21.58.37:198][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2017.01.31-21.58.37:857][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.31-21.58.37:921][  0]LogInit: XAudio2 using 'Lautsprecher (SteelSeries Siberia 350)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.31-21.58.37:966][  0]LogInit: FAudioDevice initialized.
+[2017.01.31-21.58.37:993][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Dextex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.31-21.58.38:004][  0]LogInit: Texture streaming: Enabled
+[2017.01.31-21.58.38:244][  0]LogInit: Transaction tracking system initialized
+[2017.01.31-21.58.38:435][  0]BlueprintLog: New page: Editor Load
+[2017.01.31-21.58.39:266][  0]LocalizationService: Info Localization service is disabled
+[2017.01.31-21.58.39:909][  0]LogConsoleResponse:Display: 
+[2017.01.31-21.58.40:542][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.31-21.58.40:542][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.31-21.58.41:665][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/' took 0.04s
+[2017.01.31-21.58.41:767][  0]Cmd: MAP LOAD FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.31-21.58.41:767][  0]LightingResults: New page: Lighting Build
+[2017.01.31-21.58.41:796][  0]MapCheck: New page: Map Check
+[2017.01.31-21.58.41:796][  0]LightingResults: New page: Lighting Build
+[2017.01.31-21.58.43:731][  0]LogBlueprint:Warning: ValidateTemplates '/Game/AI/AI_Greater_Spider_Child.AI_Greater_Spider_Child_C:InheritableComponentHandler': overridden template is invalid - component 'None' from '/Game/AI/AI_Greater_Spider.AI_Greater_Spider_C'
+[2017.01.31-21.58.44:045][  0]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.01.31-21.58.44:046][  0]LogBlueprint:Warning: Compiler Warning [0038.46] Compile of PersistentLevel.Map successful, but with 1 Warning(s) [in 2 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-21.58.44:046][  0]LogBlueprint:Warning: Compiler Warning [0038.46] Compile of PersistentLevel.Map successful, but with 2 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-21.58.44:046][  0]LogBlueprint:Warning: Compiler Warning [0038.46] Compile of PersistentLevel.Map successful, but with 3 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-21.58.44:049][  0]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.01.31-21.58.44:050][  0]LogBlueprint:Warning: Compiler Warning [0038.46] Compile of PersistentLevel.Map successful, but with 1 Warning(s) [in 2 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-21.58.44:050][  0]LogBlueprint:Warning: Compiler Warning [0038.46] Compile of PersistentLevel.Map successful, but with 2 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-21.58.44:050][  0]LogBlueprint:Warning: Compiler Warning [0038.46] Compile of PersistentLevel.Map successful, but with 3 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-21.58.45:382][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.01.31-21.58.45:464][  0]LogAIModule: Creating AISystem for world Map
+[2017.01.31-21.58.45:557][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.31-21.58.45:564][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.31-21.58.45:686][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.177ms to complete.
+[2017.01.31-21.58.45:687][  0]LogFileHelpers: Loading map 'Map' took 3.920
+[2017.01.31-21.58.46:140][  0]LogCollectionManager: Loaded 0 collections in 0.002743 seconds
+[2017.01.31-21.58.46:187][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Saved/Collections/' took 0.01s
+[2017.01.31-21.58.46:187][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Developers/Dextex/Collections/' took 0.01s
+[2017.01.31-21.58.46:187][  0]LogFileCache: Scanning file cache for directory 'G:/UNI/MP2/project_nomad/Project_Nomand/Content/Collections/' took 0.01s
+[2017.01.31-21.58.46:187][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.31-21.58.46:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2047 classes and 369 folders.
+[2017.01.31-21.58.46:199][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.31-21.58.46:199][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.31-21.58.46:199][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2017.01.31-21.58.46:205][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.31-21.58.48:075][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.01.31-21.58.48:091][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.31-21.58.48:218][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.31-21.58.48:223][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.31-21.58.48:262][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.31-21.58.48:262][  0]LogLoad: Full Startup: 42.67 seconds (BP compile: 0.90 seconds)
+[2017.01.31-21.58.48:262][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.31-21.58.48:271][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.31-21.58.48:271][  0]LogOcInput: OculusInput pre-init called
+[2017.01.31-21.58.48:319][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.31-21.58.48:419][  0]LogRenderer: Reallocating scene render targets to support 512x512 (Frame:1).
+[2017.01.31-21.58.48:553][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2017.01.31-21.58.48:574][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2017.01.31-21.58.48:676][  2]LogAssetRegistry: Asset discovery search completed in 37.9176 seconds
+[2017.01.31-21.58.48:676][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.31-21.58.48:676][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.01.31-21.59.10:305][214]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.31-21.59.15:618][682]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2017.01.31-21.59.23:947][157]LogRenderer: Reallocating scene render targets to support 1248x712 (Frame:4908).
+[2017.01.31-21.59.41:025][568]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Brick_Cut_Stone.M_Brick_Cut_Stone needed to have new flag set bUsedWithSkeletalMesh !
+[2017.01.31-21.59.41:027][568]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2017.01.31-21.59.41:093][568]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.31-22.00.22:148][611]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_CobbleStone_Pebble.M_CobbleStone_Pebble needed to have new flag set bUsedWithSkeletalMesh !
+[2017.01.31-22.00.22:150][611]LogMaterial: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2017.01.31-22.00.22:209][611]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.31-22.00.32:354][182]BlueprintLog: New page: Compile DM_wall
+[2017.01.31-22.00.32:690][182]BlueprintEditorCompileResults: Info [0147.08] Compile of DM_wall successful! [in 319 ms] (/Game/Models/Wand/DM_wall.DM_wall)
+[2017.01.31-22.00.33:627][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Wand/DM_wall" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Wand/DM_wall.uasset" SILENT=true
+[2017.01.31-22.00.33:659][248]LogSavePackage: Save=18.41ms
+[2017.01.31-22.00.33:659][248]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/DM_wall9F3EC094473725C498A16BBC27509491.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Wand/DM_wall.uasset'
+[2017.01.31-22.00.33:665][248]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Wand/DM_wall.uasset
+[2017.01.31-22.00.56:266][178]LogRenderer: Reallocating scene render targets to support 1432x924 (Frame:16157).
+[2017.01.31-22.01.07:940][427]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine needed to have new flag set bUsedWithSkeletalMesh !
+[2017.01.31-22.01.07:942][427]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2017.01.31-22.01.07:986][427]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.31-22.01.19:833][381]BlueprintLog: New page: Compile DM_Holzkiste
+[2017.01.31-22.01.20:012][381]BlueprintEditorCompileResults: Info [0194.42] Compile of DM_Holzkiste successful! [in 178 ms] (/Game/Models/Kisten/DM_Holzkiste.DM_Holzkiste)
+[2017.01.31-22.01.20:722][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Kisten/DM_Holzkiste" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Kisten/DM_Holzkiste.uasset" SILENT=true
+[2017.01.31-22.01.20:776][444]LogSavePackage: Save=31.12ms
+[2017.01.31-22.01.20:776][444]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/DM_HolzkisteC678D2FF4BF4D156D4EFD5A1FE0D557F.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Kisten/DM_Holzkiste.uasset'
+[2017.01.31-22.01.20:788][444]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Kisten/DM_Holzkiste.uasset
+[2017.01.31-22.01.27:277][890]BlueprintLog: New page: Compile DM_wall
+[2017.01.31-22.01.27:460][890]BlueprintEditorCompileResults: Info [0201.87] Compile of DM_wall successful! [in 182 ms] (/Game/Models/Wand/DM_wall.DM_wall)
+[2017.01.31-22.01.27:793][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Wand/DM_wall" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Wand/DM_wall.uasset" SILENT=true
+[2017.01.31-22.01.27:816][907]LogSavePackage: Save=17.78ms
+[2017.01.31-22.01.27:816][907]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/DM_wall63E1FE254B7C6CBE0BBEA6BAA070D2FB.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Wand/DM_wall.uasset'
+[2017.01.31-22.01.27:817][907]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Models/Wand/DM_wall.uasset
+[2017.01.31-22.01.31:680][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.31-22.01.31:729][154]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.01.31-22.01.31:730][154]LogBlueprint:Warning: Compiler Warning [0206.14] Compile of PersistentLevel.Map successful, but with 1 Warning(s) [in 14 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-22.01.31:730][154]LogBlueprint:Warning: Compiler Warning [0206.14] Compile of PersistentLevel.Map successful, but with 2 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-22.01.31:730][154]LogBlueprint:Warning: Compiler Warning [0206.14] Compile of PersistentLevel.Map successful, but with 3 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-22.01.31:813][154]LogBlueprint:Warning: Compiler Warning [0206.22] Compile of PersistentLevel.Map successful, but with 4 Warning(s) [in 82 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-22.01.31:813][154]LogBlueprint:Warning: Compiler Warning [0206.22] Compile of PersistentLevel.Map successful, but with 5 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-22.01.31:813][154]LogBlueprint:Warning: Compiler Warning [0206.22] Compile of PersistentLevel.Map successful, but with 6 Warning(s) [in 0 ms] (/Game/Map/Map.Map:PersistentLevel.Map)
+[2017.01.31-22.01.32:304][154]LogSavePackage: Save=592.75ms
+[2017.01.31-22.01.32:304][154]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/Map39E501B346F9E6B9E00E8580BAF2FE14.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap'
+[2017.01.31-22.01.32:309][154]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/Map/Map.umap
+[2017.01.31-22.01.32:386][154]LogFileHelpers: Saving map 'Map' took 0.837
+[2017.01.31-22.01.32:452][154]LogSavePackage: Save=23.98ms
+[2017.01.31-22.01.32:452][154]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/M_Brick_Cut_Stone8B5AEC79475D182E6203349EBB7715A1.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset'
+[2017.01.31-22.01.32:455][154]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2017.01.31-22.01.32:502][154]LogSavePackage: Save=19.10ms
+[2017.01.31-22.01.32:502][154]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/M_CobbleStone_Pebble7241D5B9470C9ACCCB8ED587510F83BA.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset'
+[2017.01.31-22.01.32:505][154]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2017.01.31-22.01.32:522][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Wood_Pine" FILE="../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_Wood_Pine.uasset" SILENT=true
+[2017.01.31-22.01.32:555][154]LogSavePackage: Save=23.43ms
+[2017.01.31-22.01.32:556][154]LogSavePackage: Moving '../../../../../../MP2/project_nomad/Project_Nomand/Saved/M_Wood_PineE6CBDC71466E21304B1CA593053E218C.tmp' to '../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_Wood_Pine.uasset'
+[2017.01.31-22.01.32:558][154]LogSavePackage:Display: Finished SavePackage ../../../../../../MP2/project_nomad/Project_Nomand/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2017.01.31-22.01.39:616][949]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.31-22.01.39:796][950]Cmd: QUIT_EDITOR
+[2017.01.31-22.01.39:872][950]LogExit: Preparing to exit.
+[2017.01.31-22.01.40:101][950]LogExit: Editor shut down
+[2017.01.31-22.01.40:101][950]LogExit: Transaction tracking system shut down
+[2017.01.31-22.01.40:297][950]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.31-22.01.40:297][950]LogExit: Object subsystem successfully closed.
+[2017.01.31-22.01.40:318][950]LogD3D11RHI: Shutdown
+[2017.01.31-22.01.40:318][950]LogD3D11RHI: CleanupD3DDevice
+[2017.01.31-22.01.40:321][950]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (215)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (214)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.01.31-22.01.40:450][950]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.01.31-22.01.40:451][950]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.01.31-22.01.40:647][950]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.01.31-22.01.40:648][950]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.01.31-22.01.40:701][950]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.01.31-22.01.40:764][950]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.01.31-22.01.40:765][950]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.01.31-22.01.40:766][950]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.01.31-22.01.40:766][950]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.01.31-22.01.40:766][950]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.01.31-22.01.40:867][950]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.01.31-22.01.40:868][950]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.01.31-22.01.40:869][950]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.01.31-22.01.40:869][950]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.01.31-22.01.40:869][950]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.01.31-22.01.40:869][950]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.01.31-22.01.40:869][950]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.01.31-22.01.40:869][950]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.01.31-22.01.40:870][950]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.01.31-22.01.41:036][950]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.01.31-22.01.41:037][950]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.01.31-22.01.41:037][950]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.01.31-22.01.41:037][950]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.01.31-22.01.41:129][950]LogDerivedDataCache: Shutdown
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.01.31-22.01.41:129][950]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.31-22.01.42:631][950]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.31-22.01.42:633][950]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.31-22.01.42:633][950]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.31-22.01.42:633][950]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.31-22.01.42:633][950]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.31-22.01.42:634][950]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.31-22.01.42:634][950]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.31-22.01.42:634][950]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.31-22.01.42:634][950]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.31-22.01.42:634][950]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.31-22.01.42:634][950]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.31-22.01.42:635][950]LogExit: Exiting.
+[2017.01.31-22.01.42:678][950]Log file closed, 01/31/17 23:01:42
